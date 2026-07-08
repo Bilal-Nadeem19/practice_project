@@ -46,7 +46,6 @@ const About = () => {
               <span className="text-lg">→</span>
             </a>
             
-            {/* Secondary Link Button */}
             <a 
               href={data.buttons.secondary.link}
               className="text-slate-800 font-semibold flex items-center gap-2 hover:text-primary transition group py-2"
