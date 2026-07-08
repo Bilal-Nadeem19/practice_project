@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand */
+  --color-primary: #00a7de;
+  --color-secondary: ;
+  --color-accent: ;
+
+  /* Text */
+  --color-heading: #000000;
+  --color-textcolor: #797a7d;
+  --color-white: #ffffff;
+
+  /* Background */
+  --color-background: #ffffff;
+  --color-icon-bg: #eef6fd;
+
+  /* Border */
+  --color-border: #00a7de;
+
+    --shadow-glow: 0 0 25px rgba(0, 163, 224, 0.8);  /* Blue glow — CTA buttons */
+
+}
+
+.html
+{
+  scroll-behavior: smooth;
+}

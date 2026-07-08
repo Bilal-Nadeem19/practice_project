@@ -1,0 +1,72 @@
+{
+"footer":{ 
+  "logo": {
+    "src": "/logo.webp",
+    "alt": "Virtual Assistant",
+    "tagline": "TAKING YOUR BUSINESS INTO THE FUTURE"
+  },
+  "description": "Transforming industries with intelligent virtual assistants.",
+  "socials": [
+    { "id": "tiktok", "href": "#", "icon": "tiktok" },
+    { "id": "linkedin", "href": "#", "icon": "linkedin" },
+    { "id": "facebook", "href": "#", "icon": "facebook" },
+    { "id": "instagram", "href": "#", "icon": "instagram" }
+  ],
+  "pages": {
+    "title": "Pages",
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Features", "href": "/features" },
+      { "label": "Industries", "href": "/industries" },
+      { "label": "Pricing", "href": "/pricing" },
+      { "label": "About", "href": "/about" },
+      { "label": "Contact Us", "href": "/contact" },
+      { "label": "Blogs", "href": "/blogs" },
+      { "label": "FAQ's", "href": "/faqs" }
+    ]
+  },
+  "industries": {
+    "title": "Industries",
+    "links": [
+      { "label": "Physiotherapist", "href": "/industries/physiotherapist" },
+      { "label": "Myotherapist", "href": "/industries/myotherapist" },
+      { "label": "Massage Therapist", "href": "/industries/massage-therapist" },
+      { "label": "Personal Trainer", "href": "/industries/personal-trainer" },
+      { "label": "Psychologist", "href": "/industries/psychologist" },
+      { "label": "Chiropractor", "href": "/industries/chiropractor" },
+      { "label": "Podiatrist", "href": "/industries/podiatrist" },
+      { "label": "Osteopath", "href": "/industries/osteopath" },
+      { "label": "Hairdresser", "href": "/industries/hairdresser" },
+      { "label": "Barber", "href": "/industries/barber" },
+      { "label": "Dentist", "href": "/industries/dentist" },
+      { "label": "Accountant", "href": "/industries/accountant" },
+      { "label": "Lawyer", "href": "/industries/lawyer" },
+      { "label": "Consultant", "href": "/industries/consultant" },
+      { "label": "Real Estate Agent", "href": "/industries/real-estate-agent" },
+      { "label": "Mechanic", "href": "/industries/mechanic" },
+      { "label": "Plumber", "href": "/industries/plumber" },
+      { "label": "Electrician", "href": "/industries/electrician" },
+      { "label": "Window Cleaning", "href": "/industries/window-cleaning" },
+      { "label": "Beauty Therapist", "href": "/industries/beauty-therapist" },
+      { "label": "Restaurant & Takeaway", "href": "/industries/restaurant-takeaway" },
+      { "label": "Hotels & Accommodation", "href": "/industries/hotels-accommodation" },
+      { "label": "Builder", "href": "/industries/builder" },
+      { "label": "Concreter", "href": "/industries/concreter" },
+      { "label": "HVAC", "href": "/industries/hvac" },
+      { "label": "Landscaper", "href": "/industries/landscaper" },
+      { "label": "Roofing", "href": "/industries/roofing" },
+      { "label": "Painter", "href": "/industries/painter" },
+      { "label": "Tradie", "href": "/industries/tradie" },
+      { "label": "Others", "href": "/industries/others" }
+    ]
+  },
+  "bottomBar": {
+    "copyright": "© 2025 Virtualassistant.com.au",
+    "rights": "All rights reserved.",
+    "links": [
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Terms of Service", "href": "/terms-of-service" }
+    ]
+  }
+}
+}

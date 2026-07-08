@@ -1,0 +1,19 @@
+{
+  "about": {
+    "title": "The Technology Behind",
+    "titleHighlight": "the AI Assistant",
+    "description": "We've combined leading technologies to create a reliable, secure, and human-like assistant that works seamlessly for your business.",
+    "image": "about-hero-image.webp",
+    "imageAlt": "AI Assistant Chat Interface",
+    "buttons": {
+      "primary": {
+        "text": "Start 14 Day Free Trial",
+        "link": "/get-started"
+      },
+      "secondary": {
+        "text": "Book a Demo",
+        "link": "/demo"
+      }
+    }
+  }
+}

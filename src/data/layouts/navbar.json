@@ -1,0 +1,350 @@
+{
+  "navbar": {
+    "logo": {
+      "alt": "Virtual Assistant",
+      "path": "/"
+    },
+
+    "menu": [
+      {
+        "id": "home",
+        "label": "Home",
+        "path": "/"
+      },
+      {
+        "id": "features",
+        "label": "Features",
+        "path": "/#features",
+        "hasDropdown": true
+      },
+      {
+        "id": "industries",
+        "label": "Industries",
+        "path": "/#industries",
+        "hasDropdown": true
+      },
+      {
+        "id": "pricing",
+        "label": "Pricing",
+        "path": "/#pricing"
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "path": "/about"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "path": "/faqs"
+      },
+      {
+        "id": "blogs",
+        "label": "Blogs",
+        "path": "/blogs"
+      },
+      {
+        "id": "contact",
+        "label": "Contact Us",
+        "path": "/contact"
+      }
+    ],
+
+    "buttons": [
+      {
+        "id": "login",
+        "label": "Log In",
+        "path": "/login",
+        "variant": "outline"
+      },
+      {
+        "id": "get-started",
+        "label": "Get Started",
+        "path": "/get-started",
+        "variant": "primary"
+      }
+    ]
+  },
+
+  "features": [
+    {
+      "id": "ai-receptionist",
+      "title": "AI Receptionist",
+      "path": "/features/ai-receptionist",
+      "description": "Your AI manages appointment bookings, reminders, follow-ups, and patient records."
+    },
+    {
+      "id": "appointment-scheduling",
+      "title": "AI Appointment Scheduling",
+      "path": "/features/appointment-scheduling",
+      "description": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized."
+    },
+    {
+      "id": "smart-assistant",
+      "title": "Smart AI Assistant for Clients",
+      "path": "/features/smart-assistant",
+      "description": "Effortless interaction and query resolution for your clients while we handle your schedule."
+    },
+    {
+      "id": "post-session-tools",
+      "title": "Post Session Tools",
+      "path": "/features/post-session-tools",
+      "description": "Precision tracking and automated follow-ups for post-session client management."
+    },
+    {
+      "id": "online-integration",
+      "title": "Online Integration",
+      "path": "/features/online-integration",
+      "description": "Seamlessly integrates with your existing tools, website, and CRM platforms."
+    },
+    {
+      "id": "advanced-dashboard",
+      "title": "Advanced Dashboard",
+      "path": "/features/advanced-dashboard",
+      "description": "Effortless management of all calls, bookings, and user insights in one clean portal."
+    }
+  ],
+
+  "industries": [
+    {
+      "id": 1,
+      "title": "Physiotherapist",
+      "slug": "physiotherapist",
+      "path": "/industries/physiotherapist",
+      "icon": "Activity",
+      "shortDesc": "Your AI manages appointment bookings, reminders, follow-ups, and patient records so you spend more time on treatment."
+    },
+    {
+      "id": 2,
+      "title": "Myotherapist",
+      "slug": "myotherapist",
+      "path": "/industries/myotherapist",
+      "icon": "Dumbbell",
+      "shortDesc": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized."
+    },
+    {
+      "id": 3,
+      "title": "Personal Trainer",
+      "slug": "personal-trainer",
+      "path": "/industries/personal-trainer",
+      "icon": "HeartPulse",
+      "shortDesc": "Power up your Training Business. Automates client scheduling, payment reminders, and progress updates."
+    },
+    {
+      "id": 4,
+      "title": "Massage Therapist",
+      "slug": "massage-therapist",
+      "path": "/industries/massage-therapist",
+      "icon": "Sparkles",
+      "shortDesc": "Effortless bookings for Massage Therapists. Relax your clients while we handle your schedule."
+    },
+    {
+      "id": 5,
+      "title": "Psychologist",
+      "slug": "psychologist",
+      "path": "/industries/psychologist",
+      "icon": "Brain",
+      "shortDesc": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized."
+    },
+    {
+      "id": 6,
+      "title": "Chiropractor",
+      "slug": "chiropractor",
+      "path": "/industries/chiropractor",
+      "icon": "Bone",
+      "shortDesc": "Precision scheduling for Chiropractors. Organizes client visits, recalls, and automates reminders."
+    },
+    {
+      "id": 7,
+      "title": "Podiatrist",
+      "slug": "podiatrist",
+      "path": "/industries/podiatrist",
+      "icon": "Footprints",
+      "shortDesc": "Your AI manages appointment bookings, reminders, follow-ups, and patient records so you spend more time on treatment."
+    },
+    {
+      "id": 8,
+      "title": "Beauty Therapist",
+      "slug": "beauty-therapist",
+      "path": "/industries/beauty-therapist",
+      "icon": "Smile",
+      "shortDesc": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized."
+    },
+    {
+      "id": 9,
+      "title": "Hairdresser",
+      "slug": "hairdresser",
+      "path": "/industries/hairdresser",
+      "icon": "Scissors",
+      "shortDesc": "Effortless salon scheduling by managing appointments, client preferences, and reminders seamlessly."
+    },
+    {
+      "id": 10,
+      "title": "Barber",
+      "slug": "barber",
+      "path": "/industries/barber",
+      "icon": "Scissors",
+      "shortDesc": "Automates client bookings, tracks sessions, and keeps your barbershop calendar organized."
+    },
+    {
+      "id": 11,
+      "title": "Dentist",
+      "slug": "dentist",
+      "path": "/industries/dentist",
+      "icon": "Smile",
+      "shortDesc": "Streamlines patient appointments, recalls, and follow-ups for your dental practice."
+    },
+    {
+      "id": 12,
+      "title": "Osteopath",
+      "slug": "osteopath",
+      "path": "/industries/osteopath",
+      "icon": "Activity",
+      "shortDesc": "Manages bookings, patient records, and reminders so you focus on healing."
+    },
+    {
+      "id": 13,
+      "title": "Lawyer",
+      "slug": "lawyer",
+      "path": "/industries/lawyer",
+      "icon": "Scale",
+      "shortDesc": "Automates client scheduling, follow-ups, and document reminders for your legal practice."
+    },
+    {
+      "id": 14,
+      "title": "Accountant",
+      "slug": "accountant",
+      "path": "/industries/accountant",
+      "icon": "Calculator",
+      "shortDesc": "Keeps your client meetings, deadlines, and follow-ups organized automatically."
+    },
+    {
+      "id": 15,
+      "title": "Consultant",
+      "slug": "consultant",
+      "path": "/industries/consultant",
+      "icon": "Briefcase",
+      "shortDesc": "Automates client bookings, meeting reminders, and follow-ups for your consultancy."
+    },
+    {
+      "id": 16,
+      "title": "Real Estate Agent",
+      "slug": "real-estate-agent",
+      "path": "/industries/real-estate-agent",
+      "icon": "Home",
+      "shortDesc": "Manages property viewings, client follow-ups, and appointment reminders effortlessly."
+    },
+    {
+      "id": 17,
+      "title": "Mechanic",
+      "slug": "mechanic",
+      "path": "/industries/mechanic",
+      "icon": "Wrench",
+      "shortDesc": "Automates service bookings, reminders, and follow-ups for your auto shop."
+    },
+    {
+      "id": 18,
+      "title": "Plumber",
+      "slug": "plumber",
+      "path": "/industries/plumber",
+      "icon": "Wrench",
+      "shortDesc": "Streamlines job bookings, customer reminders, and follow-ups for your plumbing business."
+    },
+    {
+      "id": 19,
+      "title": "Window Cleaning",
+      "slug": "window-cleaning",
+      "path": "/industries/window-cleaning",
+      "icon": "Wind",
+      "shortDesc": "Automates scheduling, reminders, and client follow-ups for your window cleaning service."
+    },
+    {
+      "id": 20,
+      "title": "Electrician",
+      "slug": "electrician",
+      "path": "/industries/electrician",
+      "icon": "Zap",
+      "shortDesc": "Manages job bookings, customer reminders, and follow-ups for your electrical business."
+    },
+    {
+      "id": 21,
+      "title": "Restaurant & Takeaway",
+      "slug": "restaurant-takeaway",
+      "path": "/industries/restaurant-takeaway",
+      "icon": "UtensilsCrossed",
+      "shortDesc": "Automates reservations, order reminders, and customer follow-ups for your restaurant."
+    },
+    {
+      "id": 22,
+      "title": "Hotels & Accommodation",
+      "slug": "hotels-accommodation",
+      "path": "/industries/hotels-accommodation",
+      "icon": "BedDouble",
+      "shortDesc": "Streamlines guest bookings, check-in reminders, and follow-ups for your property."
+    },
+    {
+      "id": 23,
+      "title": "Builder",
+      "slug": "builder",
+      "path": "/industries/builder",
+      "icon": "HardHat",
+      "shortDesc": "Manages project bookings, client updates, and reminders for your building business."
+    },
+    {
+      "id": 24,
+      "title": "Concreter",
+      "slug": "concreter",
+      "path": "/industries/concreter",
+      "icon": "HardHat",
+      "shortDesc": "Automates job scheduling, client reminders, and follow-ups for your concreting business."
+    },
+    {
+      "id": 25,
+      "title": "HVAC",
+      "slug": "hvac",
+      "path": "/industries/hvac",
+      "icon": "Wind",
+      "shortDesc": "Streamlines service bookings, maintenance reminders, and client follow-ups."
+    },
+    {
+      "id": 26,
+      "title": "Landscaper",
+      "slug": "landscaper",
+      "path": "/industries/landscaper",
+      "icon": "Leaf",
+      "shortDesc": "Automates job bookings, seasonal reminders, and client follow-ups for your landscaping business."
+    },
+    {
+      "id": 27,
+      "title": "Roofing",
+      "slug": "roofing",
+      "path": "/industries/roofing",
+      "icon": "Home",
+      "shortDesc": "Manages job scheduling, client reminders, and follow-ups for your roofing business."
+    },
+    {
+      "id": 28,
+      "title": "Painter",
+      "slug": "painter",
+      "path": "/industries/painter",
+      "icon": "Paintbrush",
+      "shortDesc": "Automates job bookings, client reminders, and follow-ups for your painting business."
+    },
+    {
+      "id": 29,
+      "title": "Tradie",
+      "slug": "tradie",
+      "path": "/industries/tradie",
+      "icon": "Wrench",
+      "shortDesc": "Streamlines bookings, reminders, and client follow-ups for any trade business."
+    },
+    {
+      "id": 30,
+      "title": "Other",
+      "slug": "other",
+      "path": "/industries/other",
+      "icon": "MoreHorizontal",
+      "shortDesc": "No matter your industry, our AI virtual assistant adapts to your business needs."
+    }
+  ]
+}

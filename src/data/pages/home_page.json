@@ -1,0 +1,433 @@
+{
+  "hero": {
+    "settings": {
+      "autoPlay": true,
+      "autoPlaySpeed": 3000,
+      "transitionDuration": 500
+    },
+
+    "backgroundImage": "hero-bg.webp",
+
+    "buttons": {
+  "primary": {
+    "text": "Start 14 Day Free Trial",
+    "hoverText": "Create Your Own Virtual Receptionist in Under 5 Minutes.",
+    "link": "/get-started"
+  },
+  "secondary": {
+    "text": "Book a Demo",
+    "link": "/demo"
+  },
+  "explore": {
+    "text": "Explore Industries",
+    "link": "/industries"
+  }
+},
+
+    "slides": [
+  {
+    "id": 1,
+    "badge": "Your Business, Always Answered",
+    "heading": "AI Virtual Receptionist for Service Businesses in Australia.",
+    "subheading": "Never miss a call, booking or opportunity again!",
+    "image": "hero-slide-1.webp",
+    "alt": "AI Virtual Receptionist Dashboard"
+  },
+  {
+    "id": 2,
+    "image": "hero-slide-2.webp",
+    "alt": "AI Appointment Scheduling Dashboard"
+  },
+  {
+    "id": 3,
+    "image": "hero-slide-3.webp",
+    "alt": "AI Business Automation Dashboard"
+  }
+]
+  },
+
+  
+  "keyFeatures": {
+    "title": "Key Features",
+    "items": [
+      {
+        "id": "ai-receptionist",
+        "icon": "phone",
+        "image": "ai-receptionist.webp",
+        "title": "AI Receptionist - 24/7",
+        "points": [
+          "Answers every call instantly, day or night",
+          "Unlimited calls & bookings, 24/7",
+          "Call recordings, summaries & transcripts",
+          "Professional, consistent service every time",
+          "Dedicated business number included",
+          "Call forwarding option with clear step-by-step instructions"
+        ],
+        "link": null
+      },
+      {
+        "id": "ai-appointment-scheduling",
+        "icon": "calendar",
+        "image": "calender3.webp",
+        "title": "AI Appointment Scheduling",
+        "points": [
+          "Fully automated: books, reschedules & cancels appointments",
+          "Works seamlessly with Google Calendar, Outlook Calendar & Cal.com",
+          "Sends SMS & email confirmations and reminders"
+        ],
+        "link": null
+      },
+      {
+        "id": "smart-ai-assistant",
+        "icon": "file-text",
+        "image": "transcription.webp",
+        "title": "Smart AI Assistant For Clients",
+        "points": [
+          "Answers questions about your services instantly",
+          "Explains pricing, availability & directions",
+          "Handles reschedules or cancellations smoothly",
+          "Customisable personality, friendly, professional, or casual"
+        ],
+        "link": null
+      },
+      {
+        "id": "post-session-tools",
+        "icon": "mic",
+        "image": "voice-memo.webp",
+        "title": "Post-Session Tools",
+        "points": [
+          "Add client notes after each appointment",
+          "Record voice memos that are auto-Transcribed & Summarised",
+          "Upload photos or documents linked to appointments",
+          "Build a complete client history file automatically"
+        ],
+        "link": null
+      },
+      {
+        "id": "advanced-dashboard",
+        "icon": "bar-chart",
+        "image": "branded.webp",
+        "title": "Advanced Dashboard",
+        "description": "Your control centre gives you everything in one place:",
+        "points": [
+          "Advanced CRM with client data & history",
+          "AI Smart Calendar that is colour-coded & auto-updating"
+        ],
+        "morePoints": [
+          "Analytics & insights, calls, bookings, cancellations, no-shows, performance",
+          "One clean dashboard replaces multiple tools and platforms.",
+          "Front-End Prompts, Easily update what your AI says to clients on the phone, website, or chat — no tech skills required.",
+          "Fully Customisable Branding, Upload your business logo, set your theme colours, and brand the dashboard to feel like your own system — not just another generic tool."
+        ],
+        "link": { "text": "Read more...", "hideText": "Hide" }
+      },
+      {
+        "id": "online-integration",
+        "icon": "tag",
+        "image": "booking1.webp",
+        "title": "Online Integration",
+        "points": [
+          "Website booking widget (simple copy & paste script)",
+          "Website Chatbot for real-time answering Queries, booking appointments or conversations (simple copy & paste script)",
+          "24/7 online + phone coverage for clients"
+        ],
+        "link": null
+      }
+    ]
+  },
+
+  "choseUs":{
+  "subtitle": "Why Choose Us?",
+  "title": "Why Businesses Trust Our Virtual Receptionist",
+  "description": "We combine human-like AI with powerful automation so you can focus on growing your business.",
+  "features": [
+    {
+      "id": 1,
+      "title": "Always Available",
+      "description": "Never miss a call again. Our virtual receptionist works 24/7, ensuring your business is always accessible to clients."
+    },
+    {
+      "id": 2,
+      "title": "Seamless Scheduling",
+      "description": "Works with your existing calendars to automate appointment booking and reduce scheduling conflicts."
+    },
+    {
+      "id": 3,
+      "title": "Industry Ready",
+      "description": "A smart solution that adapts effortlessly to any service industry, no matter your niche."
+    },
+    {
+      "id": 4,
+      "title": "Branded For You",
+      "description": "Fully customisable to your business - upload your logo, choose your brand colours, and tailor the interface to perfectly match your theme."
+    },
+    {
+      "id": 5,
+      "title": "Future-Proof Tech",
+      "description": "Built with advanced AI and automation to ensure your business stays at the forefront of communication technology."
+    }
+  ],
+  "buttons": {
+    "primary": {
+      "text": "Start 14 Day Free Trial",
+      "link": "/signup"
+    },
+    "secondary": {
+      "text": "Book a Demo",
+      "link": "/book-demo"
+    }
+  }
+},
+
+
+  "industries": {
+    "title": "Built for all service based Industries",
+    "subtitle": "Our AI receptionist adapts to your specific industry needs with specialized vocabulary and workflows.",
+    "items": [
+      {
+        "id": "physiotherapist",
+        "icon": "stethoscope",
+        "title": "Physiotherapist",
+        "description": "Your AI manages appointment bookings, reminders, follow-ups, and patient records so you spend more time on treatment.",
+        "link": { "text": "Learn More", "href": "/industries/physiotherapist" }
+      },
+      {
+        "id": "myotherapist",
+        "icon": "dumbbell",
+        "title": "Myotherapist",
+        "description": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized.",
+        "link": { "text": "Learn More", "href": "/industries/myotherapist" }
+      },
+      {
+        "id": "massage-therapist",
+        "icon": "hand",
+        "title": "Massage Therapist",
+        "description": "Effortless Bookings for Massage Therapists. Relax your clients while we handle your schedule.",
+        "link": { "text": "Learn More", "href": "/industries/massage-therapist" }
+      },
+      {
+        "id": "lawyer",
+        "icon": "scale",
+        "title": "Lawyer",
+        "description": "Your virtual assistant modernizes legal practice by managing appointments, recording case notes, tracking deadlines, sending client reminders, and scheduling follow-ups.",
+        "link": { "text": "Learn More", "href": "/industries/lawyer" }
+      },
+      {
+        "id": "restaurant-takeaway",
+        "icon": "utensils",
+        "title": "Restaurant & Takeaway",
+        "description": "Reservation Management Made Easy. Manages table bookings, cancellations, and automated waitlists.",
+        "link": { "text": "Learn More", "href": "/industries/restaurant-takeaway" }
+      },
+      {
+        "id": "personal-trainer",
+        "icon": "dumbbell",
+        "title": "Personal Trainer",
+        "description": "Power Up Your Training Business. Automates client scheduling, payment reminders, and progress updates.",
+        "link": { "text": "Learn More", "href": "/industries/personal-trainer" }
+      },
+      {
+        "id": "psychologist",
+        "icon": "brain",
+        "title": "Psychologist",
+        "description": "Secure & Smooth Support for Psychologists. Handles patient reminders, intake forms, and secure follow-ups.",
+        "link": { "text": "Learn More", "href": "/industries/psychologist" }
+      },
+      {
+        "id": "chiropractor",
+        "icon": "bone",
+        "title": "Chiropractor",
+        "description": "Precision Scheduling for Chiropractors. Organizes client visits, recalls, and automates reminders.",
+        "link": { "text": "Learn More", "href": "/industries/chiropractor" }
+      },
+      {
+        "id": "podiatrist",
+        "icon": "footprints",
+        "title": "Podiatrist",
+        "description": "Step into better practice management. Tracks appointments, follow-ups, and organizes treatment schedules.",
+        "link": { "text": "Learn More", "href": "/industries/podiatrist" }
+      }
+    ],
+    "viewAll": { "text": "View All Industries", "href": "/industries" }
+  },
+
+  
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Our AI Assistant handles your calls from start to finish, just like a human receptionist.",
+    "steps": [
+      {
+        "id": 1,
+        "icon": "phone",
+        "title": "Client calls",
+        "description": "AI answers with your business greeting"
+      },
+      {
+        "id": 2,
+        "icon": "calendar",
+        "title": "Appointment booked",
+        "description": "Syncs with your calendar instantly"
+      },
+      {
+        "id": 3,
+        "icon": "file-text",
+        "title": "Call Summary, Transcript & Recordings",
+        "description": "Saved in your CRM automatically"
+      }
+    ]
+  },
+
+  
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your business needs.",
+    "yearlyDiscountLabel": "Save 20%",
+    "yearlyDiscountPercent": 20,
+    "plans": [
+      {
+        "id": "solo",
+        "name": "SOLO",
+        "userLimit": "1 User",
+        "monthlyPrice": 300,
+        "popular": false,
+        "ctaText": "Start Your 14 Day Free Trial",
+        "ctaHref": "/register?plan=solo",
+        "features": [
+          "AI Virtual Assistant 24/7",
+          "Advanced Dashboard with Analytics",
+          "Advanced CRM for all Client Data and History",
+          "AI Powered Smart Calendars",
+          "New Dedicated Number or Call Forwarding Options",
+          "Front End AI Prompt Training for your AI",
+          "AI Appointment Scheduling",
+          "Unlimited Incoming Calls 24/7",
+          "Unlimited Bookings 24/7",
+          "Online Booking Script for Website",
+          "Online Chatbot Script for Website",
+          "Appointment Reminders via SMS and Email",
+          "Calendar Syncing"
+        ]
+      },
+      {
+        "id": "professional",
+        "name": "PROFESSIONAL",
+        "userLimit": "Up to 3 Users",
+        "monthlyPrice": 400,
+        "popular": true,
+        "badge": "MOST POPULAR",
+        "ctaText": "Start Your 14 Day Free Trial",
+        "ctaHref": "/register?plan=professional",
+        "features": [
+          "AI Virtual Assistant 24/7",
+          "Advanced Dashboard with Analytics",
+          "Advanced CRM for all Client Data and History",
+          "AI Powered Smart Calendars",
+          "New Dedicated Number or Call Forwarding Options",
+          "Front End AI Prompt Training for your AI",
+          "AI Appointment Scheduling",
+          "Unlimited Incoming Calls 24/7",
+          "Unlimited Bookings 24/7",
+          "Online Booking Script for Website",
+          "Online Chatbot Script for Website",
+          "Appointment Reminders via SMS and Email",
+          "Calendar Syncing"
+        ]
+      },
+      {
+        "id": "enterprise",
+        "name": "ENTERPRISE",
+        "userLimit": "Up to 5 Users",
+        "monthlyPrice": 500,
+        "popular": false,
+        "ctaText": "Start Your 14 Day Free Trial",
+        "ctaHref": "/register?plan=enterprise",
+        "features": [
+          "AI Virtual Assistant 24/7",
+          "Advanced Dashboard with Analytics",
+          "Advanced CRM for all Client Data and History",
+          "AI Powered Smart Calendars",
+          "New Dedicated Number or Call Forwarding Options",
+          "Front End AI Prompt Training for your AI",
+          "AI Appointment Scheduling",
+          "Unlimited Incoming Calls 24/7",
+          "Unlimited Bookings 24/7",
+          "Online Booking Script for Website",
+          "Online Chatbot Script for Website",
+          "Appointment Reminders via SMS and Email",
+          "Calendar Syncing"
+        ]
+      }
+    ]
+  },
+
+  "testimonials": {
+  "title": "What Our Clients Say",
+  "subtitle": "Businesses across industries are saving time and improving customer satisfaction with our virtual receptionist solution.",
+  "autoPlayInterval": 8000,
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 5,
+      "review": "Integrating the AI receptionist has completely streamlined our booking process. Clients love the instant responses, and I finally have time to focus on growing my business.",
+      "name": "Sarah Mitchell",
+      "company": "Bright Path Wellness"
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "review": "The accuracy and professionalism of the AI assistant have been remarkable. Our clients get immediate help, even after hours, it's like having a full-time receptionist without the overhead.",
+      "name": "Carlos Rivera",
+      "company": "Rivera Legal Group"
+    },
+    {
+      "id": 3,
+      "rating": 5,
+      "review": "My clients are impressed that they can book sessions or ask questions at any time. The AI feels natural and keeps my schedule full, I can't imagine going back!",
+      "name": "Hannah Lee",
+      "company": "Fit With Hannah Coaching"
+    },
+    {
+      "id": 4,
+      "rating": 5,
+      "review": "We handle dozens of client calls daily, and this system has improved efficiency and response time. The AI assistant integrates perfectly with our CRM, a total gamechanger.",
+      "name": "Daniel Cooper",
+      "company": "Tech Nova Consulting"
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "review": "The setup was simple, and within days our clients were interacting with the AI like it was a real person. It's increased bookings and reduced missed calls dramatically.",
+      "name": "Olivia Grant",
+      "company": "Harmony Therapy Clinic"
+    },
+    {
+      "id": 6,
+      "rating": 5,
+      "review": "This AI receptionist handles our client inquiries flawlessly. It's efficient, polite, and available 24/7 exactly what we needed to modernize our client support.",
+      "name": "Mark Thompson",
+      "company": "Summit Accounting"
+    },
+    {
+      "id": 7,
+      "rating": 5,
+      "review": "Since integrating VirtualAssistant.com.au, our plumbing business has become far more efficient. The AI handles calls, bookings, and urgent requests instantly, our customers love the quick updates and professional service.",
+      "name": "Dr. James Wilson",
+      "company": "Flow Master Plumbing"
+    },
+    {
+      "id": 8,
+      "rating": 5,
+      "review": "The AI receptionist has completely transformed how I manage my beauty clinic. Clients get instant answers and book appointments even while I'm in sessions. It feels like having a full-time assistant who never misses a call.",
+      "name": "Emily Rodriguez",
+      "company": "Glow & Grace Beauty Studio"
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "review": "VirtualAssistant.com.au has transformed our practice. Calls, bookings, and reminders are handled seamlessly, letting us focus on clients. Patients love the timely followups, and managing session notes is easier than ever like having a professional assistant 24/7.",
+      "name": "Robert Chen",
+      "company": "Clinical Psychologist"
+    }
+  ]
+}
+}
