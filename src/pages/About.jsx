@@ -37,7 +37,6 @@ const About = () => {
           </p>
 
           <div className="flex flex-wrap items-center gap-6">
-            {/* Primary Button */}
             <a 
               href={data.buttons.primary.link}
               className="bg-primary text-white px-7 py-3.5 rounded-lg font-semibold flex items-center gap-2 hover:opacity-95 shadow-md shadow-primary/20 transition active:scale-95"
@@ -46,7 +45,6 @@ const About = () => {
               <span className="text-lg">→</span>
             </a>
             
-            {/* Secondary Link Button */}
             <a 
               href={data.buttons.secondary.link}
               className="text-slate-800 font-semibold flex items-center gap-2 hover:text-primary transition group py-2"
