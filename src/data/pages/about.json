@@ -15,5 +15,131 @@
         "link": "/demo"
       }
     }
+  },
+  
+  "heading": "Powered by Leading Technologies",
+  "subheading": "Our AI Assistant combines best-in-class technologies to deliver a seamless, intelligent experience that adapts to your business needs.",
+  "cards": [
+    {
+      "icon": "Phone",
+      "iconBg": "bg-red-100",
+      "iconColor": "text-red-500",
+      "title": "Voice & Messaging",
+      "desc": "Enabling seamless communication through voice calls and messages to keep you connected with clients."
+    },
+    {
+      "icon": "Mic",
+      "iconBg": "bg-blue-100",
+      "iconColor": "text-blue-500",
+      "title": "Speech Recognition",
+      "desc": "Advanced speech recognition technology converts voice to text with high accuracy, understanding context and nuance."
+    },
+    {
+      "icon": "Settings",
+      "iconBg": "bg-green-100",
+      "iconColor": "text-green-600",
+      "title": "Automation",
+      "desc": "Smart workflow automation to streamline scheduling, client management and data processing."
+    },
+    {
+      "icon": "Users",
+      "iconBg": "bg-purple-100",
+      "iconColor": "text-purple-600",
+      "title": "CRM Integration",
+      "desc": "Built-in tools to manage client relationships, track interactions, and maintain organized records."
+    }
+  ],
+  "howItWorks": {
+  "title": "How Our Technology",
+  "titleHighlight": "Works",
+  "description": "A seamless integration of technologies working behind the scenes, so you can focus on what matters most – your clients.",
+  "image": "technology-flow.webp",
+  "imageAlt": "AI Assistant Technology Flow",
+  "browserTitle": "AI Assistant Technology Flow",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Communication Handling",
+      "desc": "AI Receptionist processes incoming calls and messages, routing them to our AI system for appropriate handling and response."
+    },
+    {
+      "number": 2,
+      "title": "Speech Recognition",
+      "desc": "Advanced speech recognition technology converts voice to text with high accuracy, understanding context and nuance."
+    },
+    {
+      "number": 3,
+      "title": "Workflow Automation",
+      "desc": "Automation tools connect your calendar, email, and other systems to schedule meetings and manage tasks without manual intervention."
+    },
+    {
+      "number": 4,
+      "title": "CRM Integration",
+      "desc": "All interactions are logged in your CRM, providing a complete history of client communications and enabling data-driven insights."
+    }
+  ]
+},
+"whyItMatters": {
+  "title": "Why Our Technology",
+  "titleHighlight": "Matters",
+  "description": "Our technology stack is designed to work seamlessly in the background, delivering tangible benefits to your business.",
+  "cards": [
+    {
+      "icon": "Shield",
+      "iconBg": "bg-sky-100",
+      "iconColor": "text-sky-500",
+      "title": "Secure & Reliable",
+      "desc": "Enterprise-grade security protocols protect your data and ensure consistent uptime for mission-critical operations."
+    },
+    {
+      "icon": "Zap",
+      "iconBg": "bg-sky-100",
+      "iconColor": "text-sky-500",
+      "title": "Time-Saving",
+      "desc": "Automate routine tasks, freeing up your team to focus on high-value activities and strategic initiatives."
+    },
+    {
+      "icon": "LineChart",
+      "iconBg": "bg-sky-100",
+      "iconColor": "text-sky-500",
+      "title": "Data-Driven",
+      "desc": "Gain valuable insights from client interactions to improve service delivery and identify new business opportunities."
+    },
+    {
+      "icon": "Handshake",
+      "iconBg": "bg-sky-100",
+      "iconColor": "text-sky-500",
+      "title": "Client-Focused",
+      "desc": "Deliver personalized experiences that make clients feel valued and understood, strengthening relationships."
+    },
+    {
+      "icon": "Shrink",
+      "iconBg": "bg-sky-100",
+      "iconColor": "text-sky-500",
+      "title": "Centralized",
+      "desc": "Bring together all your communication channels, client data, and business tools in one unified system."
+    },
+    {
+      "icon": "Rocket",
+      "iconBg": "bg-sky-100",
+      "iconColor": "text-sky-500",
+      "title": "Scalable",
+      "desc": "Grow your business without proportionally increasing overhead, as our technology scales with your needs."
+    }
+  ]
+},
+"ctaSection": {
+  "title": "Our tech works behind the scenes, so you can focus on clients.",
+  "description": "Experience the power of intelligent automation and seamless integration today.",
+  "buttons": {
+    "primary": {
+      "text": "Start 14 Day Free Trial",
+      "link": "/get-started"
+    },
+    "secondary": {
+      "text": "Book a Demo",
+      "link": "/demo"
+    }
   }
+}
 }

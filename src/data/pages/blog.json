@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Insights, Updates &",
+    "titleHighlight": "AI Reception",
+    "titleEnd": "Tips",
+    "description": "Explore the latest insights on AI-powered reception, customer communication, automation, and how businesses across industries are using AI to capture more leads and save time.",
+    "buttons": {
+      "primary": {
+        "text": "Start 14 Day Free Trial",
+        "link": "/get-started"
+      },
+      "secondary": {
+        "text": "Book a Demo",
+        "link": "/demo"
+      }
+    }
+  },
+  "intro": {
+    "description": "Our blog is designed to help businesses understand how [[AI Virtual Receptionists]] are transforming the way calls, bookings, and enquiries are handled. From industry-specific use cases to best practices and product updates, you'll find practical insights you can apply immediately.",
+    "categories": [
+      "All",
+      "AI & Automation",
+      "Virtual Reception",
+      "Industry Insights",
+      "Productivity & Growth",
+      "Product Updates"
+    ]
+  },
+  "featured": {
+    "image": "whats-new-illustration.webp",
+    "imageAlt": "What's New illustration",
+    "badge": "Virtual Reception",
+    "title": "Why Voicemail Is Costing Your Business Customers",
+    "description": "Customers expect instant responses. Discover why voicemail leads to lost leads — and how AI reception provides a better alternative.",
+    "linkText": "Read More...",
+    "link": "/blogs/whats-new"
+  },
+
+  "blogGrid": {
+    "posts": [
+      {
+        "image": "one.webp",
+        "category": "Industry Insights",
+        "title": "How Trades Businesses Use AI to Capture After-Hours Enquiries",
+        "description": "Builders, plumbers, and electricians are using AI reception to handle calls after hours and during on-site work. Here’s how it works.",
+        "link": "/blogs/trades-after-hours"
+      },
+      {
+        "image": "two.webp",
+        "category": "Productivity & Growth",
+        "title": "5 Ways AI Reception Reduces Admin Work Instantly",
+        "description": "From booking appointments to capturing call notes, AI reception can save hours every week. Here are the biggest time-saving benefits.",
+        "link": "/blogs/reduce-admin-work"
+      },
+      {
+        "image": "three.webp",
+        "category": "Customer Experience",
+        "title": "What Customers Expect When They Call Your Business in 2026",
+        "description": "Customer expectations are changing fast. Learn what modern callers want — and how AI reception meets those expectations.",
+        "link": "/blogs/customer-expectations-2026"
+      },
+      {
+        "image": "four.webp",
+        "category": "Industry Insights",
+        "title": "How AI Virtual Receptionists Support Service-Based Businesses",
+        "description": "From healthcare to home services, see how AI reception adapts to different industries and workflows.",
+        "link": "/blogs/service-based-businesses"
+      },
+      {
+        "image": "five.webp",
+        "category": "Product Updates",
+        "title": "What's New at VirtualAssistant.com.au",
+        "description": "Stay up to date with the latest features, improvements, and enhancements to our AI Virtual Receptionist platform.",
+        "link": "/blogs/whats-new"
+      },
+      {
+        "image": "six.webp",
+        "category": "AI & Automation",
+        "title": "How AI Virtual Receptionists Are Replacing Missed Calls Forever",
+        "description": "Missed calls cost businesses more than they realise. Learn how AI Virtual Receptionists answer calls 24/7, capture every enquiry, and turn missed opportunities into booked appointments.",
+        "link": "/blogs/missed-calls-forever"
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Ready to See AI Reception in Action?",
+    "description": "Discover how our AI Virtual Receptionist answers calls, books appointments, and captures enquiries — automatically and around the clock.",
+    "buttons": {
+      "primary": {
+        "text": "Start 14 Day Free Trial",
+        "link": "/get-started"
+      },
+      "secondary": {
+        "text": "Book a Demo",
+        "link": "/demo"
+      }
+    },
+    "footerNote": "Want tips delivered straight to your inbox? Follow our updates and stay ahead with AI-powered reception."
+  }
+}
