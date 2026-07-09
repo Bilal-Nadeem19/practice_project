@@ -1,0 +1,55 @@
+{
+  "title": "Let's Get You Started",
+  "description": "Whether you're exploring AI for your business or ready to scale, our team is here to help.",
+  "form": {
+    "fields": {
+      "fullName": { "label": "Full Name", "placeholder": "Enter Your Name" },
+      "phone": { "label": "Phone Number", "placeholder": "Enter Your Phone Number", "countryCode": "AU (+61)" },
+      "email": { "label": "Email Address", "placeholder": "Enter Your Email Address" },
+      "industry": {
+        "label": "Assistant Team (Industry)",
+        "placeholder": "Select an industry",
+        "options": [
+  "Physiotherapist",
+  "Myotherapist",
+  "Massage Therapist",
+  "Personal Trainer",
+  "Psychologist",
+  "Chiropractor",
+  "Podiatrist",
+  "Osteopath",
+  "Beauty Therapist",
+  "Hairdresser",
+  "Barber",
+  "Dentist",
+  "Accountant",
+  "Lawyer",
+  "Consultant",
+  "Real Estate Agent",
+  "Mechanic",
+  "Plumber",
+  "Electrician",
+  "Window Cleaning",
+  "Restaurant & Takeaway Businesses",
+  "Hotels & Accommodation",
+  "Builders",
+  "Concreters",
+  "HVAC",
+  "Landscapers",
+  "Roofing",
+  "Tradie",
+  "Other"
+]
+      },
+      "message": { "label": "Message / Comments", "placeholder": "Tell us Whats on Your Mind?" }
+    },
+    "submitText": "Submit Request"
+  },
+  "directContact": {
+    "heading": "Prefer to reach out directly?",
+    "email": "Hi@virtualassistant.com.au",
+    "phone": "0468 068 021",
+    "note": "We typically respond within 24 hours.",
+    "footerNote": "Your AI-powered assistant is just one step away. Fill out the form, and let's start building your future together."
+  }
+}

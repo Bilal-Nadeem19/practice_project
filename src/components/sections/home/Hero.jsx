@@ -90,7 +90,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: 80 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, ease: "easeOut" }}
-              className="w-full max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-3xl bg-bg-primary rounded-2xl p-1 sm:p-2 lg:p-3 rotate-0 lg:-rotate-4 shadow-xl"
+              className="w-full max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-3xl bg-primary rounded-2xl p-1 sm:p-2 lg:p-3 rotate-0 lg:-rotate-4 shadow-xl"
             >
               {/* All images render, only active one is visible */}
               <div className="relative w-full rounded-xl overflow-hidden">

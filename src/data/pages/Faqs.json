@@ -1,0 +1,131 @@
+{
+  "title": "Frequently Asked",
+  "titleHighlight": "Questions",
+  "description": "Have questions about our AI Virtual Receptionist for service businesses in Australia? We've got answers. If you don't see what you're looking for, feel free to contact us.",
+  "faqs": [
+    {
+      "question": "What is an AI Virtual Receptionist and how does it benefit my business?",
+      "answer": "An AI Virtual Receptionist is a human-like, voice-powered assistant designed to answer incoming calls, handle customer enquiries, book appointments, capture leads, and provide accurate information about your business automatically. Once configured, the AI greets callers professionally, understands their intent using natural language processing, and responds in real time. It operates 24/7, ensuring no call is ever missed, even outside business hours, during peak periods, or when staff are unavailable. Every interaction is logged, summarised, and sent to you, allowing full visibility while significantly reducing administrative workload."
+    },
+    {
+      "question": "How does the AI receptionist improve customer experience compared to voicemail or missed calls?",
+      "answer": "Unlike voicemail, which often leads to dropped enquiries and frustrated callers, the AI receptionist actively engages customers in real conversation. It answers questions instantly, books appointments, confirms details, and provides reassurance that their enquiry has been handled. This creates a professional first impression, increases trust, and dramatically improves conversion rates by ensuring callers never feel ignored."
+    },
+    {
+      "question": "Can the AI receptionist be customised to sound like my business?",
+      "answer": "Yes. The AI is fully customisable to reflect your brand's tone, terminology, services, and workflows. You can define how it greets callers, how formal or friendly it sounds, what services it explains, and how it handles different call scenarios. This ensures the AI feels like a genuine extension of your team rather than a generic system."
+    },
+    {
+      "question": "What happens if the AI does not know how to answer a caller's question?",
+      "answer": "If a caller asks something outside the AI's trained scope, the system gracefully captures the caller's details and message, then notifies you instantly. This ensures no enquiry is ever lost and allows you to follow up personally when needed."
+    },
+    {
+      "question": "How does the AI receptionist support physiotherapy clinics?",
+      "answer": "For physiotherapy clinics, the AI receptionist manages appointment bookings, cancellations, and reschedules while capturing patient concerns and preferred treatment times. It sends automated reminders before appointments to reduce no-shows and ensures schedules remain organised even during busy periods. This allows practitioners and staff to focus on patient care instead of front-desk tasks."
+    },
+    {
+      "question": "Can the AI handle specialised therapy sessions and follow-ups?",
+      "answer": "Yes. The AI understands different myotherapy session types, treatment durations, and follow-up requirements. It records client preferences, schedules repeat visits, and sends reminders, ensuring continuity of care while reducing administrative effort."
+    },
+    {
+      "question": "How does the AI manage multi-practitioner chiropractic clinics?",
+      "answer": "The AI can coordinate multiple practitioners, appointment types, and availability schedules simultaneously. It prevents double bookings, manages cancellations, and ensures each practitioner's calendar remains accurate, even during high call volumes."
+    },
+    {
+      "question": "Psychologist – Is the AI suitable for sensitive client communication?",
+      "answer": "Absolutely. The AI handles calls with professionalism, discretion, and empathy. It manages appointment scheduling, intake instructions, and follow-ups while maintaining confidentiality and a calm, respectful tone appropriate for mental health services."
+    },
+    {
+      "question": "Can the AI manage massage therapist treatment preferences and reminders?",
+      "answer": "Yes. The AI records massage preferences, session lengths, and therapist availability. It handles bookings, cancellations, and automated reminders, helping reduce no-shows and improve repeat bookings."
+    },
+    {
+      "question": "How does the AI support personal training businesses?",
+      "answer": "The AI schedules one-on-one and recurring sessions, tracks availability, sends reminders, and answers common client questions. This allows trainers to focus on delivering sessions instead of managing schedules."
+    },
+    {
+      "question": "Can the AI manage ongoing podiatrist care and follow-ups?",
+      "answer": "Yes. The AI tracks appointment history, schedules follow-up visits, and ensures consistent communication for ongoing treatment plans, improving patient adherence and clinic efficiency."
+    },
+    {
+      "question": "How does the AI help dental clinics reduce missed appointments?",
+      "answer": "The AI manages appointment bookings, sends reminders, supports recall systems, and handles patient enquiries. This significantly reduces no-shows and improves chair utilisation."
+    },
+    {
+      "question": "How does the AI receptionist help accounting firms manage clients?",
+      "answer": "The AI answers client calls, books consultations, captures enquiry details, and handles common service questions. This reduces interruptions during focused work and ensures potential clients are captured even during peak tax periods."
+    },
+    {
+      "question": "Is the AI suitable for legal practices?",
+      "answer": "Yes. The AI books consultations, captures initial enquiry details, manages reminders, and handles calls professionally, helping law firms streamline client intake without compromising professionalism."
+    },
+    {
+      "question": "Can the AI manage consultance meetings and follow-ups?",
+      "answer": "Absolutely. The AI schedules meetings, handles reschedules, captures client objectives, and sends reminders, ensuring consultants maintain structured and efficient workflows."
+    },
+    {
+      "question": "How does the AI support real estate agencies?",
+      "answer": "The AI manages buyer and tenant enquiries, books inspections, answers property questions, captures contact details, and ensures timely follow-ups, improving lead conversion and response times."
+    },
+    {
+      "question": "Can the AI manage builders job enquiries and site inspections?",
+      "answer": "Yes. The AI captures job details, schedules site visits, answers service questions, and follows up on enquiries while builders are on-site or unavailable, ensuring no opportunity is missed."
+    },
+    {
+      "question": "How does the AI support HVAC repair and installation businesses?",
+      "answer": "The AI books service calls, captures system issues, manages emergency and after-hours enquiries, and sends confirmations, ensuring every job request is logged accurately."
+    },
+    {
+      "question": "Can the AI handle urgent roofing enquiries?",
+      "answer": "Yes. The AI operates 24/7 to capture emergency calls, book inspections, record issue details, and ensure fast follow-up during weather-related or urgent situations."
+    },
+    {
+      "question": "Can the AI help concreting businesses secure more projects?",
+      "answer": "Absolutely. The AI schedules site inspections, follows up on quotes, captures project details, and maintains professional communication from initial enquiry to project commencement."
+    },
+    {
+      "question": "How does the AI help landscaping businesses manage enquiries?",
+      "answer": "The AI books consultations, captures design and site details, follows up on quotes, and manages client communication, allowing landscapers to focus on on-site work."
+    },
+    {
+      "question": "Can the AI handle emergency plumbing calls?",
+      "answer": "Yes. The AI captures urgent issues, records job details, schedules service visits, and ensures plumbers receive accurate information promptly. When a customer calls, the AI gathers critical information including the nature of the problem, property type, urgency level, location, and preferred availability."
+    },
+    {
+      "question": "How does the AI support electricians?",
+      "answer": "For electrical businesses, the AI Virtual Receptionist acts as a reliable first point of contact for all incoming enquiries. It answers calls professionally, captures detailed fault descriptions, books service appointments, and manages urgent or after-hours enquiries when electricians are unavailable or on-site."
+    },
+    {
+      "question": "Can the AI receptionist manage vehicle service bookings and enquiries?",
+      "answer": "Yes. The AI Virtual Receptionist is ideal for automotive workshops. It books vehicle services, captures vehicle make, model, and service requirements, answers common questions about availability, and sends appointment confirmations and reminders. Mechanics can focus on repairs while the AI manages customer communication."
+    },
+    {
+      "question": "How does the AI receptionist help window cleaning businesses?",
+      "answer": "For window cleaning businesses, the AI handles both residential and commercial enquiries by booking site visits, capturing property details, confirming service scope, and managing follow-ups. It answers questions about service areas, frequency, and availability while ensuring every enquiry is logged and actioned."
+    },
+    {
+      "question": "How does the AI Virtual Receptionist help barbershops grow bookings?",
+      "answer": "The AI receptionist manages haircut, grooming, and beard-trim bookings by checking availability, scheduling appointments, and sending reminders. It answers common questions about services, pricing, and walk-in availability, helping reduce phone interruptions during busy shop hours. By minimising missed calls and no-shows, the AI helps keep chairs full and revenue consistent throughout the day."
+    },
+    {
+      "question": "Can the AI manage stylist availability and service bookings?",
+      "answer": "Yes. The AI receptionist coordinates bookings based on stylist availability, service duration, and client preferences. It handles cancellations, reschedules, and reminders while answering questions about services and pricing. This allows salon staff to focus on clients in-chair rather than answering phones, improving both customer experience and operational flow."
+    },
+    {
+      "question": "How does the AI support beauty and skincare businesses?",
+      "answer": "The AI receptionist books beauty treatments, captures service preferences, manages appointment changes, and sends reminders automatically. It answers enquiries about treatment types, session durations, and availability, helping clients feel informed and confident. This leads to higher booking retention, fewer no-shows, and smoother day-to-day operations."
+    },
+    {
+      "question": "Can the AI handle reservations and customer enquiries?",
+      "answer": "Yes. The AI Virtual Receptionist manages table reservations, cancellations, waitlists, and general enquiries 24/7. It answers questions about opening hours, menu availability, and booking policies while ensuring reservations are accurately recorded. This reduces pressure on staff during peak service times and ensures customers receive prompt responses."
+    },
+    {
+      "question": "Does the AI function like a virtual front desk?",
+      "answer": "Absolutely. The AI receptionist answers booking enquiries, checks availability, manages reservations, provides check-in and check-out information, and handles guest questions at any time of day. This ensures guests always receive timely support while reducing workload for front-desk teams."
+    },
+    {
+      "question": "Can the AI Virtual Receptionist be adapted for industries not listed on this website?",
+      "answer": "Yes. The AI Virtual Receptionist is highly flexible and can be trained for virtually any industry that relies on phone calls, enquiries, bookings, or customer communication. By tailoring workflows, terminology, and responses, the AI can seamlessly adapt to your specific business needs, making it suitable for both niche and emerging industries."
+    }
+  ]
+}
