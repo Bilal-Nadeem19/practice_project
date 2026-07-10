@@ -50,7 +50,7 @@ export default function Testimonials() {
 
         {/* Carousel with fast slide */}
         {/* Carousel */}
-        <div className="overflow-hidden relative">
+        <div className="overflow-hidden relative w-full">
           <AnimatePresence mode="popLayout" initial={false}>
             <motion.div
               key={current}

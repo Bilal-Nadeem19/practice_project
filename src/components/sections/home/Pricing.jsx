@@ -8,9 +8,13 @@ const headingVariants = {
   visible: { opacity: 1, y: 0 },
 };
 
-const getCardVariants = () => ({
+const getCardVariants = (index) => ({
   hidden: { opacity: 0, y: 60 },
-  visible: { opacity: 1, y: 0 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, delay: index * 0.15, ease: "easeOut" },
+  },
 });
 
 export default function Pricing() {
@@ -98,7 +102,7 @@ export default function Pricing() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-5 items-center mt-12">
           {plans.map((plan, index) => {
-            const variants = getCardVariants();
+            const variants = getCardVariants(index);
             const price = getPrice(plan.monthlyPrice);
             const weekly = getWeeklyPrice(plan.monthlyPrice);
 
@@ -109,24 +113,13 @@ export default function Pricing() {
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.2 }}
                 variants={variants}
-                transition={{
-                  duration: 0.6,
-                  delay: index * 0.15,
-                  ease: "easeOut",
+                whileHover={{
+                  y: -4,
+                  scale: 1.03,
+                  borderColor: "#38bdf8",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                  transition: { duration: 0.02, ease: "easeOut" },
                 }}
-                style={{
-                  transition:
-                    "box-shadow 0.15s ease, transform 0.15s ease, border-color 0.15s ease",
-                }}
-                whileHover={
-                  plan.popular
-                    ? { y: -8, boxShadow: "0 20px 40px rgba(14,165,233,0.25)" }
-                    : {
-                        y: -8,
-                        borderColor: "#38bdf8",
-                        boxShadow: "0 10px 30px rgba(14,165,233,0.15)",
-                      }
-                }
                 className={`relative flex flex-col bg-white rounded-2xl ${
                   plan.popular
                     ? "border border-sky-300 shadow-xl sm:py-6"

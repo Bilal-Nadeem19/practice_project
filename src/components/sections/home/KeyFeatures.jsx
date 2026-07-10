@@ -9,7 +9,7 @@ export default function KeyFeatures() {
   return (
     // 1. Section ko w-full kiya taake background color (#F9FAFB) poori screen par phel jaye
     <section 
-     id="features" className="bg-[#F9FAFB] py-10 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 w-full overflow-hidden">
+     id="features" className="bg-[#F9FAFB] py-10 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 w-full">
       
       {/* 2. Naya Container Div jo content ko 6xl (1152px) par limit aur center karega */}
       <div className="max-w-6xl mx-auto">

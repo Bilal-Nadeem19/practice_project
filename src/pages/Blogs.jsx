@@ -101,7 +101,7 @@ const Blogs = () => {
   return (
     <div className="overflow-x-hidden">
       {/* Section 1: Hero */}
-      <section className="w-full bg-[#EDF6FD] py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12 text-center">
+      <section className="w-full bg-[#EDF6FD] pt-2 sm:pt-4 md:pt-6 pb-10 sm:pb-16 md:pb-18 px-4 sm:px-6 md:px-12 text-center">
         <motion.div
           className="max-w-5xl mx-auto"
           variants={fadeInDim}
@@ -114,19 +114,19 @@ const Blogs = () => {
             <span className="text-primary">{heroData.titleHighlight}</span>{" "}
             {heroData.titleEnd}
           </h1>
-          <p className="text-textcolor text-sm sm:text-base md:text-lg leading-[1.5] max-w-3xl mx-auto mb-6 sm:mb-8 opacity-90">
+          <p className="text-textcolor text-sm sm:text-base md:text-lg leading-normal max-w-3xl mx-auto mb-6 sm:mb-8 opacity-90">
             {heroData.description}
           </p>
           <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4">
             <a
               href={heroData.buttons.primary.link}
-              className="bg-primary text-white px-5 py-2.5 sm:px-7 sm:py-3 rounded-full font-semibold text-sm sm:text-base transition duration-300 transform hover:scale-105 active:scale-95"
+              className="bg-primary text-white px-3 py-2 sm:px-7 sm:py-2.5 rounded-full font-semibold text-sm sm:text-base transition-colors duration-300 hover:bg-[#007EB8]"
             >
               {heroData.buttons.primary.text}
             </a>
             <a
               href={heroData.buttons.secondary.link}
-              className="bg-transparent text-heading border border-primary px-5 py-2.5 sm:px-7 sm:py-3 rounded-full font-semibold text-sm sm:text-base transition duration-300 transform hover:scale-105 active:scale-95 hover:bg-white"
+              className="bg-transparent text-heading border-2 border-border px-2 py-2 sm:px-6 sm:py-2 rounded-full font-semibold text-sm sm:text-base transition duration-300 transform hover:scale-105 active:scale-95 hover:bg-white hover:shadow-[var(--shadow-glow)]"
             >
               {heroData.buttons.secondary.text}
             </a>
@@ -192,7 +192,7 @@ const Blogs = () => {
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[38px] font-bold text-heading mb-3 sm:mb-4 leading-tight">
               {slots[0].title}
             </h2>
-            <p className="text-textcolor text-sm sm:text-base md:text-lg leading-[1.5] mb-3 sm:mb-4 opacity-90">
+            <p className="text-textcolor text-sm sm:text-base md:text-lg leading-normal mb-3 sm:mb-4 opacity-90">
               {slots[0].description}
             </p>
             <a
@@ -207,7 +207,7 @@ const Blogs = () => {
 
       {/* Section 4: Blog Grid (dynamic - slots 1-6, click to swap) */}
       <section className="w-full bg-white pt-12 sm:pt-16 md:pt-20 lg:pt-28 pb-10 sm:pb-12 md:pb-16 px-4 sm:px-6 md:px-12">
-        <div className="max-w-[68rem] mx-auto flex flex-col gap-4 sm:gap-5">
+        <div className="max-w-272 mx-auto flex flex-col gap-4 sm:gap-5">
           {/* Row 1: Cards 1, 2, 3 */}
           <motion.div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 items-stretch"
@@ -227,7 +227,7 @@ const Blogs = () => {
                     src={card.image}
                     alt={card.title}
                     onClick={() => handleCardClick(cardNumber)}
-                    className="w-full h-40 sm:h-44 md:h-50 object-cover block cursor-pointer transition-transform duration-[1500ms] hover:scale-140"
+                    className="w-full h-40 sm:h-44 md:h-50 object-cover block cursor-pointer transition-transform duration-1500 hover:scale-140"
                   />
                   <div className="p-5 sm:p-6 md:p-7 text-left flex flex-col flex-1">
                     <span className="self-start inline-block bg-sky-100 text-primary text-xs font-bold px-2 py-1 rounded-full mb-2">
@@ -273,7 +273,7 @@ const Blogs = () => {
                     src={card.image}
                     alt={card.title}
                     onClick={() => handleCardClick(cardNumber)}
-                    className="w-full h-40 sm:h-44 md:h-50 object-cover block cursor-pointer transition-transform duration-[1500ms] hover:scale-140"
+                    className="w-full h-40 sm:h-44 md:h-50 object-cover block cursor-pointer transition-transform duration-1500 hover:scale-140"
                   />
                   <div className="p-5 sm:p-6 md:p-7 text-left flex flex-col flex-1">
                     <span className="self-start inline-block bg-sky-100 text-primary text-xs font-bold px-2 py-1 rounded-full mb-2">
@@ -303,12 +303,12 @@ const Blogs = () => {
       </section>
 
       {/* Section 5: CTA */}
-      <section className="w-full py-12 sm:py-16 md:py-24 px-4 sm:px-6 md:px-12 bg-gradient-to-b from-sky-300 to-sky-500 text-center">
+      <section className="w-full py-12 sm:py-16 md:py-24 px-4 sm:px-6 md:px-12 bg-linear-to-b from-sky-300 to-sky-500 text-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-bold text-white mb-4 sm:mb-6 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
             {blogData.cta.title}
           </h2>
-          <p className="text-white text-sm sm:text-base md:text-lg mb-6 sm:mb-8 opacity-90">
+          <p className="font-Poppins text-white text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 opacity-90">
             {blogData.cta.description}
           </p>
           <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4 mb-8 sm:mb-10">
@@ -326,7 +326,7 @@ const Blogs = () => {
               {blogData.cta.buttons.secondary.text}
             </a>
           </div>
-          <p className="text-white text-xs sm:text-sm md:text-base opacity-90">
+          <p className="font-Poppins text-white text-base sm:text-lg leading-relaxed mt-4">
             {blogData.cta.footerNote}
           </p>
         </div>
