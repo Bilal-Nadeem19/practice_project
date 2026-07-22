@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Auto care",
+    "title": "AI for Mechanic",
+    "description": "Your virtual assistant modernizes auto care by managing service appointments, recording repair notes, sending maintenance reminders, and scheduling follow-ups.",
+    "image": "/images/industries/mechanic/mechanic_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed service appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling and logging repairs." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher customer retention with consistent service tracking and tailored care." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Mechanics",
+    "blocks": [
+      { "heading": "A Smarter Way to Run Your Workshop", "description": "At VirtualAssistant.com.au, we know that no two automotive businesses are the same. Whether you're a one-man show working from your garage at home, a small local workshop, or a larger automotive service center, our AI Virtual Receptionist adapts perfectly to your setup. It handles customer calls, service bookings, and general inquiries automatically — keeping your day organized and ensuring no job or lead is missed." },
+      { "heading": "Focus on Repairs, Not the Phone", "description": "Your AI Receptionist answers calls and manages bookings while you're under the hood. It can respond to questions like 'Can I book a car service?', 'Do you do RWC checks?', or 'How long will my car be off the road?' instantly and accurately. It can also reschedule jobs, send reminders, and notify customers when their car is ready — so you can stay focused on what you do best: fixing cars." },
+      { "heading": "Never Miss a Customer or Booking Again", "description": "Even during busy periods or after hours, your AI Receptionist ensures no call or message goes unanswered. It provides information about your services — from logbook servicing and brake repairs to diagnostics and tyre replacements — and books jobs straight into your calendar. Whether you're working alone or managing a full team, it helps you stay connected and efficient 24/7." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your auto repair shop with intelligent automation that reduces admin work, personalizes service, and increases efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Capture Every Call", "description": "Ensures all customer inquiries are answered, logged, and actioned — even after hours.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "clock", "title": "Streamlined Job Scheduling", "description": "Automates service bookings, reschedules, and customer reminders for a smoother operation.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Business", "description": "Your AI Receptionist can be trained specifically to your workshop's requirements — matching your tone, services, and workflow.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "file-text", "title": "Works for All Business Sizes", "description": "Ideal for home garages, small local workshops, and large service centers — scaling effortlessly with your business.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Affordable 24/7 Coverage", "description": "Acts like a full-time receptionist at a fraction of the cost.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "calendar-check", "title": "Automated Scheduling", "description": "Automatically manage service appointments, inspections, and repairs without manual input.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "heart", "title": "Improved Customer Experience", "description": "Provides friendly, fast, and accurate responses that keep customers coming back.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI manages appointments, follow-ups, and reminders, so you can focus on high-quality repairs.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" },
+      { "icon": "star", "title": "Boosted Client Retention", "description": "Regular maintenance reminders and tailored service bring customers back consistently.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Mechanics Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by mechanics across Australia — from independent home garages to major automotive workshops. It integrates seamlessly with your booking and management systems, ensuring smooth communication with customers and suppliers alike. Best of all, your AI Receptionist can be trained specifically to your workshop's tone, services, and workflow — scaling with you as your business grows. Let our AI manage your calls and admin so you can focus on getting cars back on the road and keeping customers satisfied.",
+    "image": "/images/industries/mechanic/mechanic_reception.webp",
+    "card": {
+      "heading": "Simplify Customer Notes and Follow-Ups",
+      "description": "After each job, you can record a quick voice memo that's automatically transcribed and summarized — perfect for noting work completed or parts needed for future reference. Upload job cards, invoices, or inspection reports directly into your dashboard, keeping every detail organized and accessible."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "wrench", "iconBg": "#3B82F6", "title": "General Auto Maintenance", "description": "Manage oil changes, brake services, tire rotations, inspections, and routine maintenance." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Repair History Tracking", "description": "Log diagnostics, parts replaced, repair history, and technician notes." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Repairs", "description": "Support engine diagnostics, transmission repairs, and electrical system services." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common customer questions via AI chatbot or voice assistant." },
+      { "icon": "calendar-check", "iconBg": "#0D9488", "title": "Service Follow-ups", "description": "Encourage regular visits for preventative care and ongoing vehicle performance." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save time by letting AI schedule recurring services automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce missed visits with AI-powered alerts." },
+      { "icon": "file-plus", "title": "Repair Notes Retrieval", "description": "Quickly review client history without manual searches." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Oil Change & Inspection", "description": "A customer books a service and inspection through your AI assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Saves time by setting up scheduled sessions automatically.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Repair Notes", "description": "Records diagnostics, parts used, and technician steps after each visit automatically.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Services", "description": "Automatically schedules regular maintenance like tire rotations or brake checks.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Sends reminders for oil changes, tune-ups, inspections, and provides care tips.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Automotive Repair",
+    "subtitle": "Join thousands of service professionals transforming their auto shops with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "wrench", "title": "Plumber", "description": "Your virtual plumbing assistant modernizes service operations by managing appointments, recording job notes, sending maintenance reminders, and scheduling follow-ups.", "link": "/industries/plumber" },
+      { "icon": "home", "title": "Cleaning", "description": "Your virtual assistant modernizes cleaning businesses by booking jobs, tracking schedules, sending cleaning reminders, and scheduling follow-ups.", "link": "/industries/cleaning" },
+      { "icon": "zap", "title": "Electricians", "description": "Your virtual assistant modernizes electrical operations by managing appointments, diagnosing, sending safety reminders, and scheduling follow-ups.", "link": "/industries/electricians" }
+    ]
+  }
+}

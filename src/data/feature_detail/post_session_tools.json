@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "badge": "Wrap Up Every Session with Ease",
+    "heading": "Post-Session Tools",
+    "description": "Keep every client interaction organized, documented, and accessible. Your Virtual AI Assistant makes it effortless to record notes, voice memos, and attachments after each session — building a complete client history that improves service quality and saves you time.",
+    "buttons": [
+      { "label": "Start Your 14 Day Free Trial", "type": "primary", "href": "#trial" },
+      { "label": "Book a Demo", "type": "secondary", "icon": "calendar", "href": "#demo" }
+    ],
+    "backgroundImage": {
+      "src": "/images/features/post-session-tools/post-section.webp",
+      "alt": "Microphone soundwave and document illustration"
+    }
+  },
+  "keyCapabilities": {
+  "heading": "Key Capabilities:",
+  "description": "Smart tools that help you stay organized, informed, and always ready for the next appointment.",
+  "cards": [
+    { "icon": "notes", "title": "1. Client Notes", "description": "Add written notes after each appointment." },
+    { "icon": "voice", "title": "2. Voice Memos", "description": "Record a quick voice memo instead of typing, it's transcribed, summerised and attached automatically" },
+    { "icon": "documents", "title": "3. Photos & Documents", "description": "Upload forms, images, or documents directly to the client's record." },
+    { "icon": "history", "title": "4. Complete Client History", "description": "All notes, memos, and documents stay attached to each appointment, making future sessions smoother and more personalised" }
+  ]
+},
+"productivityImpact": {
+  "heading": "Productivity & Business Impact",
+  "points": [
+    { "label": "Reduce Admin Time:", "text": "Save hours every week by replacing manual note-taking and filing." },
+    { "label": "Improve Accuracy:", "text": "Automatic organization reduces the risk of missing or misplaced data." },
+    { "label": "Enhance Client Trust:", "text": "Clients appreciate your precision and recall in follow-ups." },
+    { "label": "Ensure Continuity:", "text": "Perfect for multi-staff environments or long-term client relationships." },
+    { "label": "Boost Professionalism:", "text": "Arrive at every session prepared and informed." }
+  ],
+  "image": {
+    "src": "/images/features/post-session-tools/productivity-illustration.webp",
+    "alt": "Gears and clock illustration representing productivity"
+  }
+},
+"howItWorks": {
+  "heading": "How It Works",
+  "subheading": "A simple three-step process to keep every session organized.",
+  "steps": [
+    { "title": "Instant Support", "description": "Clients get the answers they need immediately, even after hours." },
+    { "title": "Reduced Admin Load", "description": "Fewer phone calls and emails for your team to handle." },
+    { "title": "Higher Conversion Rates", "description": "Clients feel confident booking after getting clear, helpful information." }
+  ]
+},
+"finalCta": {
+  "heading": "Ready to Streamline Your Follow-Ups?",
+  "description": "Let your AI handle post-session management — from note-taking to file organization. Focus on your clients, not your paperwork.",
+  "button": {
+    "label": "Start Your 14 Day Free Trial",
+    "href": "#trial"
+  }
+}
+}

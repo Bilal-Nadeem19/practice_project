@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "HVAC Services",
+    "title": "AI for HVAC Businesses",
+    "description": "Your AI virtual assistant helps HVAC businesses manage calls, book installations and repairs, capture service details, send reminders, and follow up with customers — so your team stays focused on the job.",
+    "image": "/images/industries/hvac/hvac_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "35%", "label": "Fewer missed service calls with 24/7 answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "90%", "label": "Reduction in time spent on scheduling and follow-ups." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher job bookings with faster response times." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for HVAC Businesses",
+    "blocks": [
+      { "heading": "Modern Solutions for Modern HVAC Teams", "description": "At VirtualAssistant.com.au, we understand that every call to your HVAC business could be an urgent repair, a new installation, or a maintenance request. Our AI Virtual Receptionist ensures every enquiry is answered promptly and professionally." },
+      { "heading": "Focus on Service, Not Phone Calls", "description": "Your AI Receptionist handles incoming calls, customer questions, and appointment bookings while your technicians are on-site. It answers questions like 'Can I book an AC repair?', 'Do you install new air conditioners?', or 'Do you service heating systems?' with clarity and confidence." },
+      { "heading": "Never Miss a Service Request", "description": "Whether your team is busy, after hours, or during peak seasons, your AI Receptionist captures every call. It explains your services — from air conditioning and heating to ventilation and maintenance — and books jobs automatically." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Improve efficiency, capture more service calls, and deliver better customer experiences with AI-powered automation.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional Call Handling", "description": "Ensures every customer interaction is polite, clear, and consistent.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Automated Appointment Scheduling", "description": "Books repairs, installations, and maintenance visits instantly.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Customised to Your HVAC Business", "description": "Train your AI to match your services, service areas, and workflows.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Capture emergency calls and after-hours enquiries anytime.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Secure & Reliable", "description": "Customer details and service information are handled securely.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Customer Experience", "description": "Provide fast responses and automated reminders to build client trust.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "Reduce admin workload for office staff and technicians.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Customer Retention", "description": "Follow-ups and maintenance reminders keep customers loyal.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Service History", "description": "Access past jobs, notes, and customer details instantly.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why HVAC Businesses Choose VirtualAssistant.com.au",
+    "description": "HVAC companies across Australia trust our AI Virtual Receptionist to manage calls, schedule jobs, and capture accurate service information. It integrates with your scheduling tools and CRM, acting as a reliable extension of your team.",
+    "image": "/images/industries/hvac/hvac_reception.webp",
+    "card": {
+      "heading": "Streamline Service Follow-Ups and Communication",
+      "description": "After each service call, technicians can record quick voice notes that are transcribed and summarised automatically. The AI also sends reminders for maintenance, follow-ups, and future service visits."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "HVAC Repairs & Installations", "description": "Manage air conditioning and heating service requests efficiently." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialised HVAC Services", "description": "Support ducting, ventilation, and system upgrades." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "Routine Maintenance Scheduling", "description": "Automate seasonal servicing and maintenance plans." },
+      { "icon": "trophy", "iconBg": "#9333EA", "title": "Customer & Job Tracking", "description": "Log service history, job notes, and follow-up actions." },
+      { "icon": "bot", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Answer customer enquiries via AI voice or chat instantly." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI schedules follow-ups for quotes and completed services." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce no-shows with service and maintenance reminders." },
+      { "icon": "file-plus", "title": "Centralized Records", "description": "Access customer and job history without manual searches." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "HVAC Service Booking & Follow-Up", "description": "A customer calls to request an air conditioning repair. The AI books the job, captures system details, and sends confirmation automatically." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends appointment confirmation and reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Service Notes", "description": "Records system issues and customer requirements.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Alerts", "description": "Schedules maintenance reminders.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Updates", "description": "Keeps customers informed on job status.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for HVAC",
+    "subtitle": "Join thousands of HVAC businesses who are transforming client communication and project management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

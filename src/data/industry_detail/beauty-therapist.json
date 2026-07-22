@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Skin & Beauty Care",
+    "title": "AI for Beauty Therapist",
+    "description": "Your virtual assistant streamlines beauty care by managing appointments, recording treatment notes, sending skincare or wellness reminders, and follow-ups.",
+    "image": "/images/industries/beauty-therapist/beauty_therapist_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher client adherence to post-treatment care and routines." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Beauty Therapists",
+    "blocks": [
+      { "heading": "A Seamless Experience for You and Your Clients", "description": "At VirtualAssistant.com.au, our AI Virtual Receptionist is designed to make running your beauty business smoother and more efficient. Whether you manage a busy salon, spa, or boutique beauty studio, our AI handles calls, books appointments, and answers client questions — all while reflecting your brand's professional and friendly tone." },
+      { "heading": "Focus on Treatments, Not the Phone", "description": "Your AI Receptionist takes care of booking and managing appointments so you can focus on your clients. It can answer questions like 'Do you offer lash lifts?', 'Can I book a spray tan and facial together?', or 'What's your cancellation policy?' instantly and accurately. It also sends reminders, reschedules appointments, and follows up after visits — keeping your schedule full and your clients happy." },
+      { "heading": "Never Miss a Client or Booking Again", "description": "Whether you're with a client, in the middle of a treatment, or your salon is closed, your AI Receptionist answers every call and inquiry immediately. It provides details about your services — from facials and waxing to massages and nail treatments — and confirms bookings in real time. You'll never lose a client due to a missed call or unanswered message again." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your beauty practice with intelligent automation that reduces admin work, streamlines client care, and boosts efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Automated Scheduling", "description": "Automatically manage appointments, follow-ups, and reminders without manual intervention.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "sparkles", "title": "Improved Client Retention", "description": "Smart reminders and personalized care keep clients coming back for more treatments.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "file-plus", "title": "Centralized Treatment Records", "description": "Easily access client history, preferences, and progress in one organized system.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "heart", "title": "Enhanced Care Quality", "description": "Tailored post-treatment guidance ensures better results and client satisfaction.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "clock", "title": "Professional and Friendly", "description": "Creates a welcoming experience that matches your salon's tone and personality.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "messages-square", "title": "Streamlined Appointment Management", "description": "Books, reschedules, and confirms appointments automatically, helping reduce no-shows.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Business", "description": "Your AI Receptionist can be trained specifically to your business requirements — matching your tone, services, and client experience.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "settings", "title": "Affordable 24/7 Coverage", "description": "Operate like a full-time reception team at a fraction of the cost.", "bgFrom": "#CCFBF1", "bgTo": "#F0FDFA", "iconBg": "#0D9488" },
+      { "icon": "heart", "title": "Improved Client Experience", "description": "Responds instantly and professionally, ensuring your clients always feel valued and cared for.", "bgFrom": "#FCE7F3", "bgTo": "#FDF2F8", "iconBg": "#DB2777" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Beauty Therapists Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by beauty salons and spas across Australia for its reliability, warmth, and customization. It integrates seamlessly with your booking system, handles calls professionally, and maintains your salon's polished image. Best of all, your AI Receptionist can be trained to your specific business needs — reflecting your brand's tone, workflow, and client journey from the very first interaction. Let our AI manage your admin while you focus on creating beautiful results for your clients.",
+    "image": "/images/industries/beauty-therapist/beauty_therapist_reception.webp",
+    "card": {
+      "heading": "Simplify Client Notes and Follow-Ups",
+      "description": "After each appointment, you or your team can record quick voice memos — which are automatically transcribed and summarized for easy reference. You can also upload treatment notes, product preferences, and client feedback, all stored securely in one dashboard. This helps you personalize future visits and deliver the perfect experience every time."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "refresh-cw", "iconBg": "#3B82F6", "title": "Skincare & Beauty Treatments", "description": "Manage facials, hair treatments, manicures, pedicures, and wellness services with automated scheduling." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Patient Progress Tracking", "description": "Log client preferences, treatment history, results, and product reactions for personalized care." },
+      { "icon": "refresh-cw", "iconBg": "#F59E0B", "title": "Regular Maintenance", "description": "Encourage recurring visits for glowing skin, healthy hair, and overall beauty wellness through smart reminders." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common patient inquiries via AI chat or voice assistant." },
+      { "icon": "user-cog", "iconBg": "#0D9488", "title": "Client Wellness Support", "description": "Provide guidance on at-home care, product usage, and personalized beauty routines for optimal results." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save time by letting AI schedule recurring beauty sessions automatically." },
+      { "icon": "refresh-cw", "title": "Smart Reminders", "description": "Reduce missed visits with timely alerts and preparation instructions." },
+      { "icon": "file-plus", "title": "Records", "description": "Quickly review treatment history without manual searches." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Facial & Manicure Treatment", "description": "A patient books facial and manicure treatment through your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Appointment confirmed instantly with preparation advice like ('avoid heavy makeup before facial').", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Treatment Notes Logging", "description": "Records skin analysis, products used, and steps performed after each session", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Checkups", "description": "Automatically schedules follow-ups for facials, hair treatments, or wellness sessions", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Care Reminders", "description": "Sends tailored skincare tips, product reminders, and post-treatment guidance", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Healthcare",
+    "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "scissors", "title": "Hairdresser", "description": "Your virtual assistant simplifies hair care by managing bookings, recording style preferences, sending care reminders, and scheduling recurring appointments.", "link": "/industries/hairdresser" },
+      { "icon": "scissors", "title": "Barber", "description": "Effortless booking for haircuts and grooming, with automated reminders and client enquiries handled.", "link": "/industries/barber" },
+      { "icon": "footprints", "title": "Podiatrist", "description": "Your virtual assistant streamlines podiatry care by managing appointments, recording treatment notes, sending recovery reminders, and scheduling follow-ups.", "link": "/industries/podiatrist" }
+    ]
+  }
+}

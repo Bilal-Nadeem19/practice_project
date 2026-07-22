@@ -1,0 +1,229 @@
+{
+  "hero": {
+  "title": "AI Virtual Receptionists &",
+  "titleMiddle": "Smart Scheduling for",
+  "titleHighlight": "Every Industry",
+
+    "description": "Choose your profession and discover how AI can automate your bookings, reminders, and client management",
+    "buttons": {
+      "primary": {
+        "text": "Start 14 Day Free Trial",
+        "link": "/get-started"
+      },
+      "secondary": {
+        "text": "Book a Demo",
+        "link": "/demo"
+      }
+    }
+  },
+  "industrySections": [
+    {
+      "title": "Healthcare & Wellness",
+      "industries": [
+        {
+          "icon": "stethoscope",
+          "title": "Physiotherapist",
+          "description": "Your AI manages appointment bookings, reminders, follow-ups, and patient records so you spend more time on treatment.",
+          "link": "/industries/physiotherapist"
+        },
+        {
+          "icon": "activity",
+          "title": "Myotherapist",
+          "description": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized.",
+          "link": "/industries/myotherapist"
+        },
+        {
+          "icon": "hand",
+          "title": "Massage Therapist",
+          "description": "Effortless bookings for massage therapists. Relax your clients while we handle your schedule.",
+          "link": "/industries/massage-therapist"
+        },
+        {
+          "icon": "dumbbell",
+          "title": "Personal Trainer",
+          "description": "Power up your training business with automated scheduling, payment reminders, and progress tracking.",
+          "link": "/industries/personal-trainer"
+        },
+        {
+          "icon": "brain",
+          "title": "Psychologist",
+          "description": "Automates client bookings, tracks therapy sessions, and keeps your calendar organized.",
+          "link": "/industries/psychologist"
+        },
+        {
+          "icon": "stretch-horizontal",
+          "title": "Chiropractor",
+          "description": "Precision scheduling for chiropractors — organizes client visits, recalls, and automates reminders.",
+          "link": "/industries/chiropractor"
+        },
+        {
+          "icon": "footprints",
+          "title": "Podiatrist",
+          "description": "Your AI manages appointment bookings, reminders, and patient records for efficient workflow.",
+          "link": "/industries/podiatrist"
+        },
+        {
+          "icon": "sparkles",
+          "title": "Beauty Therapist",
+          "description": "Streamlines beauty care scheduling, treatment notes, skincare or wellness reminders, and follow-ups.",
+          "link": "/industries/beauty-therapist"
+        },
+        {
+          "icon": "scissors",
+          "title": "Hairdresser",
+          "description": "Effortless salon scheduling — manages appointments, client preferences, and reminders seamlessly.",
+          "link": "/industries/hairdresser"
+        },
+        {
+          "icon": "smile",
+          "title": "Dentist",
+          "description": "Modernise dental care by managing appointments, hygiene reminders, and scheduling follow-ups.",
+          "link": "/industries/dentist"
+        },
+        {
+          "icon": "stethoscope",
+          "title": "Osteopath",
+          "description": "Modernise osteopathic care by managing appointments, recording treatment notes, and organizing follow-ups.",
+          "link": "/industries/osteopath"
+        },
+        {
+          "icon": "scissors",
+          "title": "Barber",
+          "description": "Effortless booking for haircuts and grooming, with automated reminders and client enquiries handled.",
+          "link": "/industries/barber"
+        }
+      ]
+    },
+    {
+      "title": "Professional Services",
+      "industries": [
+        {
+          "icon": "calculator",
+          "title": "Accountant",
+          "description": "Simplify and automates bookkeeping, generates financial reports, and streamlines client invoicing.",
+          "link": "/industries/accountant"
+        },
+        {
+          "icon": "scale",
+          "title": "Lawyer",
+          "description": "Organizes case files, legal practices, tracks deadlines, and automates client communications..",
+          "link": "/industries/lawyer"
+        },
+        {
+          "icon": "briefcase",
+          "title": "Consultant",
+          "description": "Streamlines scheduling, client communication, meeting notes, and project tracking in one place.",
+          "link": "/industries/consultant"
+        },
+        {
+          "icon": "home",
+          "title": "Real Estate Agent",
+          "description": "From Listings to Closings, Streamlines property management, client communication, and sales tracking.",
+          "link": "/industries/real-estate-agent"
+        }
+      ]
+    },
+    {
+      "title": "Trades & Services",
+      "industries": [
+        {
+          "icon": "help-circle",
+          "title": "Tradie",
+          "description": "Handles calls, job bookings, site visits, and reminders so you stay focused on the tools.",
+          "link": "/industries/tradie"
+        },
+        {
+          "icon": "car",
+          "title": "Mechanic",
+          "description": "Service Scheduling Simplified — Organizes repair appointments, reschedules with ease, and manages waitlists for busy workshops.",
+          "link": "/industries/mechanic"
+        },
+        {
+          "icon": "wrench",
+          "title": "Plumber",
+          "description": "Schedules service calls, manages emergency repairs, and tracks work orders with ease.",
+          "link": "/industries/plumber"
+        },
+        {
+          "icon": "spray-can",
+          "title": "Window Cleaning",
+          "description": "Manages cleaning appointments, handles rescheduling, and tracks repeat clients with ease.",
+          "link": "/industries/window-cleaning"
+        },
+        {
+          "icon": "zap",
+          "title": "Electrician",
+          "description": "Assigns electrical service calls, tracks technician availability, and reduces missed appointments.",
+          "link": "/industries/electrician"
+        },
+        {
+          "icon": "hard-hat",
+          "title": "Builder",
+          "description": "Manages calls, schedules site inspections, captures job details, and follows up with clients effortlessly.",
+          "link": "/industries/builder"
+        },
+        {
+          "icon": "home",
+          "title": "Concreter",
+          "description": "Handles enquiries, books site visits, tracks job details, and follows up on quotes seamlessly.",
+          "link": "/industries/concreter"
+        },
+        {
+          "icon": "fan",
+          "title": "HVAC",
+          "description": "Automates service bookings, captures job details, sends reminders, and manages customer follow-ups.",
+          "link": "/industries/hvac"
+        },
+        {
+          "icon": "trees",
+          "title": "Landscaper",
+          "description": "Organises enquiries, schedules site visits, tracks project details, and manages quote follow-ups.",
+          "link": "/industries/landscaper"
+        },
+        {
+          "icon": "circle-help",
+          "title": "Roofing",
+          "description": "Manages calls, books roof inspections, captures job details, and follows up on quotes with ease.",
+          "link": "/industries/roofing"
+        },
+        {
+          "icon": "paint-roller",
+          "title": "Painter",
+          "description": "Captures quote requests, books site visits, follows up on quotes, and answers calls 24/7 so no job is missed.",
+          "link": "/industries/painter"
+        }
+      ]
+    },
+    {
+      "title": "Hospitality & Other",
+      "industries": [
+        {
+          "icon": "utensils",
+          "title": "Restaurant & Takeaway",
+          "description": "Reservation Management Made Easy. Manages table bookings, cancellations, and automated waitlists.",
+          "link": "/industries/restaurant-takeaway"
+        },
+        {
+          "icon": "bed",
+          "title": "Hotels and Accommodation",
+          "description": "Your virtual assistant modernizes hospitality operations by managing bookings, guest communication, and follow-up services.",
+          "link": "/industries/hotels-accommodation"
+        },
+        {
+          "icon": "circle-help",
+          "title": "Others",
+          "description": "It can also collect client details, take bookings, handle cancellations, important calls — ensuring your business stays responsive 24/7 for all businesses.",
+          "link": "/industries/others"
+        }
+      ]
+    }
+  ],
+  "ctaSection": {
+  "title": "Ready to Transform Your Business?",
+  "description": "Join thousands of businesses already using our AI receptionist",
+  "buttons": {
+    "primary": { "text": "Start 14 Day Free Trial", "link": "/get-started" },
+    "secondary": { "text": "Book a Demo", "link": "/demo" }
+  }
+}
+}

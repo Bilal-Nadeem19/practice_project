@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Mind Therapy",
+    "title": "AI for Psychologists",
+    "description": "Your virtual assistant supports mental health care by managing session bookings, reminders, progress notes, and follow-up care.",
+    "image": "/images/industries/psychologist/psychologist_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "More patient continuing regular therapy sessions." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Psychologists",
+    "blocks": [
+      { "heading": "Supportive, Confidential, and Always Professional", "description": "At VirtualAssistant.com.au, we understand that running a psychology practice requires compassion, precision, and confidentiality. Our AI Virtual Receptionist is designed to handle calls, manage bookings, and respond to inquiries with empathy and discretion — ensuring your clients always feel supported and respected." },
+      { "heading": "Focus on Clients, Not Calls", "description": "While you're in a session, your AI Receptionist answers calls instantly, provides information about appointment availability, and schedules or reschedules clients automatically. It can also handle sensitive queries with a calm and reassuring tone — ideal for practices where confidentiality and care are essential." },
+      { "heading": "Never Miss a Call or Referral Again", "description": "Whether you're in session, writing notes, or out of the office, your AI Receptionist ensures every inquiry is handled promptly and professionally. It can provide details about your services (such as child psychology, couples counselling, trauma support, or workplace wellbeing), discuss available appointment times, and send reminders. You'll never lose a new client or referral because of a missed call again." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Streamline your practice with intelligent automation and patient care tools",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional and Empathetic Tone", "description": "The AI communicates calmly and compassionately, mirroring the supportive environment of your practice.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "shield-check", "title": "Confidential and Secure", "description": "Every interaction is handled with care and privacy, ensuring compliance with ethical and professional standards.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "settings", "title": "Affordable and Reliable", "description": "Save on administration costs while enjoying round-the-clock coverage for your practice.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "messages-square", "title": "Patient Engagement", "description": "Sends supportive check-ins and wellness prompts between sessions.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "bell", "title": "Consistent Follow-Ups", "description": "Ensures clients stay accountable with reminders and motivational check-ins.", "bgFrom": "#FFEDD5", "bgTo": "#FFF7ED", "iconBg": "#EA580C" },
+      { "icon": "clock", "title": "Streamlined Scheduling", "description": "Automatically books, reschedules, and cancels sessions with reminders sent to clients for reduced no-shows.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "trending-up", "title": "Therapy Continuity", "description": "Ensures consistent follow-ups for ongoing mental health progress.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "user-cog", "title": "Improved Client Experience", "description": "Clients receive immediate, professional responses — even outside of office hours.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "brain", "title": "Data-Driven Insights", "description": "Gain valuable insights from client interactions, monitor progress, and improve treatment outcomes through data-informed decisions.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Psychologists Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by psychologists and mental health professionals across Australia. It's designed to sound natural, compassionate, and professional — creating a welcoming first impression for every client. By managing calls and appointments seamlessly, it helps you stay focused on client wellbeing while maintaining a modern, efficient practice.",
+    "image": "/images/industries/psychologist/psychologist_reception.webp",
+    "card": {
+      "heading": "Comprehensive Notes and Follow-Up Management",
+      "description": "After each session, psychologists can record voice memos that are automatically transcribed and summarized for easy reference. Session notes, documents, and follow-up reminders can all be securely uploaded and managed in one place. This ensures continuity of care, accuracy in record-keeping, and a smoother workflow for your practice."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "user-cog", "iconBg": "#3B82F6", "title": "Mental Health Management", "description": "Help clients cope with anxiety, stress, or depression through structured therapy sessions." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client Progress Tracking", "description": "Document patient progress milestones and therapy outcomes securely." },
+      { "icon": "refresh-cw", "iconBg": "#F59E0B", "title": "Emotional Wellbeing", "description": "Encourage mindfulness and self-care practices with reminders and resources." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common patient inquiries via AI chat or voice assistant." },
+      { "icon": "trending-up", "iconBg": "#0D9488", "title": "Behavioral Therapy Support", "description": "Track and adjust strategies for long-term psychological care." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "clock", "title": "Fewer Missed Sessions", "description": "Through timely reminders" },
+      { "icon": "clipboard-plus", "title": "Effective Sessions", "description": "With automated bookings and secure note-keeping" },
+      { "icon": "handshake", "title": "Patient Engagement", "description": "More patient engagement outside sessions via check-ins" }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Anxiety Management Therapy", "description": "A patient managing anxiety schedules a therapy session through your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Confirms the appointment automatically with a pre-session reminder.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Confidential Notes", "description": "Therapist securely logs session insights and progress notes.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Follow-up Care", "description": "Assistant automatically schedules the next check-in session.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Wellness Prompts", "description": "Guided questions to help manage stress, emotions, and self-discovery.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Healthcare",
+    "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stretch-horizontal", "title": "Chiropractor", "description": "Your virtual assistant supports your chiropractic practice by handling appointments, reminders, treatment notes, and follow-ups.", "link": "/industries/chiropractor" },
+      { "icon": "footprints", "title": "Podiatrist", "description": "Your virtual assistant streamlines podiatry care by managing appointments, recording treatment notes, sending recovery reminders, and scheduling follow-ups.", "link": "/industries/podiatrist" },
+      { "icon": "stethoscope", "title": "Osteopath", "description": "Modernise osteopathic care by managing appointments, recording treatment notes, and organizing follow-ups.", "link": "/industries/osteopath" }
+    ]
+  }
+}

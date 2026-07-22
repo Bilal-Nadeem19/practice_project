@@ -1,72 +1,56 @@
-import React from "react";
-import { motion } from "framer-motion";
-import {
-  Stethoscope,
-  Dumbbell,
-  Hand,
-  Scale,
-  Utensils,
-  Brain,
-  Bone,
-  Footprints,
-} from "lucide-react";
+import iconMap from "../utils/iconMap";
 
-const iconMap = {
-  stethoscope: Stethoscope,
-  dumbbell: Dumbbell,
-  hand: Hand,
-  scale: Scale,
-  utensils: Utensils,
-  brain: Brain,
-  bone: Bone,
-  footprints: Footprints,
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0 },
-};
-
-export default function IndustryCard({ industry, index }) {
-  const Icon = iconMap[industry.icon] || Stethoscope;
-
-  // Row ke andar position (0,1,2) — isi sy stagger delay banegi
-  const delay = (index % 3) * 0.18;
+const IndustryCard = ({ icon, title, description, link, large, descColor }) => {
+  const Icon = iconMap[icon] || iconMap["help-circle"];
 
   return (
-    <motion.div
-      variants={cardVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }}
-      transition={{ duration: 0.5, delay, ease: "easeOut" }}
-      className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 p-5 sm:p-6 flex flex-col max-w-[350px] mx-auto w-full"
+    <div
+      className={`flex flex-col bg-white rounded-xl shadow-md hover:shadow-xl ${
+        large ? "p-4" : "p-6"
+      }`}
+      style={{
+        transition: "box-shadow 250ms ease-out, transform 400ms ease-out 400ms",
+        transform: "scale(1)",
+      }}
+      onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
+      onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
     >
-      {/* Icon aur heading ko ek line me lane ke liye parent div */}
-      <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
-        {/* Icon box size and alignment */}
-        <div className="size-14 sm:size-16 rounded-lg bg-icon-bg flex items-center justify-center shrink-0">
-          <Icon className="size-7 sm:size-8 text-primary" />
+      <div className={`flex items-center gap-4 ${large ? "mb-5" : "mb-4"}`}>
+        <div
+          className={`bg-sky-50 rounded-xl flex items-center justify-center ${
+            large ? "w-16 h-16" : "w-11 h-11 sm:w-12 sm:h-12"
+          }`}
+        >
+          <Icon className={large ? "w-7 h-7 text-primary" : "w-5 h-5 sm:w-6 sm:h-6 text-primary"} />
         </div>
-
-        {/* Heading jo ab icon ke sath show hogi */}
-        <h3 className="text-base sm:text-lg font-bold text-heading">
-          {industry.title}
+        <h3
+          className={`font-poppins font-bold text-heading ${
+            large ? "text-[20px]" : "text-[17px]"
+          }`}
+        >
+          {title}
         </h3>
       </div>
 
-      {/* Description section */}
-      <p className="text-sm sm:text-base text-textcolor leading-snug flex-1 mb-3">
-        {industry.description}
+      <p
+        className={`font-normal font-poppins leading-normal ${
+          large ? "text-[16px] mb-6" : "text-[12px] mb-4"
+        }`}
+        style={{ color: descColor || "#4B5563" }}
+      >
+        {description}
       </p>
 
-      {/* Action link */}
-      <a
-        href={industry.link.href}
-        className="text-primary text-md sm:text-base font-medium hover:underline w-fit"
+      
+        <a href={link}
+        className={`text-[#0097DA] font-medium hover:underline self-start ${
+          large ? "text-[15px]" : "text-[12px]"
+        }`}
       >
-        {industry.link.text}
+        Learn More
       </a>
-    </motion.div>
+    </div>
   );
-}
+};
+
+export default IndustryCard;

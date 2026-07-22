@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "badge": "Personal Trainer",
+    "title": "AI for Personal Trainer",
+    "description": "Your virtual assistant streamlines fitness management by automating scheduling, progress tracking, reminders, and training notes.",
+    "image": "/images/industries/personal-trainer/personal_trainer_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Less time spent on scheduling and logging." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Higher retention from consistent follow-ups and progress tracking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Increase in patients completing assigned workouts." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Personal Trainers",
+    "blocks": [
+      { "heading": "Transform How You Manage Your Fitness Business", "description": "At VirtualAssistant.com.au, our AI Virtual Receptionist is designed specifically for personal trainers and fitness coaches — whether you work from a gym, run outdoor bootcamps, or train clients one-on-one. It manages your calls, books sessions, and answers questions while you're focused on coaching, ensuring you never miss an opportunity to connect with a client or lead." },
+      { "heading": "Focus on Training, Not Admin", "description": "Your AI Receptionist works like your own personal front desk. It can schedule sessions, reschedule or cancel bookings, send reminders, and respond to questions like 'Do you offer nutrition coaching?' or 'Can I bring a friend to the next bootcamp?' — all through friendly, natural conversation. This means you can spend more time training clients and growing your business, not managing your phone." },
+      { "heading": "Never Miss a Lead or Booking Again", "description": "Whether you're running a group fitness class, PT session, or outdoor challenge, your AI Receptionist answers every call instantly. It can share details about your packages (like 6-week transformation programs, one-on-one personal training, or small group sessions), provide pricing and available time slots, and confirm bookings directly in your calendar. Your business keeps moving — even when you're working up a sweat." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Streamline your practice with intelligent automation that enhances patient care and reduces administrative burden.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Automated Scheduling", "description": "Session scheduling, reminders, and follow-ups handled automatically, reducing no-shows and improving patient adherence.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "file-plus", "title": "Organized Records", "description": "Record massage details, focus areas, and client preferences in seconds.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "user-cog", "title": "Personalized Programs", "description": "Tailors workout and nutrition plans to individual client needs.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "wand", "title": "Capture Every Lead", "description": "Never miss a potential client inquiry again — every call, text, or online message is handled immediately.", "bgFrom": "#FCE7F3", "bgTo": "#FDF2F8", "iconBg": "#DB2777" },
+      { "icon": "bell", "title": "Consistent Follow-Ups", "description": "Ensures clients stay accountable with reminders and motivational check-ins.", "bgFrom": "#FFEDD5", "bgTo": "#FFF7ED", "iconBg": "#EA580C" },
+      { "icon": "trending-up", "title": "Better Outcomes", "description": "Track client progress over time with detailed notes and reminders, ensuring each session builds toward long-term health and recovery goals.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "layout-grid", "title": "Custom Tailored Responses", "description": "Your AI assistant learns your tone, packages, and pricing — sounding just like your own receptionist.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "settings", "title": "Affordable and Always Available", "description": "A cost-effective solution that works 24/7, even when you're training or out of service.", "bgFrom": "#CCFBF1", "bgTo": "#F0FDFA", "iconBg": "#0D9488" },
+      { "icon": "shield-check", "title": "Boost Professional Image", "description": "Your business sounds polished, professional, and reliable, helping you retain clients and attract new ones.", "bgFrom": "#D9F99D", "bgTo": "#F7FEE7", "iconBg": "#65A30D" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Personal Trainers Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by personal trainers across Australia — from sole coaches and mobile PTs to boutique fitness studios. It integrates with your booking system, handles calls professionally, and ensures no lead or session is missed. Let our AI handle the admin, so you can focus on transforming clients, running classes, and building your business.",
+    "image": "/images/industries/personal-trainer/personal_trainer_reception.webp",
+    "card": {
+      "heading": "Streamlined Client Notes and Progress Tracking",
+      "description": "After each session, personal trainers can record short voice memos that are automatically transcribed and summarized — perfect for tracking client progress or noting adjustments for their next session. You can also upload client assessments, progress photos, and nutrition plans. All data is stored securely in your dashboard, making it easy to stay organized and deliver a personalized, professional experience for every client."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "footprints", "iconBg": "#3B82F6", "title": "Fitness Goal Setting", "description": "Create and track customized fitness plans for weight loss, strength, or endurance." },
+      { "icon": "dumbbell", "iconBg": "#F59E0B", "title": "Workout Management", "description": "Schedule, log, and adjust exercise routines with ease." },
+      { "icon": "heart", "iconBg": "#0D9488", "title": "Nutrition Guidance", "description": "Record meal plans and track diet notes alongside workouts." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Patient Progress Tracking", "description": "Keep clients on track with timely reminders and progress reports." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common patient inquiries via AI chat or voice assistant." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "clock", "title": "Time Savings", "description": "Spend more time on training, less on paperwork and scheduling." },
+      { "icon": "user-check", "title": "Increased Attendance", "description": "Automated reminders boost client attendance and consistency." },
+      { "icon": "trending-up", "title": "Effective Sessions", "description": "Instant access to client history makes sessions more targeted." },
+      { "icon": "handshake", "title": "Care Support", "description": "AI-generated workout and nutrition reminders tailored to each client's fitness goals." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "12-Week Transformation Client", "description": "A new client signs up for a 12-week transformation program and books recurring sessions through your AI assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Confirms the appointment automatically with available time slots.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Workout Training", "description": "Logs sets, reps, and exercises with automatic progress updates.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Progress Insights", "description": "Weekly summaries of improvements and achievements.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Motivational Reminders", "description": "Keeps clients accountable between sessions with encouragement.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Healthcare",
+    "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "dumbbell", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "hand", "title": "Massage Therapist", "description": "Your virtual assistant handles bookings, reminders, and notes, so you can focus on delivering care, not admin.", "link": "/industries/massage-therapist" },
+      { "icon": "brain", "title": "Psychology", "description": "Your virtual assistant supports mental health care by managing session bookings, reminders, and follow-up care.", "link": "/industries/psychologist" }
+    ]
+  }
+}

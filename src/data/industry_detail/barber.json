@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Barber Industry",
+    "title": "AI for Barbers",
+    "description": "Your virtual assistant streamlines your barbershop by managing bookings, answering client questions, sending appointment reminders, and keeping your chairs full.",
+    "image": "/images/industries/barber/barber_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "45%", "label": "Fewer missed booking calls with 24/7 answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "88%", "label": "Reduction in time spent on scheduling and admin." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "35%", "label": "Higher appointment attendance with automated reminders." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Barbershops",
+    "blocks": [
+      { "heading": "Modern Solutions for Modern Barbers", "description": "At VirtualAssistant.com.au, we understand that every call to your barbershop could be a new client, a repeat booking, or a last-minute enquiry. Our AI Virtual Receptionist ensures every call is answered professionally and efficiently." },
+      { "heading": "Focus on Cutting, Not Phone Calls", "description": "While you're busy with clients, your AI Receptionist handles incoming calls and questions. It confidently answers enquiries like 'Can I book a fade?' or 'Do you have availability today?' and books appointments instantly." },
+      { "heading": "Never Miss a Booking Opportunity", "description": "Whether your shop is busy, after hours, or fully booked, your AI Receptionist captures every enquiry. It explains your services — from haircuts and fades to beard trims and grooming packages — and schedules appointments automatically." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Fill your chair, reduce admin, and deliver a professional customer experience with AI-powered automation.",
+    "cards": [
+      { "icon": "phone-call", "title": "Professional Call Handling", "description": "Every client interaction is friendly, clear, and consistent.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "calendar-check", "title": "Automated Appointment Booking", "description": "Book haircuts, grooming, and beard services instantly.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "file-plus", "title": "Customised for Your Barbershop", "description": "Train your AI to match your services, pricing, and availability.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Capture bookings and enquiries even outside shop hours.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Secure & Reliable", "description": "Client details and booking information handled safely.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Client Experience", "description": "Fast booking and reminders reduce no-shows.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "Less admin for barbers and front-desk staff.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Client Retention", "description": "Reminders and follow-ups keep clients coming back.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Booking History", "description": "Access past appointments and client preferences easily.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Barbers Choose VirtualAssistant.com.au",
+    "description": "Barbershops across Australia trust our AI Virtual Receptionist to manage calls, book appointments, and capture accurate client details. It integrates with your booking system and calendar, acting as a seamless extension of your shop.",
+    "image": "/images/industries/barber/barber_reception.webp",
+    "card": {
+      "heading": "Streamline Bookings and Client Communication",
+      "description": "After each appointment, notes or preferences can be logged and stored automatically. The AI sends reminders, follow-up messages, and rebooking prompts — helping keep your chairs full."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "scissors", "iconBg": "#3B82F6", "title": "Haircut & Fade Bookings", "description": "Manage walk-in and scheduled haircut appointments." },
+      { "icon": "user-check", "iconBg": "#10B981", "title": "Client & Appointment Tracking", "description": "Store booking history and preferences." },
+      { "icon": "wrench", "iconBg": "#F59E0B", "title": "Beard Trims & Grooming", "description": "Handle grooming and styling service enquiries." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer client enquiries via AI voice or chat instantly." },
+      { "icon": "calendar-check", "iconBg": "#0D9488", "title": "Same-Day & Last-Minute Appointments", "description": "Capture urgent or short-notice bookings efficiently." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI sends rebooking prompts and reminders automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce no-shows with appointment alerts." },
+      { "icon": "file-plus", "title": "Centralized Records", "description": "Access client and booking history instantly." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Barbershop Appointment Booking", "description": "A customer calls to book a haircut. The AI checks availability, books the slot, and sends confirmation automatically." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends booking confirmation and reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Service Notes", "description": "Records service type and preferences.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Rebooking Prompts", "description": "Encourages repeat visits.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Appointment Updates", "description": "Notifies clients of changes if needed.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Barbers",
+    "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

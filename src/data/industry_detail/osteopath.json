@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "badge": "Osteopathy Care",
+    "title": "AI for Osteopath",
+    "description": "Your virtual assistant modernizes osteopathic care by managing patient bookings, recording session notes, sending appointment reminders, and organizing treatment follow-ups.",
+    "image": "/images/industries/osteopath/osteopath_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "35%", "label": "Fewer missed appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "90%", "label": "Reduction in admin time spent on scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "40%", "label": "Improvement in client engagement through consistent, data-driven care." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Osteopaths",
+    "blocks": [
+      { "heading": "A Smarter Way to Run Your Osteopathy Clinic", "description": "At VirtualAssistant.com.au, we understand that osteopaths spend their day focused on patient care, not answering phones or managing admin. Whether you're a one-person clinic, or managing multiple practitioners, our AI Virtual Receptionist helps you stay organized and connected. It handles calls, books appointments, and answers patient questions automatically, all with a professional and caring tone that reflects your clinic's values." },
+      { "heading": "Focus on Patients, Not the Phone", "description": "Your AI Receptionist takes care of every call so you can focus fully on treatments. It can respond instantly to questions like 'Do you treat lower back pain?', 'How long are your appointments?', or 'Can I book a pregnancy consultation?' — all with accuracy and warmth. It can also manage new bookings, reschedules, cancellations, and send reminders to reduce no-shows and improve efficiency." },
+      { "heading": "Never Miss a New Patient or Referral Again", "description": "Even when you're with a patient, after hours, or on a break, your AI Receptionist ensures every inquiry is handled promptly. It provides clear information about your osteopathy services — from sports injury management and postural alignment to chronic pain and mobility support — and can confirm appointments directly in your schedule. Your clinic remains responsive, welcoming, and professional 24/7." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your osteopathy practice with intelligent automation that reduces admin work, strengthens patient communication, and streamlines care delivery.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional and Caring Communication", "description": "Provides a warm, knowledgeable response that mirrors the tone of your clinic.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "heart", "title": "Enhanced Patient Experience", "description": "Delivers prompt, compassionate, and accurate communication that builds trust and loyalty.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "check-circle", "title": "Streamlined Appointment Management", "description": "Automates bookings, cancellations, and reminders to keep your day running smoothly.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "star", "title": "Fully Customizable to Your Clinic", "description": "Your AI Receptionist can be trained specifically to your tone, workflow, and patient experience standards.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "database", "title": "Centralized History", "description": "Access all treatment notes, assessments, and follow-ups in one organized system for faster review and improved accuracy.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "calendar-check", "title": "Automated Scheduling", "description": "Automatically manage new and recurring appointments with no manual input required.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "Spend less time managing bookings and more time focusing on patient wellness and outcomes.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "layout-grid", "title": "Works for All Practice Sizes", "description": "Perfect for solo osteopaths, small clinics, or larger multi-practitioner practices — scaling easily as your business grows.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "sun", "title": "Affordable 24/7 Coverage", "description": "Acts as your full-time receptionist for a fraction of the cost.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Osteopaths Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by osteopaths across Australia — from independent practitioners to larger osteopathy clinics. It provides professional, consistent communication and ensures patients feel supported from their first call to their final appointment. Best of all, your AI Receptionist can be trained specifically to your clinic's workflow, tone, and service approach — providing a seamless extension of your care. Let our AI manage your calls and admin so you can focus on what you do best — improving movement, reducing pain, and supporting your patients' wellbeing.",
+    "image": "/images/industries/osteopath/osteopath_reception.webp",
+    "card": {
+      "heading": "Simplify Patient Notes and Follow-Ups",
+      "description": "After each session, record a quick voice memo that's automatically transcribed and summarized — perfect for noting treatment plans, progress updates, or follow-up recommendations. Upload treatment notes or patient records securely to keep everything organized in one place, improving continuity of care and reducing admin work."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "bone", "iconBg": "#3B82F6", "title": "General Osteopathic Care", "description": "Manage routine musculoskeletal treatments, spinal adjustments, and rehabilitation sessions." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client Progress Tracking", "description": "Log treatment outcomes, pain levels, range of motion data, and follow-up appointments." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Care Management", "description": "Support sports injuries, chronic pain treatment, and posture correction with detailed records." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer client questions via phone, chat, or email about services, appointment availability, or care tips." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Routine Maintenance", "description": "Encourage consistent follow-up visits for ongoing muscle and joint health." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save time by letting AI schedule recurring osteopathy checkups automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce missed visits with intelligent text and email reminders." },
+      { "icon": "file-plus", "title": "Effortless Record-Keeping", "description": "Quickly review complete client history without manual searching or paperwork." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Sports Injury & Rehabilitation", "description": "A client schedules a session for back pain recovery through your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI confirms the appointment instantly and updates your calendar.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Treatment Notes", "description": "Session notes and physical assessment details are automatically recorded.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Checkups", "description": "AI schedules follow-up treatments for continued improvement.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Care Reminders", "description": "Clients receive tailored advice and automated reminders for stretching, hydration, and posture maintenance.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Healthcare",
+    "subtitle": "Join hundreds of healthcare professionals transforming patient management and care efficiency with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "scale", "title": "Lawyer", "description": "Your virtual assistant modernizes legal practice by managing appointments, recording case notes, tracking deadlines, sending client reminders, and scheduling follow-ups.", "link": "/industries/lawyer" },
+      {
+    "icon": "calculator",
+    "title": "Accountant",
+    "description": "Your virtual assistant modernizes accounting by managing appointments, recording financial notes, tracking deadlines, sending tax reminders, and scheduling client follow-ups.",
+    "link": "/industries/accountant"
+  },
+  {
+    "icon": "briefcase",
+    "title": "Consultant",
+    "description": "Your virtual assistant modernizes consulting by managing appointments, recording meeting notes, tracking project deadlines, sending follow-up reminders, and streamlining client communication.",
+    "link": "/industries/consultant"
+  }
+    ]
+  }
+}

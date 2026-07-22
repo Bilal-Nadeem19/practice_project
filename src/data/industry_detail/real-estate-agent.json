@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Real Estate Care",
+    "title": "AI for Real Estate Agent",
+    "description": "Your virtual assistant modernizes real estate by managing property viewings, recording client notes, tracking appointment schedules, sending follow-up reminders, & supporting seamless communication",
+    "image": "/images/industries/real-estate-agent/real_estate_agent_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed viewings and client meetings thanks to automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling, documentation, and client follow-ups." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher deal closure rates through consistent lead tracking and personalized client care." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Real Estate Agents",
+    "blocks": [
+      { "heading": "A Smarter Way to Manage Your Real Estate Leads", "description": "At VirtualAssistant.com.au, we know real estate moves fast — and missed calls can mean missed opportunities. Our AI Virtual Receptionist is built specifically for real estate agents and agencies, managing property inquiries, inspection bookings, and client communication with speed and professionalism. Whether you're a solo agent, part of a boutique agency, or managing a larger team, our AI adapts seamlessly to your workflow." },
+      { "heading": "Focus on Listings and Clients, Not Calls", "description": "Your AI Receptionist handles incoming calls, texts, and online inquiries while you're busy with open homes, client meetings, or property showings. It can answer questions like 'When is the next inspection?', 'Is the property still available?', or 'Can I get a rental application link?' instantly and accurately. It also books appointments, confirms inspections, and captures lead information directly into your CRM." },
+      { "heading": "Never Miss a Buyer, Tenant, or Vendor Opportunity", "description": "Even when you're with clients or after hours, your AI Receptionist ensures every inquiry is answered. It provides up-to-date property details, schedules appraisals, books rental inspections, and forwards qualified leads straight to your team. You'll never lose a sale or listing because of a missed call again." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your real estate business with intelligent automation that reduces admin work, personalizes service, and increases productivity.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Streamlined Scheduling", "description": "Books, confirms, and reschedules inspections or appraisal meetings automatically.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "heart", "title": "Capture Every Lead", "description": "Automatically answers property inquiries, collects details, and forwards them to your CRM or team instantly.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Agency", "description": "Your AI Receptionist can be trained specifically to your business requirements — matching your tone, branding, and process.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "check-circle", "title": "24/7 Availability", "description": "Handles all client and buyer inquiries around the clock, including after hours and weekends.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "star", "title": "Boost Client Experience", "description": "Delivers fast, professional responses that make every client feel valued and well-informed.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Client Care", "description": "Client profiles, property interests, and communications stay consistent and customized.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI handles reminders, recurring follow-ups, and updates for each client and property.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "trending-up", "title": "Boosted Client Retention", "description": "Regular check-ins, tailored recommendations, and proactive support help keep clients engaged.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralized History", "description": "Instant access to viewing history, client feedback, transaction records, and property notes.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Real Estate Agents Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by real estate professionals across Australia — from independent agents to full-service property management firms. It integrates seamlessly with your CRM, property listing software, and calendar tools, handling calls and appointments with accuracy and professionalism. Most importantly, your AI Receptionist can be trained to your exact business requirements — adapting to your workflow, tone, and client experience. Let our AI handle your reception so you can focus on what matters most — closing deals, growing your listings, and delivering outstanding service.",
+    "image": "/images/industries/real-estate-agent/real_estate_agent_reception.webp",
+    "card": {
+      "heading": "Simplify Client Notes and Follow-Ups",
+      "description": "After each inspection or meeting, you can record short voice memos that are automatically transcribed and summarized. Your AI system can log these notes against each client or property record, ensuring nothing falls through the cracks. Upload property reports, offers, and client feedback directly into your dashboard — keeping everything organized and accessible."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "building", "iconBg": "#3B82F6", "title": "Property Management", "description": "Organize property listings, open houses, appointments, and deal tracking." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client Progress Tracking", "description": "Log communication history, preferences, scheduled viewings, and negotiation milestones." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Services", "description": "Support residential, commercial, rental, and investment properties with automated workflow." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer buyer or seller queries, schedule viewings, and offer instant virtual support." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Routine Maintenance", "description": "Automate periodic client check-ins, property updates, and follow-up reminders." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Viewing Reminders", "description": "Save time with AI scheduled property tours and appointment notifications." },
+      { "icon": "bell", "title": "Smart Lead Management", "description": "Improve conversion rates with AI-powered lead follow-up and nurturing." },
+      { "icon": "file-plus", "title": "Centralized Client and Property Data", "description": "Quickly access past interactions, notes, and documents for each deal." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Buyer Consultation & Property Tour Scheduling", "description": "A client books a property tour and receives useful reminders and updates via your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Clients receive automatic confirmations for property viewings and meetings.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Agent Notes", "description": "Records communication, client preferences, and property feedback.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Follow-ups", "description": "Automates follow-ups for new listings, viewing schedules, and purchase interest.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Sends reminders for upcoming viewings, paperwork deadlines, and closing appointments.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Real Estate",
+    "subtitle": "Join thousands of real estate agents transforming their client service and business management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "car", "title": "Mechanic", "description": "Your virtual assistant modernizes auto care by managing service appointments, recording repair notes, sending maintenance reminders, and scheduling follow-ups.", "link": "/industries/mechanic" },
+      {"icon": "wrench", "title": "Plumber", "description": "Your virtual assistant helps plumbers manage bookings, handle emergency call-outs, answer enquiries, and schedule jobs so you can stay focused on the tools.", "link": "/industries/plumber"},
+{"icon": "sparkles", "title": "Cleaning", "description": "Your virtual assistant modernizes cleaning businesses by booking jobs, tracking schedules, sending cleaning reminders, and scheduling follow-ups.", "link": "/industries/window-cleaning"}
+    ]
+  }
+}

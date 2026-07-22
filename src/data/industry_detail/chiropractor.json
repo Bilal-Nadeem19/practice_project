@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Spinal Therapy",
+    "title": "AI for Chiropractor",
+    "description": "Your virtual assistant supports your chiropractic practice by handling appointments, reminders, treatment notes, and follow-ups.",
+    "image": "/images/industries/chiropractor/chiropractor_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher patient adherence to recovery exercises and care plans." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Chiropractors",
+    "blocks": [
+      { "heading": "A Smarter Way to Run Your Chiropractic Practice", "description": "At VirtualAssistant.com.au, our AI Virtual Receptionist helps chiropractors simplify admin tasks while maintaining exceptional patient care. It handles your calls, schedules appointments, and provides information about your treatments — all with accuracy and professionalism. Whether you're adjusting a patient or consulting, your AI Receptionist ensures every inquiry is answered immediately." },
+      { "heading": "Focus on Patient Care, Not Phone Calls", "description": "Your AI Receptionist takes care of scheduling, rescheduling, and cancellations while you focus on spinal adjustments and consultations. It can answer common questions like 'Do you treat sciatica?' or 'How long does an initial consultation take?' — giving patients instant, helpful answers while maintaining a professional tone." },
+      { "heading": "Never Miss a New Patient or Booking Again", "description": "Whether you're with a patient or your clinic is closed, your AI Receptionist keeps your business moving. It provides accurate details about your services, from spinal alignment and posture correction to injury rehabilitation and wellness care. It can also confirm appointments in real time, manage cancellations, and send reminders — reducing no-shows and improving clinic efficiency." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your chiropractic practice with intelligent automation that reduces admin work, increases efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Streamlined Scheduling", "description": "Automates appointment booking, rescheduling, and reminders to keep your calendar full and organized.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "file-plus", "title": "Organized Records", "description": "Secure storage of spine therapy notes and progress records, accessible anytime for better treatment continuity.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "user-cog", "title": "Personalized Care", "description": "Custom treatment plans and exercise logs tailored to each patient's specific spinal therapy needs.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "trending-up", "title": "Better Outcomes", "description": "Improved treatment results through timely follow-ups and consistent patient engagement.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "heart", "title": "Reduced Stress", "description": "Less administrative burden means more time dedicated to hands-on therapy and patient care.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "settings", "title": "Improved Patient Experience", "description": "Ensures patients always receive a timely, friendly, and informative response — even after hours.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Professional and Knowledgeable", "description": "Answers patient queries confidently about chiropractic services, health plans, and consultation details.", "bgFrom": "#FFEDD5", "bgTo": "#FFF7ED", "iconBg": "#EA580C" },
+      { "icon": "clock", "title": "Affordable 24/7 Coverage", "description": "Eliminate missed calls and reduce admin costs with a reliable, round-the-clock assistant.", "bgFrom": "#CCFBF1", "bgTo": "#F0FDFA", "iconBg": "#0D9488" },
+      { "icon": "trending-up", "title": "Boosted Reputation and Retention", "description": "Patients appreciate fast, professional communication — leading to higher satisfaction and loyalty.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Chiropractors Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is designed for Australian chiropractors who value professionalism and precision. It integrates with your existing booking system, manages calls smoothly, and ensures your patients feel cared for from the first contact. Let our AI handle your reception so you can focus on helping patients move, heal, and feel better.",
+    "image": "/images/industries/chiropractor/chiropractor_reception.webp",
+    "card": {
+      "heading": "Comprehensive Follow-Up and Patient Notes",
+      "description": "After each appointment, chiropractors can record voice memos that are automatically transcribed and summarized, add progress notes, and upload X-rays, treatment plans, or other documentation. All information is securely stored in one dashboard, making follow-ups and patient continuity easy and efficient."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "stretch-horizontal", "iconBg": "#3B82F6", "title": "Spinal & Posture Care", "description": "Manage patients with back pain, scoliosis, or posture correction." },
+      { "icon": "footprints", "iconBg": "#F59E0B", "title": "Injury Recovery", "description": "Support recovery from sports injuries, joint pain, and misalignments." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Wellness Maintenance", "description": "Encourage regular visits for overall spinal health and mobility." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client Progress Tracking", "description": "Document patient progress milestones and therapy outcomes securely." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common patient inquiries via AI chat or voice assistant." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "clock", "title": "Fewer Missed Sessions", "description": "Through timely reminders" },
+      { "icon": "bell", "title": "Reduced Workload", "description": "Less back-and-forth with the patients" },
+      { "icon": "handshake", "title": "Patient Engagement", "description": "Chiropractors spend more time treating, less on admin." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Lower Back Pain Journey", "description": "A patient with recurring lower back pain books a chiropractic session through your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Confirms the appointment automatically with a pre-session reminder.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Adjustment & Feedback", "description": "Chiropractor logs adjustments and feedback after each visit.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Follow-up Care", "description": "Recurring sessions scheduled for consistent care.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Recovery Reminders", "description": "AI-generated posture and stretch tips tailored to each client.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Healthcare",
+    "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "footprints", "title": "Podiatrist", "description": "Your virtual assistant streamlines podiatry care by managing appointments, recording treatment notes, sending recovery reminders, and scheduling follow-ups.", "link": "/industries/podiatrist" },
+      { "icon": "sparkles", "title": "Beauty Therapist", "description": "Your virtual assistant streamlines beauty care by managing appointments, recording treatment notes, sending skincare or wellness reminders, and follow-ups.", "link": "/industries/beauty-therapist" },
+      { "icon": "scissors", "title": "Hair Dresser", "description": "Your virtual assistant simplifies hair care by managing bookings, recording style preferences, sending care reminders, and scheduling recurring appointments.", "link": "/industries/hairdresser" }
+    ]
+  }
+}

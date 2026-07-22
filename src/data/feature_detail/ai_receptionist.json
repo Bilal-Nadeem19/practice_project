@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "Your Business, Always Open",
+    "heading": [
+      "AI Receptionist-",
+      "24/7 Coverage"
+    ],
+    "description": "Never miss a Call, Booking or Opportunity again. Deliver instant, professional phone support—day or night—with our intelligent AI receptionist answering every customer, every time.",
+    "buttons": [
+      {
+        "label": "Start Your 14 Day Free Trial",
+        "type": "primary",
+        "href": "#trial"
+      },
+      {
+        "label": "Book a Demo",
+        "type": "secondary",
+        "icon": "calendar",
+        "href": "#demo"
+      }
+    ],
+    "image": {
+  "src": "/images/features/ai-receptionist/ai_receptionist_hero.webp",
+  "alt": "AI Receptionist wearing headset working on laptop"
+}
+  },
+  "keyCapabilities": {
+  "heading": "Key Capabilities:",
+  "subheading": "Empower your business with intelligent call management — always on, always professional.",
+  "cards": [
+    { "icon": "clipboard-check", "title": "Always Available", "description": "Every call is answered instantly, day or night. No more missed clients, no more lost bookings." },
+    { "icon": "grid", "title": "Unlimited Capacity", "description": "Handles unlimited incoming calls and bookings 24/7, so your business is always open." },
+    { "icon": "mic", "title": "Call Recording & Transcripts", "description": "Every conversation is recorded, summarised, and transcribed, giving you a clear record to review at any time." },
+    { "icon": "briefcase", "title": "Professional, Consistent Service", "description": "Your AI greets clients politely, provides accurate information, and represents your brand exactly the way you want." },
+    { "icon": "swap", "title": "New Dedicated Number Provided", "description": "Each business receives its own dedicated number for a professional setup." },
+    { "icon": "phone-forward", "title": "Call Forwarding Option", "description": "Prefer to keep your existing number? No problem, we provide clear step-by-step instructions." }
+  ]
+},
+"integrations": {
+  "eyebrow": "Integrations",
+  "heading": "Connect Seamlessly with Your Favorite Tools",
+  "description": "Sync your AI Receptionist with CRMs, booking apps, and communication platforms like:",
+  "tools": [
+    { "name": "Google Calendar", "icon": "/images/features/ai-receptionist/google-calenda.webp" },
+    { "name": "Outlook Calender", "icon": "/images/features/ai-receptionist/google-calenda.webp" },
+    { "name": "Cal.com", "icon": "/images/features/ai-receptionist/cal-com.webp" }
+  ],
+  "card": {
+  "image": "/images/features/ai-receptionist/ai_receptionist_integration.webp",
+  "alt": "Integration with Google Calendar, Outlook, and Cal.com"
+}
+},
+"howItWorks": {
+  "eyebrow": "How",
+  "highlight": "It Works",
+  "subheading": "Seamless Call Handling with Human-Like Precision.",
+  "steps": [
+    { "icon": "phone", "title": "Connect", "description": "Link your calendar and communication tools seamlessly for automation." },
+    { "icon": "calendar", "title": "Automate", "description": "Our AI intelligently manages calls, bookings, and reminders 24/7." },
+    { "icon": "file", "title": "Grow", "description": "Save time, reduce cancellations, and focus on scaling your business." }
+  ]
+},
+"cta": {
+  "heading": "Ready to Automate Your Scheduling?",
+  "points": [
+    "No training downtime or onboarding needed",
+    "Works in multiple languages and accents",
+    "Learns from every conversation",
+    "Scales with your business automatically"
+  ],
+  "button": {
+    "label": "Start Your 14 Day Free Trial",
+    "href": "#trial"
+  }
+}
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "badge": "AI that talks, helps, and converts",
+    "heading": ["Smart AI Assistant", "for Clients"],
+    "description": "Your Smart AI Assistant answers questions, explains services, and manages client requests with a tone and personality that fits your brand perfectly. Give your clients the clarity they need, right when they need it.",
+    "buttons": [
+      { "label": "Start Your 14 Day Free Trial", "type": "primary", "href": "#trial" },
+      { "label": "Book a Demo", "type": "secondary", "icon": "calendar", "href": "#demo" }
+    ],
+    "backgroundImage": {
+      "src": "/images/features/smart-assistant/hero-bg.webp",
+      "alt": "AI assistant character wearing headset working on laptop"
+    }
+  },
+  "keyCapabilities": {
+  "heading": "Key Capabilities:",
+  "description": "Empower your clients with intelligent, responsive, and on-brand support. Smart, adaptable, and always available — built to enhance every client interaction.",
+  "features": [
+    { "icon": "sliders", "title": "Answers Questions Instantly:", "description": "From pricing and services to directions and availability." },
+    { "icon": "edit", "title": "Handles changes smoothly:", "description": "Reschedules or cancels without disrupting your day." },
+    { "icon": "check", "title": "Explains Your Services Clearly:", "description": "Gives clients confidence in booking." },
+    { "icon": "brush", "title": "Customizable Personality:", "description": "You choose the tone and style — friendly, professional, casual, or a mix." }
+  ]
+},
+"whyChoose": {
+  "example": {
+    "title": "Real-World Example",
+    "description": "A new client visits your website late at night with questions about pricing and availability. Your AI assistant instantly provides accurate details, suggests the best service package, and offers to schedule an appointment. The client confirms on the spot — no waiting, no follow-up needed."
+  },
+  "heading": "Why Choose the Smart AI Assistant for Clients?",
+  "points": [
+    "24/7 automated client engagement",
+    "Personalized tone and experience",
+    "Reduces staff workload",
+    "Increases lead conversion",
+    "Fits seamlessly into your current system"
+  ]
+},
+"productivityBenefits": {
+  "heading": "Productivity & Client Benefits",
+  "cards": [
+    { "title": "Answers Questions Instantly:", "description": "From pricing and services to directions and availability." },
+    { "title": "Handles changes smoothly:", "description": "Reschedules or cancels without disrupting your day." },
+    { "title": "Explains Your Services Clearly:", "description": "Gives clients confidence in booking." },
+    { "title": "Customizable Personality:", "description": "You choose the tone and style — friendly, professional, casual, or a mix." }
+  ]
+},
+"cta": {
+  "heading": "Ready to Empower Your Clients?",
+  "description": "Offer instant, intelligent, and on-brand assistance — anytime, anywhere. Let your AI handle questions and interactions while you focus on delivering great service.",
+  "button": {
+    "label": "Start Your 14 Day Free Trial",
+    "href": "#trial"
+  }
+}
+}

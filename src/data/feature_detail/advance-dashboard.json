@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "badge": "The heart of your AI operations",
+    "heading": ["Advanced Dashboard", "– Your Control Centre"],
+    "description": "Take command of your AI operations with one simple, intelligent dashboard. Your Advanced Dashboard brings together client management, analytics, customization, and real-time control — giving you full visibility over how your AI communicates, books, and performs every day. It's not just software — it's your business's central control hub.",
+    "buttons": [
+      { "label": "Start Your 14 Day Free Trial", "type": "primary", "href": "#trial" },
+      { "label": "Book a Demo", "type": "secondary", "icon": "calendar", "href": "#demo" }
+    ],
+    "backgroundImage": {
+      "src": "/images/features/dashboard/dashboard-hero.webp",
+      "alt": "Business Analytics Pro dashboard with charts and KPIs"
+    }
+  },
+  "productivityBenefits": {
+  "heading": "Productivity Benefits",
+  "points": [
+    { "label": "Complete Control:", "text": "Save hours every week by replacing manual note-taking and filing." },
+    { "label": "Total Visibility:", "text": "Adjust, monitor, and train your AI anytime." },
+    { "label": "Full Cusomization:", "text": "Access all client data, analytics, and performance reports in one place." },
+    { "label": "Smart Operations:", "text": "Analyze results, optimize processes, and continually improve." },
+    { "label": "Seamless Experience:", "text": "One clean dashboard replaces multiple tools and platforms." }
+  ],
+  "image": {
+    "src": "/images/features/dashboard/dashboard-illustration.webp",
+    "alt": "Brain and laptop illustration representing productivity"
+  }
+},
+"keyCapabilities": {
+  "heading": "Key Capabilities",
+  "subheading": "Your dashboard pulls everything together into one powerful, easy-to-use system.",
+  "features": [
+    { "icon": "link", "title": "Advanced CRM:", "description": "All client data, history, and interactions in one place." },
+    { "icon": "calendar", "title": "AI Smart Calendar:", "description": "Color-coded, automatically updated, and synced across all devices." },
+    { "icon": "chart", "title": "Analytics & Insights:", "description": "See daily call volumes, number of bookings, cancellations, no-show rates, and assistant performance." },
+    { "icon": "sliders", "title": "Voice Memo & Transcripts Section:", "description": "Quickly review what was said in any call or memo." },
+    { "icon": "sparkle", "title": "Settings & Training:", "description": "Tailor your AI to match your services, prices, and tone." },
+    { "icon": "tools", "title": "Front-End Prompts:", "description": "Easily update what your AI says to clients on the phone, website, or chat — no tech skills required." },
+    { "icon": "waveform", "title": "Fully Customisable Branding:", "description": "Upload your business logo, set your theme colours, and brand the dashboard to feel like your own system — not just another generic tool." }
+  ]
+},
+"whyChoose": {
+  "heading": "Why Choose the Advanced Dashboard?",
+  "points": [
+    "Combines CRM, analytics, and customization in one hub",
+    "Empowers you to manage and train your AI in real time",
+    "Gives you transparency into every client and assistant interaction",
+    "Adapts to your business — from solo use to large-scale deployment",
+    "Keeps your brand identity front and center"
+  ],
+  "card": {
+    "title": "Customization & Branding",
+    "description": "Your dashboard isn't just functional — it's an extension of your brand. Change themes, upload assets, and adjust language so every touchpoint feels consistent with your identity. Your clients see professionalism. You see total control."
+  }
+},
+"finalCta": {
+  "heading": "Ready to Take Control?",
+  "description": "Your business runs better when everything connects. With the Advanced Dashboard, your AI assistant, analytics, and brand management come together — seamlessly.",
+  "button": {
+    "label": "Start Your 14 Day Free Trial",
+    "href": "#trial"
+  }
+}
+}

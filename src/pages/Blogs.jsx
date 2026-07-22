@@ -2,7 +2,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import blogData from "../data/pages/blog.json";
 import featuredImage from "../assets/images/homepage/blogs/whats-new-illustration.webp";
-import { Calendar } from "lucide-react";
+// import { Calendar } from "lucide-react";
+import Hero from "../components/common/Hero";
+import CTASection from "../components/common/CTASection";
 
 import img1 from "../assets/images/homepage/blogs/one.webp";
 import img2 from "../assets/images/homepage/blogs/two.webp";
@@ -23,7 +25,6 @@ const imageMap = {
 const heroData = blogData.hero;
 const introData = blogData.intro;
 
-// Text: dim se full opacity, jaisa hero sections mein hota hai
 const fadeInDim = {
   hidden: { opacity: 0, y: 15 },
   visible: {
@@ -100,40 +101,8 @@ const Blogs = () => {
 
   return (
     <div className="overflow-x-hidden">
-      {/* Section 1: Hero */}
-      <section className="w-full bg-[#EDF6FD] pt-2 sm:pt-4 md:pt-6 pb-10 sm:pb-16 md:pb-18 px-4 sm:px-6 md:px-12 text-center">
-        <motion.div
-          className="max-w-5xl mx-auto"
-          variants={fadeInDim}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-        >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold text-heading mb-4 sm:mb-6 leading-tight">
-            {heroData.title}{" "}
-            <span className="text-primary">{heroData.titleHighlight}</span>{" "}
-            {heroData.titleEnd}
-          </h1>
-          <p className="text-textcolor text-sm sm:text-base md:text-lg leading-normal max-w-3xl mx-auto mb-6 sm:mb-8 opacity-90">
-            {heroData.description}
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4">
-            <a
-              href={heroData.buttons.primary.link}
-              className="bg-primary text-white px-3 py-2 sm:px-7 sm:py-2.5 rounded-full font-semibold text-sm sm:text-base transition-colors duration-300 hover:bg-[#007EB8]"
-            >
-              {heroData.buttons.primary.text}
-            </a>
-            <a
-              href={heroData.buttons.secondary.link}
-              className="bg-transparent text-heading border-2 border-border px-2 py-2 sm:px-6 sm:py-2 rounded-full font-semibold text-sm sm:text-base transition duration-300 transform hover:scale-105 active:scale-95 hover:bg-white hover:shadow-[var(--shadow-glow)]"
-            >
-              {heroData.buttons.secondary.text}
-            </a>
-          </div>
-        </motion.div>
-      </section>
-
+      <Hero heroData={heroData} />
+      
       {/* Section 2: Intro + Category Filter Tabs */}
       <section className="w-full bg-white py-10 sm:py-12 md:py-16 px-4 sm:px-6 md:px-12 text-center">
         <motion.div
@@ -303,34 +272,8 @@ const Blogs = () => {
       </section>
 
       {/* Section 5: CTA */}
-      <section className="w-full py-12 sm:py-16 md:py-24 px-4 sm:px-6 md:px-12 bg-linear-to-b from-sky-300 to-sky-500 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
-            {blogData.cta.title}
-          </h2>
-          <p className="font-Poppins text-white text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 opacity-90">
-            {blogData.cta.description}
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4 mb-8 sm:mb-10">
-            <a
-              href={blogData.cta.buttons.primary.link}
-              className="bg-white text-sky-500 px-5 py-2.5 sm:px-7 sm:py-3 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-primary hover:text-white"
-            >
-              {blogData.cta.buttons.primary.text}
-            </a>
-            <a
-              href={blogData.cta.buttons.secondary.link}
-              className="bg-white border-2 border-white text-primary px-5 py-2.5 sm:px-7 sm:py-3 rounded-xl font-semibold text-sm sm:text-base flex items-center gap-2 transition-all duration-300 hover:bg-primary hover:text-white hover:scale-105"
-            >
-              <Calendar className="w-4 h-4 sm:w-5 sm:h-5" />
-              {blogData.cta.buttons.secondary.text}
-            </a>
-          </div>
-          <p className="font-Poppins text-white text-base sm:text-lg leading-relaxed mt-4">
-            {blogData.cta.footerNote}
-          </p>
-        </div>
-      </section>
+      <CTASection ctaData={blogData.cta} />
+
     </div>
   );
 };

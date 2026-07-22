@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Roofing Services",
+    "title": "AI for Roofing Businesses",
+    "description": "Your AI virtual assistant helps roofing businesses manage calls, book roof inspections, capture job details, follow up on quotes, and keep projects moving — without interrupting on-site work.",
+    "image": "/images/industries/roofing/roofing_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "40%", "label": "Fewer missed roofing enquiries with 24/7 call answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "90%", "label": "Reduction in time spent on admin and scheduling." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "32%", "label": "Higher quote acceptance with faster follow-ups." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Roofing",
+    "blocks": [
+      { "heading": "Modern Solutions for the Roofing Industry", "description": "At VirtualAssistant.com.au, we understand that every call to a roofing business could be an urgent repair, replacement, or inspection request. Our AI Virtual Receptionist ensures every enquiry is answered promptly and professionally." },
+      { "heading": "Focus on Roofing Work, Not Phone Calls", "description": "While your team is on-site inspecting roofs or completing projects, your AI Receptionist manages incoming calls and customer questions. It confidently answers enquiries like 'Can I book a roof inspection?' or 'Do you handle roof repairs and replacements?' with high professionalism." },
+      { "heading": "Never Miss a Roofing Opportunity", "description": "Whether during peak periods, after hours, or while on-site, your AI Receptionist ensures no enquiry is missed. It clearly explains your services — from repairs and restorations to full roofing installations — and books inspections." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Boost your roofing business with intelligent automation that saves time, captures more leads, and improves client communication.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional First Impression", "description": "Your roofing business sounds polished and reliable on every single call.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Automated Roof Inspections", "description": "Book site inspections, consultations, and follow-ups automatically.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Customised for Your Business", "description": "Train your AI to match your specific roofing services, pricing, and workflow.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Never miss an urgent leak or storm damage enquiry, even after hours.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Secure & Confidential", "description": "Customer details, addresses, and roofing project notes are handled safely.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Client Experience", "description": "Polite communication, quick reminders, and schedule updates build solid trust.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI handles repetitive scheduling and booking admin so you stay productive on-site.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Lead Conversion", "description": "Consistent and swift follow-ups keep homeowners engaged with your business.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Job History", "description": "Access past quotes, roofing reports, site notes, and photos anytime.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Roofers Choose VirtualAssistant.com.au",
+    "description": "Roofing companies across Australia trust our AI Virtual Receptionist to manage calls, schedule inspections, and capture job details. It integrates seamlessly with your scheduling tools and CRM, acting as an extension of your team.",
+    "image": "/images/industries/roofing/roofing_reception.webp",
+    "card": {
+      "heading": "Streamline Quote Management and Follow-Ups",
+      "description": "After each inspection, you can record quick voice notes that are transcribed and summarised automatically. The AI manages follow-up reminders for quotes, insurance approvals, and timeline updates, keeping jobs moving forward."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "Roof Repairs & Replacements", "description": "Handle residential and commercial roofing enquiries efficiently." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialised Roofing Services", "description": "Support roof restorations, re-pointing, metal roofing, and tile repairs." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "Scheduled Roof Inspections", "description": "Automate booking for safety audits, assessments, and insurance quotes." },
+      { "icon": "trophy", "iconBg": "#9333EA", "title": "Client & Job Tracking", "description": "Log site conditions, dimensions, quotes, and approvals." },
+      { "icon": "bot", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Answer customer roofing queries instantly via AI voice or chat." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI schedules and triggers follow-ups for roofing quotes and inspections." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce scheduling delays with reminders for quote approvals." },
+      { "icon": "file-plus", "title": "Centralised Records", "description": "Access job history and inspection files without digging through paperwork." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Roof Inspection & Quote Management", "description": "A client calls to request an inspection for a leaking roof. The AI books the roof inspection, captures system details, and sends confirmation automatically." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends appointment confirmation and reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Inspection Notes", "description": "Records site access, materials, and leak details.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Quote Follow-Ups", "description": "Sends smart automated reminders about pending quotes.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Project Updates", "description": "Keeps clients fully informed before work starts on-site.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Roofing Businesses",
+    "subtitle": "Join thousands of roofing companies who are transforming client communication and project management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

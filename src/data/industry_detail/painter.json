@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Trades",
+    "title": "AI for Painters",
+    "description": "Your AI virtual assistant helps painters capture quote requests, manage bookings, answer client calls after hours, and follow up on jobs so you can focus on painting, not paperwork.",
+    "image": "/images/industries/painter/painter_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "35%", "label": "More quote requests captured with 24/7 call answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "90%", "label": "Reduction in missed calls during jobs and after hours." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "28%", "label": "Higher job conversion with fast, professional follow-ups." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Painters",
+    "blocks": [
+      { "heading": "Never Miss a Quote Request Again", "description": "At VirtualAssistant.com.au, we understand that painting businesses live and die by their quote pipeline. Our AI Virtual Receptionist answers every call professionally capturing job details, property size, and contact information while you're on-site with a brush in hand." },
+      { "heading": "Handle Calls While You're On the Tools", "description": "Your AI Receptionist manages incoming calls, client enquiries, and booking requests while you're working. It can answer questions like 'Do you do interior and exterior?' or 'Can I book a free quote?' and schedule appointments directly into your calendar." },
+      { "heading": "Professional First Impressions, Every Time", "description": "Whether you're painting a house in the suburbs or managing a commercial site, your AI Receptionist ensures every potential client gets a prompt, professional response day or night. Never lose a job to a competitor just because you couldn't answer the phone." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Grow your painting business with intelligent automation that captures more leads, books more jobs, and keeps clients happy.",
+    "cards": [
+      { "icon": "phone-call", "title": "24/7 Quote Capture", "description": "Capture every quote request—even after hours and weekends when clients call.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "calendar-check", "title": "Automated Scheduling", "description": "Book on-site quote visits and follow-up calls automatically without lifting a finger.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "award", "title": "Professional Image", "description": "Sound like a larger, established painting company on every single call.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "shield-alert", "title": "Never Miss a Job", "description": "Stop losing work to competitors just because you were on a ladder when the phone rang.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "layout-grid", "title": "Customised for Painting", "description": "Train your AI on your specific services—interior, exterior, residential, commercial, or colour consulting.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Polite Client Care", "description": "Provide immediate response and updates to build client satisfaction and trust.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Booking", "description": "AI handles booking administrative work, letting you focus on finishing projects on-site.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Smart Follow-Ups", "description": "Follow up automatically on quotes sent to turn enquiries into confirmed paint jobs.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Client Records", "description": "Easily access past estimates, address details, and job descriptions in one secure dashboard.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Painters Choose VirtualAssistant.com.au",
+    "description": "From sole traders and small crews to larger commercial painting businesses, our AI Receptionist integrates seamlessly with your scheduling and quoting systems. It ensures every call is answered professionally and every job opportunity is captured. Your AI Receptionist can be trained to your specific services - interior, exterior, residential, commercial, colour consulting - and reflects your brand in every interaction. Whether you're on a ladder or managing multiple sites, let AI handle the phones so you can focus on delivering quality paintwork.",
+    "image": "/images/industries/painter/painter_reception.webp",
+    "card": {
+      "heading": "Capture Every Quote Request Automatically",
+      "description": "When a client calls, your AI Receptionist gathers all the details you need—property address, job type, size estimate, preferred timeline—and books the quote visit directly into your calendar. No back and forth, no missed calls, no lost jobs. All enquiry details are recorded and available whenever you need them."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "Quote Request Capture", "description": "Gather job details—property type, size, interior/exterior, preferred timeline—and book the quote visit." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Job Scheduling", "description": "Coordinate start dates, access arrangements, and prep requirements directly with clients." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "After-Hours Answering", "description": "Answer calls at night and on weekends when you're offline, so no job opportunity slips through." },
+      { "icon": "trophy", "iconBg": "#9333EA", "title": "Client Follow-Up", "description": "Automatically follow up on quotes sent, reminding clients and nudging them to confirm the job." },
+      { "icon": "bot", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Answer common questions like 'Do you do commercial jobs?' or 'What paint brands do you use?'" }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Quote Follow-Ups", "description": "Send automated follow-up messages to clients after quotes are sent." },
+      { "icon": "bell", "title": "Zero Missed Calls", "description": "Every call answered professionally—no more losing jobs because you were up a ladder." },
+      { "icon": "file-plus", "title": "Faster Booking Process", "description": "Clients can book a quote visit in minutes without back-and-forth phone calls." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Quote Request & Job Booking", "description": "A homeowner calls after hours asking about exterior painting. Your AI receptionist answers, captures the property details, and books a free quote inspection for the following morning." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Client receives an automatic confirmation with the quote visit time and your contact details.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Job Details Captured", "description": "Property address, size estimate, paint preferences, and urgency all recorded before you arrive.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Follow-Up Automated", "description": "After the quote is sent, a follow-up message goes out automatically if there's no response in 48 hours.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Booking Reminders", "description": "Client receives reminders before the quote visit so no-shows are minimised and your time is protected.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Painters",
+    "subtitle": "Join painters across Australia who are capturing more quotes, booking more jobs, and growing their business with AI - without adding staff.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Construction",
+    "title": "AI for Builders",
+    "description": "Your AI virtual assistant helps builders manage calls, schedule site inspections, capture job details, track projects, and follow up with clients — so you can focus on building, not admin.",
+    "image": "/images/industries/builder/builder_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed job enquiries with automated call answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduction in time spent on scheduling and follow-ups." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher project conversion with fast, professional responses." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Builders",
+    "blocks": [
+      { "heading": "Modern Solutions for Modern Builders", "description": "At VirtualAssistant.com.au, we understand that every call to your building business could be a new project, renovation, or site inspection. Our AI Virtual Receptionist ensures every enquiry is answered professionally, capturing job details and booking site visits without interruption." },
+      { "heading": "Focus on Building, Not Phone Calls", "description": "Your AI Receptionist handles incoming calls, client questions, and scheduling while you're on-site or after hours. It can answer questions like 'Can I book a site inspection?' or 'Do you handle renovations or new builds?' while maintaining a professional and friendly tone." },
+      { "heading": "Never Miss a Job Opportunity", "description": "Whether you're on the tools, in meetings, or outside business hours, your AI Receptionist is always available. It explains your services — from residential builds to renovations and extensions — and ensures every enquiry is captured and followed up." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Boost your building business with intelligent automation that saves time, captures more leads, and improves client communication.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional First Impression", "description": "Your business sounds polished and reliable on every call.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Automated Job Scheduling", "description": "Book site inspections, consultations, and follow-ups automatically.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Customised for Your Business", "description": "Train your AI to match your services, tone, and workflow.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Never miss a job enquiry, even after hours or on weekends.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Secure & Confidential", "description": "Client details, addresses, and project info are handled safely.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Client Experience", "description": "Clear communication, reminders, and updates build trust.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI handles repetitive admin tasks so you stay productive.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Client Retention", "description": "Consistent follow-ups keep clients engaged throughout projects.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Job History", "description": "Access past quotes, site notes, and conversations anytime.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Builders Choose VirtualAssistant.com.au",
+    "description": "Builders across Australia trust our AI Virtual Receptionist to manage calls, book site visits, and capture accurate job details. It integrates seamlessly with your scheduling tools and CRM, acting as an extension of your team — not a replacement.",
+    "image": "/images/industries/builder/builder_reception.webp",
+    "card": {
+      "heading": "Streamline Job Follow-Ups and Communication",
+      "description": "After each call or site visit, builders can record quick voice notes that are transcribed and summarised automatically. The AI also manages follow-up reminders for quotes, approvals, and project milestones, keeping jobs moving forward."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "New Build & Renovation Enquiries", "description": "Handle residential and commercial project enquiries efficiently." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client & Job Tracking", "description": "Log job details, site notes, quotes, and approvals." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Construction Services", "description": "Support extensions, knock-down rebuilds, and custom projects." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer client questions via AI voice or chat instantly." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Routine Project Updates", "description": "Automate follow-ups for ongoing construction work." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI schedules and sends follow-ups for quotes and site visits." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce delays with reminders for approvals and milestones." },
+      { "icon": "file-plus", "title": "Centralized Records", "description": "Access job history without digging through paperwork." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Site Inspection & Quote Management", "description": "A potential client calls to request a site inspection. The AI books the inspection, captures job details, and sends confirmation automatically." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends inspection confirmation and reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Recurring Alerts", "description": "Follow-ups for quotes and approvals.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Job Notes", "description": "Records site details and client requirements.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Project Reminders", "description": "Updates clients on timelines and next steps.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Builders",
+    "subtitle": "Join thousands of builders who are transforming client communication and project management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

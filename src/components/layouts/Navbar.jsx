@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X } from "lucide-react";
 // Import the full JSON data structure
@@ -9,6 +9,7 @@ export default function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileAccordion, setMobileAccordion] = useState(null);
+  const location = useLocation();
 
   const { navbar, features, industries } = navData;
 
@@ -64,7 +65,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* 1. Logo */}
-            <div className="flex-shrink-0 flex items-center">
+            <div className="shrink-0 flex items-center">
               <Link to={navbar.logo.path}>
                 <img
                   src="/src/assets/logo.webp"
@@ -89,9 +90,18 @@ export default function Navbar() {
                       onMouseEnter={() => setActiveDropdown(item.id)}
                       onMouseLeave={() => setActiveDropdown(null)}
                     >
-                      <button className="flex items-center gap-1 text-sm font-medium text-text-main hover:text-primary transition-colors py-2 cursor-pointer">
-                        {" "}
+                      <Link
+                        to={item.path}
+                        className={`flex items-center gap-1 text-sm font-medium transition-colors py-2 cursor-pointer ${
+                          item.id === "industries" &&
+                          (location.pathname === "/industries" ||
+                            location.pathname.startsWith("/industries/"))
+                            ? "text-primary"
+                            : "text-text-main hover:text-primary"
+                        }`}
+                      >
                         <span>{item.label}</span>
+
                         <motion.div
                           animate={{
                             rotate: activeDropdown === item.id ? 180 : 0,
@@ -100,7 +110,7 @@ export default function Navbar() {
                         >
                           <ChevronDown className="w-4 h-4 text-gray-500" />
                         </motion.div>
-                      </button>
+                      </Link>
 
                       <AnimatePresence>
                         {activeDropdown === item.id && (
@@ -126,7 +136,11 @@ export default function Navbar() {
                                 <Link
                                   key={subItem.id}
                                   to={subItem.path}
-                                  className="px-3 py-2 rounded-lg text-sm font-medium text-text-main hover:bg-bg-light hover:text-primary transition-all flex items-center"
+                                  className={`px-3 py-2 rounded-lg text-sm font-medium transition-all flex items-center ${
+                                    location.pathname === subItem.path
+                                      ? "bg-bg-light text-primary"
+                                      : "text-text-main hover:bg-bg-light hover:text-primary"
+                                  }`}
                                 >
                                   {subItem.title}
                                 </Link>
@@ -144,13 +158,20 @@ export default function Navbar() {
                   <NavLink
                     key={item.id}
                     to={item.path}
-                    className={({ isActive }) =>
-                      `text-sm font-medium transition-colors ${
-                        isActive
+                    className={() => {
+                      const isHomeActive =
+                        item.id === "home" &&
+                        (location.pathname === "/" ||
+                          location.hash === "#features" ||
+                          location.hash === "#pricing" ||
+                          location.hash === "#services");
+
+                      return `text-sm font-medium transition-colors ${
+                        isHomeActive
                           ? "text-primary"
                           : "text-text-main hover:text-primary"
-                      }`
-                    }
+                      }`;
+                    }}
                   >
                     {item.label}
                   </NavLink>
@@ -274,7 +295,11 @@ export default function Navbar() {
                                   key={subItem.id}
                                   to={subItem.path}
                                   onClick={() => setMobileMenuOpen(false)}
-                                  className="px-3 py-2 rounded-lg text-sm font-medium text-text-main hover:bg-bg-light hover:text-primary transition-all"
+                                  className={`px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                                    location.pathname === subItem.path
+                                      ? "bg-bg-light text-primary"
+                                      : "text-text-main hover:bg-bg-light hover:text-primary"
+                                  }`}
                                 >
                                   {subItem.title}
                                 </Link>

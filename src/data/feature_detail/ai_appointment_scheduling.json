@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "badge": "Smart, Seamless, Always On",
+    "heading": "AI Appointment Scheduling",
+    "description": "Never miss an appointment or double-book again. Your AI assistant automatically manages scheduling, reminders, and rescheduling — keeping your calendar full and your clients happy.",
+    "buttons": [
+      { "label": "Start Your 14 Day Free Trial", "type": "primary", "href": "#trial" },
+      { "label": "Book a Demo", "type": "secondary", "icon": "calendar", "href": "#demo" }
+    ],
+    "image": {
+      "src": "/images/features/ai-appointment-scheduling/scheduling-hero.webp",
+      "alt": "Calendar, clock and scheduling illustration"
+    }
+  },
+  "keyCapabilities": {
+  "heading": "Key Capabilities:",
+  "description": "Streamline your client scheduling process with intelligent automation that saves time, reduces no-shows, and ensures a smoother customer experience.",
+  "features": [
+    { "icon": "workflow", "title": "Fully Automated:", "description": "Books, reschedules, and cancels appointments directly into your calendar." },
+    { "icon": "sync", "title": "Calendar Syncing:", "description": "Works seamlessly with Google Calendar, Outlook Calendar, and Cal.com." },
+    { "icon": "bell", "title": "Smart Reminders:", "description": "Clients automatically receive SMS and email confirmations and reminders, cutting down no-shows." },
+    { "icon": "share", "title": "Flexible Options:", "description": "Choose whether to use your new dedicated number or keep your current one with forwarding." }
+  ]
+},
+"productivityGains": {
+  "image": {
+    "src": "/images/features/ai-appointment-scheduling/productivity-gains.webp",
+    "alt": "Productivity Gains graph illustration"
+  },
+  "topCard": {
+    "title": "Save Hours of Manual Work:",
+    "description": "You and your team no longer need to manage calls or track appointments manually."
+  },
+  "bottomCards": [
+    { "title": "Reduce No-Shows by 40%", "description": "Automated reminders and confirmations keep your schedule full and reliable." },
+    { "title": "Improve Client Experience", "description": "Clients enjoy instant, accurate booking interactions anytime, anywhere." },
+    { "title": "Boost Efficiency", "description": "Focus your time on delivering services instead of managing logistics." }
+  ]
+},
+"finalCta": {
+  "heading": "Ready to Automate Your Scheduling?",
+  "description": "Empower your business with intelligent appointment automation. Save time, reduce cancellations, and deliver a seamless experience to every client.",
+  "button": {
+    "label": "Start Your 14 Day Free Trial",
+    "href": "#trial"
+  }
+}
+}
