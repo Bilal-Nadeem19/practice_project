@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X } from "lucide-react";
 // Import the full JSON data structure
 import navData from "../../data/layouts/navbar.json";
+import logo from "../../assets/logo.webp";
 
 export default function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -68,7 +69,7 @@ export default function Navbar() {
             <div className="shrink-0 flex items-center">
               <Link to={navbar.logo.path}>
                 <img
-                  src="/src/assets/logo.webp"
+                  src={logo}
                   alt={navbar.logo.alt}
                   className="h-12 sm:h-14 md:h-16 lg:h-20 object-contain"
                 />

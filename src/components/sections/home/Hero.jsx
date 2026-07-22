@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import homeData from "../../../data/pages/home_page.json";
 import HoverCTAButton from "../../HoverCTAButton";
+import heroBg from "../../../assets/images/homepage/hero/hero-bg.webp";
+import heroSlide1 from "../../../assets/images/homepage/hero/hero-slide-1.webp";
+import heroSlide2 from "../../../assets/images/homepage/hero/hero-slide-2.webp";
+import heroSlide3 from "../../../assets/images/homepage/hero/hero-slide-3.webp";
 
 export default function Hero() {
   const hero = homeData.hero;
@@ -21,18 +25,22 @@ export default function Hero() {
   }, [hero.settings.autoPlay, hero.settings.autoPlaySpeed, hero.slides.length]);
 
   const textSlide = hero.slides[0];
-  const HERO_PATH = "/src/assets/images/homepage/hero/";
+  const heroImages = [
+    heroSlide1,
+    heroSlide2,
+    heroSlide3,
+  ];
 
   return (
     <section
   id="hero"
   className="relative overflow-hidden bg-white min-h-[calc(100vh-80px)] flex items-center py-10 sm:py-14 lg:py-20"
   style={{
-    backgroundImage: `url(${HERO_PATH}${hero.backgroundImage})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
+  backgroundImage: `url(${heroBg})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+}}
 >
   {/* Overlay */}
   <div className="absolute inset-0 bg-white/80 backdrop-blur-[1px]" />
@@ -99,7 +107,7 @@ export default function Hero() {
             {hero.slides.map((slide, index) => (
               <motion.img
                 key={slide.id}
-                src={`${HERO_PATH}${slide.image}`}
+                src={heroImages[index]}
                 alt={slide.alt}
                 animate={{ opacity: index === imageIndex ? 1 : 0 }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
