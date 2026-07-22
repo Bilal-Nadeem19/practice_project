@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "General Services",
+    "title": "AI for Hotels and Accommodation",
+    "description": "Your virtual assistant modernizes hospitality operations by managing bookings, guest communication, housekeeping coordination, and follow-up services.",
+    "image": "/images/industries/hotels-accommodation/hotels_accommodation_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "40%", "label": "Fewer booking errors with automated confirmations." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "95%", "label": "Reduced staff hours spent on guest communication and scheduling." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "30%", "label": "Higher guest satisfaction with personalized recommendations and seamless service." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Hotels and Accommodation",
+    "blocks": [
+      { "heading": "A Smarter Way to Manage Guest Communication", "description": "At VirtualAssistant.com.au, we understand that in hospitality, every call is an opportunity to make a lasting impression. Whether you manage a boutique hotel, luxury resort, serviced apartment, caravan park, or Airbnb property, our AI Virtual Receptionist ensures every guest receives prompt, professional, and personalized service. It handles reservations, answers guest questions, and manages after-hours communication — all while matching your brand's tone and guest experience." },
+      { "heading": "Focus on Guests, Not the Phone", "description": "Your AI Receptionist handles calls and inquiries while your staff focuses on check-ins, guest service, and operations. It can respond instantly to questions like 'Do you have vacancies this weekend?', 'What time is check-in?', or 'Do you offer late checkout?' with accurate and friendly information. It can also confirm bookings, provide room availability, manage group requests, and send reservation confirmations automatically." },
+      { "heading": "Never Miss a Booking or Guest Inquiry", "description": "Even when your reception desk is closed or busy, your AI Receptionist ensures every guest inquiry is handled promptly. It provides details about room types, amenities, parking, breakfast options, and local attractions — and can guide guests through booking directly via your system. Whether you manage one Airbnb or multiple hotel properties, you'll never lose a potential booking again." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your hotel operations with intelligent automation that reduces manual work, personalizes guest experiences, and increases efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "24/7 Booking Management", "description": "Handles room inquiries, reservations, and cancellations automatically — day or night.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "message-circle", "title": "Professional Guest Communication", "description": "Delivers accurate and friendly responses to every inquiry, ensuring a polished first impression.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Property", "description": "Your AI Receptionist can be trained specifically to your business — matching your tone, guest experience, and operational process.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "file-text", "title": "Works for All Business Sizes", "description": "Perfect for boutique hotels, motels, lodges, caravan parks, serviced apartments, or Airbnb property managers — scaling as you grow.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Affordable and Reliable", "description": "Acts as your full-time receptionist for a fraction of the cost, ensuring constant guest support.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Enhanced Guest Experience", "description": "Responds instantly and professionally, improving guest satisfaction and boosting bookings.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI manages inquiries, bookings, and service requests so staff can focus on delivering top-quality hospitality.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Boosted Guest Retention", "description": "Regular communication, loyalty offers, and personalized follow-ups encourage repeat stays.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" },
+      { "icon": "database", "title": "Centralized Data History", "description": "Instant access to guest preferences, booking history, and service records for smooth operations.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Hotels and Accommodation Providers Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by hotels, motels, resorts, and accommodation providers across Australia — from boutique properties to large resorts and Airbnb managers. It integrates seamlessly with booking platforms like Booking.com, Expedia, and Airbnb, as well as your existing PMS or calendar system. Best of all, your AI Receptionist can be trained to your exact workflow and brand voice — offering consistent, high-quality communication that reflects your hospitality standards. Let our AI manage your calls, bookings, and guest questions so you can focus on creating exceptional guest experiences every time.",
+    "image": "/images/industries/hotels-accommodation/hotels_accommodation_reception.webp",
+    "card": {
+      "heading": "Simplify Guest Notes and Follow-Ups",
+      "description": "After each stay or guest interaction, your team can record a short voice memo that's automatically transcribed and summarized — perfect for noting special requests or VIP preferences. You can upload booking details, maintenance notes, or feedback directly into your dashboard, ensuring seamless guest service and team coordination."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "building", "iconBg": "#3B82F6", "title": "General Hotel Management", "description": "Handle bookings, room allocations, check-ins, and check-outs seamlessly." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "Specialized Services", "description": "Support spa reservations, event hosting, restaurant bookings, and VIP guest handling." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Guest Progress Tracking", "description": "Keep track of guest preferences, feedback, and past stays for improved personalization." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Respond to common guest inquiries via AI chat or voice assistant for faster service." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Routine Maintenance", "description": "Schedule regular maintenance checks, and inventory management." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save time by letting AI schedule and manage post-stay surveys or review requests automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce missed tasks with AI-powered alerts for maintenance, cleaning, and bookings." },
+      { "icon": "file-plus", "title": "Instant Information Retrieval", "description": "Quickly retrieve guest details, preferences, and service history without manual searches." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Luxury Suite Reservation", "description": "A guest books a stay and spa package through your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI confirms the booking and sends welcome details automatically.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Service Notes", "description": "Records guest preferences, allergies, and prior requests after each visit.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Stays", "description": "Automatically suggests future bookings or loyalty rewards for returning guests.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Care Reminders", "description": "Sends personalized offers for local experiences, dining options, or upgrades.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Hotels and Accommodation",
+    "subtitle": "Join thousands of hospitality businesses who are transforming guest service with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "help-circle", "title": "For Others", "description": "Your virtual assistant brings intelligent automation to any industry. AI for Others is built to adapt to your business needs, no matter your field.", "link": "/industries/others" },
+      {"icon": "paint-brush", "title": "Painter", "description": "Never miss a quote request again — your AI receptionist captures every call while you're on the job.", "link": "/industries/painter"},
+{"icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist"}
+    ]
+  }
+}

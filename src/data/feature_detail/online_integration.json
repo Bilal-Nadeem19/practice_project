@@ -1,0 +1,86 @@
+{
+  "badge": "Connect Everywhere, Anytime",
+  "title": "Online Integration",
+  "description": "Your AI assistant goes beyond calls — it seamlessly integrates with your website to deliver real-time bookings, instant responses, and 24/7 engagement.",
+  "buttons": [
+    { "label": "Start Your 14 Day Free Trial", "href": "/free-trial" },
+    { "label": "Book a Demo", "href": "/book-demo", "icon": "calendar" }
+  ],
+  "bgImage": {
+    "src": "/images/features/online-integration/online-integration-hero.webp",
+    "alt": "Online Integration Hero Background"
+  },
+  "benefits": {
+    "title": "Productivity Benefits",
+    "list": [
+      {
+        "boldText": "Save Time:",
+        "text": "Let your AI handle online bookings and messages automatically."
+      },
+      {
+        "boldText": "Increase Conversions:",
+        "text": "Turn website visitors into confirmed clients 24/7."
+      },
+      {
+        "boldText": "Improve Customer Experiences:",
+        "text": "Provide immediate, accurate responses on any platform."
+      },
+      {
+        "boldText": "Stay Connected:",
+        "text": "Unify all client communication channels into one system."
+      }
+    ],
+    "image": {
+      "src": "/images/features/online-integration/online-illustration.webp",
+      "alt": "Productivity Benefits Chart and Money"
+    }
+  },
+  "keyCapabilities": {
+    "title": "Key Capabilities",
+    "subtitle": "Your AI doesn't just answer the phone — it works online too.",
+    "cards": [
+      {
+        "icon": "link",
+        "title": "Website Booking Script:",
+        "description": "A simple copy-paste snippet lets clients book straight from your website."
+      },
+      {
+        "icon": "calendar",
+        "title": "Website Chatbot:",
+        "description": "Seamlessly connect Clients can chat with your AI in real-time, get answers, and make bookings instantly."
+      },
+      {
+        "icon": "trending-up",
+        "title": "24/7 online:",
+        "description": "Your clients can reach you anytime — and get answers instantly."
+      },
+      {
+        "icon": "activity",
+        "title": "Phone coverage:",
+        "description": "24/7 phone coverage that works as hard as you do. Never send a client to voicemail again."
+      }
+    ]
+  },
+  "whyChoose": {
+    "exampleCard": {
+      "title": "Real-World Example",
+      "description": "A physiotherapy clinic installs the AI booking script on their website. Clients now book sessions directly online, receive instant confirmations, and chat with the AI for pre-visit questions. Within weeks, the clinic sees a 25% increase in bookings and fewer missed calls — all while staff focus more on care and less on admin."
+    },
+    "title": "Why Choose Online Integration?",
+    "points": [
+      "Keeps your business accessible 24/7",
+      "Turns your website into a fully functional virtual assistant",
+      "Reduces manual admin work and missed opportunities",
+      "Integrates easily with existing tools and systems",
+      "Enhances client satisfaction with instant support"
+    ]
+  },
+  "finalCta": {
+  "heading": "Ready to Bring Your AI Online?",
+  "description": "Let your website do more — answer questions, take bookings, and connect clients with your business anytime, anywhere.",
+  "button": {
+    "label": "Start Your 14 Day Free Trial",
+    "href": "#trial"
+  }
+}
+}

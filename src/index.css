@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -18,7 +19,26 @@
   /* Border */
   --color-border: #00a7de;
 
-    --shadow-glow: 0 0 25px rgba(0, 163, 224, 0.8);  /* Blue glow — CTA buttons */
+  --shadow-glow: 0 0 25px rgba(0, 163, 224, 0.8);
 
+  /* Font */
+  --font-Poppins: "Poppins", sans-serif;
+
+  /* feautures 6 comps color  */
+  --color-span-bg: #E0F4FB;
+  --color-span-text:#0086B3;
+  --color-featurehero-heading: #ffffff;
+  --color-featurehero-description: #f3f4f6;
+  --color-key-cardheading: #1F2937;
+  --color-key-card-description:#374151;
+
+  /* industries 30 comps  */
+  --color-indusry-heroheading: #E0F2FE;
 }
-
+  
+html, body {
+  overscroll-behavior-x: none;
+}
+html {
+  scrollbar-gutter: stable;
+}

@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Plumbing Services",
+    "title": "AI for Plumber",
+    "description": "Your virtual plumbing assistant modernizes service operations by managing appointments, recording job notes, sending maintenance reminders, and scheduling follow-ups — so you can fix pipes.",
+    "image": "/images/industries/plumber/plumber_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduction in hours spent on scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher repeat bookings with consistent service tracking and tailored maintenance plans." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Plumbers",
+    "blocks": [
+      { "heading": "A Smarter Way to Manage Your Plumbing Business", "description": "At VirtualAssistant.com.au, we understand that plumbers are constantly on the move, from blocked drains to burst pipes, you're always on call. Whether you're a one-man operation working from your van, part of a small plumbing team, or running a large plumbing company, our AI Virtual Receptionist adapts perfectly to your needs. It handles your calls, job bookings, and emergency inquiries automatically, ensuring you never miss a customer or urgent job." },
+      { "heading": "Focus on the Job, Not the Phone", "description": "Your AI Receptionist answers every call while you're on site. It can respond instantly to questions like 'Can you come out today?', 'Do you fix hot water systems?', or 'What's your call-out fee?' — providing clear, friendly, and accurate responses. It can also schedule new jobs, reschedule existing ones, send reminders, and notify clients when you're on your way — saving you valuable time." },
+      { "heading": "Never Miss an Emergency or New Job Again", "description": "Even after hours, on weekends, or when you're up to your elbows in a repair, your AI Receptionist ensures every call is answered. It provides information about your plumbing services — from leak detection and drain cleaning to hot water repairs and renovations — and can book jobs directly into your calendar. Whether you're working solo or managing a team, it helps you stay organized, responsive, and available 24/7." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your plumbing business with intelligent automation that reduces admin work, improves response times, and increases repeat customers.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Capture Every Call", "description": "Never miss a lead, emergency, or booking — even when you're on another job.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "clock", "title": "Streamlined Job Scheduling", "description": "Automates bookings, reschedules, and reminders for smooth day-to-day operations.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Business", "description": "Your AI Receptionist can be trained specifically to your workflow, tone, and services — from emergency callouts to scheduled maintenance.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "file-text", "title": "Works for All Business Sizes", "description": "Ideal for solo plumbers, small teams, and large plumbing companies — scaling as your business grows.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Affordable 24/7 Coverage", "description": "Operates around the clock at a fraction of the cost of hiring full-time admin staff.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Customer Experience", "description": "Provides friendly, reliable, and fast responses that make a lasting impression on customers.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI takes care of appointment confirmations, invoicing notes, and maintenance reminders so you can spend more time on solving problems.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Faster Repeat Bookings", "description": "Automated maintenance reminders, service offers, and personalized follow-ups keep customers coming back for routine checks and upgrades.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralized Job Records", "description": "Easy access to past jobs, parts used, diagnostics, photos, and customer preferences — all linked to the property address for seamless continuity.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Plumbers Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by plumbers across Australia — from home-based sole traders to large-scale plumbing companies. It integrates seamlessly with your scheduling and job management systems, ensuring clear, professional communication with every client. Best of all, your AI Receptionist can be trained specifically to your plumbing business — adapting to your tone, services, and daily workflow. Let our AI handle your calls and admin so you can focus on what matters most — keeping your clients' water flowing and their homes leak-free.",
+    "image": "/images/industries/plumber/plumber_reception.webp",
+    "card": {
+      "heading": "Simplify Job Notes and Follow-Ups",
+      "description": "After each job, you can record a quick voice memo that's automatically transcribed and summarized — ideal for noting completed work, materials used, or follow-up needs. Upload invoices, service reports, or compliance certificates directly into your dashboard for easy tracking and organization."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "wrench", "iconBg": "#3B82F6", "title": "General Plumbing Services", "description": "Manage routine repairs, drain cleaning, leak fixes, and fixture installations." },
+      { "icon": "alert-triangle", "iconBg": "#10B981", "title": "Emergency Repairs", "description": "Rapid triage and scheduling for burst pipes, severe leaks, or gas emergencies." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Treatments", "description": "Support for sewer line work, water heaters, backflow, and gas appliance servicing." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common customer inquiries via chat, voice, or SMS and help dispatch the right technician." },
+      { "icon": "calendar-check", "iconBg": "#0D9488", "title": "Routine Maintenance Plans", "description": "Encourage annual inspections, preventative servicing, and seasonal tune-ups." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save time by letting AI schedule recurring maintenance and reminder campaigns automatically." },
+      { "icon": "bell", "title": "Smart Notifications", "description": "Reduce missed visits with AI-powered alerts and rescheduling suggestions." },
+      { "icon": "file-plus", "title": "Accurate Job Records", "description": "Quickly review service history, parts used, and previous diagnostics without searching paper files." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Leaky Shower Repair", "description": "A homeowner reports a persistent shower leak. The AI assistant:" },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Confirms urgency and captures key details (location, symptoms, photos).", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Repair Notes", "description": "Suggests likely causes and required parts to the dispatcher.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Services", "description": "Automatically schedules the nearest qualified technician and sends an ETA.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Schedules a follow-up maintenance reminder and warranty check.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Plumbing",
+    "subtitle": "Join thousands of tradespeople using AI to transform customer care and streamline operations.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "home", "title": "Cleaning", "description": "Your virtual assistant modernizes cleaning businesses by booking jobs, tracking schedules, sending cleaning reminders, and scheduling follow-ups.", "link": "/industries/cleaning" },
+      {"icon": "zap", "title": "Electrician", "description": "Your virtual assistant modernizes electrical operations by managing appointments, diagnosing, sending safety reminders, and scheduling follow-ups.", "link": "/industries/electrician"},
+{"icon": "utensils", "title": "Restaurant & Takeaway", "description": "Your virtual assistant modernizes restaurant operations by managing reservations, recording guest preferences, and scheduling follow-ups, so you can focus on great food and service.", "link": "/industries/restaurant-takeaway"}
+    ]
+  }
+}

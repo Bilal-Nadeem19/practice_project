@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "badge": "Dental Care",
+    "title": "AI for Dentist",
+    "description": "Your virtual assistant modernizes dental care by managing appointments, recording treatment notes, sending hygiene reminders, and scheduling follow-ups.",
+    "image": "/images/industries/dentist/dentist_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher client adherence with consistent style tracking and tailored care." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Dentists",
+    "blocks": [
+      { "heading": "Streamline Your Dental Practice", "description": "At VirtualAssistant.com.au, we understand that every minute in a dental clinic matters. Our AI Virtual Receptionist helps dentists and dental practices manage calls, bookings, and patient inquiries while maintaining a professional and reassuring tone. It's like having a full-time receptionist who never takes a break — ensuring your patients always receive immediate, helpful communication." },
+      { "heading": "Focus on Patients, Not the Phone", "description": "Your AI Receptionist takes care of phone calls and appointment scheduling so your dental team can stay focused on patient care. It can answer questions like 'Do you offer teeth whitening?', 'How much is a check-up and clean?', or 'Can I book an emergency appointment today?' — all instantly and accurately. It also handles reschedules, cancellations, and reminders to help reduce no-shows and keep your calendar full." },
+      { "heading": "Never Miss a New Patient or Emergency Call", "description": "Even when your front desk is busy or the clinic is closed, your AI Receptionist is always available. It provides details about your dental services — from general and cosmetic dentistry to orthodontics and emergency care — and confirms bookings in real time. You'll never lose a new patient lead or urgent inquiry again." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your dental practice with intelligent automation that reduces admin work, personalizes patient care, and increases efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional and Reassuring", "description": "Communicates with warmth and clarity, ensuring patients feel confident and comfortable.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "heart", "title": "Improved Client Care", "description": "Dental charts, X-rays, and treatment notes ensure every visit feels consistent and personalized.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI manages reminders, follow-ups, and patient records so you can focus on delivering quality dental care.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "star", "title": "Boosted Client Retention", "description": "Regular checkups and personalized oral care tips keep patients coming back.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "database", "title": "Centralized History", "description": "Easy access to past treatments, X-rays, and dental charts for seamless care.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "check-circle", "title": "Streamlined Appointment Management", "description": "Automates booking, rescheduling, and reminders to improve efficiency and reduce missed appointments.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Clinic", "description": "Your AI Receptionist can be trained specifically to your business requirements — matching your tone, workflow, and patient care standards.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "sun", "title": "Affordable 24/7 Coverage", "description": "Operate like a full-time reception team at a fraction of the cost.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "sparkles", "title": "Enhanced Patient Experience", "description": "Provides quick, accurate responses, ensuring every patient receives exceptional service from the first call.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Dentists Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by dental clinics across Australia for its professionalism, accuracy, and adaptability. It integrates seamlessly with your booking system, provides clear information about dental procedures, and ensures your patients are always cared for. Best of all, your AI Receptionist can be trained specifically to your clinic's tone, services, and workflow — ensuring every interaction reflects your practice's quality of care. Let our AI manage the admin while you focus on keeping smiles bright and healthy.",
+    "image": "/images/industries/dentist/dentist_reception.webp",
+    "card": {
+      "heading": "Simplified Patient Notes and Follow-Up Tools",
+      "description": "After each appointment, dentists can record short voice memos that are automatically transcribed and summarized for future reference. You can upload treatment plans, X-rays, and notes securely into each patient's file, making follow-ups and record management simple and organized. This helps your clinic maintain continuity of care and deliver a professional, efficient experience for every patient."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "smile", "iconBg": "#3B82F6", "title": "General Dental Care", "description": "Manage routine checkups, deep cleanings, fillings, treatments, whitening, and other dental procedures." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client Progress Tracking", "description": "Log dental charts, X-rays, treatment history, and follow-up notes." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Treatments", "description": "Support orthodontics, implants, root canals, and cosmetic dentistry." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common patient inquiries via AI chat or voice assistant." },
+      { "icon": "calendar-check", "iconBg": "#0D9488", "title": "Routine Maintenance", "description": "Encourage bi-annual visits for preventive care and long-term oral health." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save time by letting AI schedule recurring dental checkups automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce missed visits with AI-powered alerts." },
+      { "icon": "file-plus", "title": "Records", "description": "Quickly review client history without manual searches." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Dental Checkup & Cleaning", "description": "A patient books a checkup and cleaning through your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Save time by letting AI schedule recurring dental sessions automatically.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Treatment Notes", "description": "Records dental charts, X-rays, and treatment steps after each visit automatically.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Checkups", "description": "Automatically schedules routine cleanings, cavity checks, and orthodontic adjustments.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Care Reminders", "description": "Sends tailored oral hygiene tips, flossing reminders, and product suggestions.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Healthcare",
+    "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "bone", "title": "Osteopaths", "description": "Your virtual assistant modernizes osteopathic care by managing patient bookings, recording session notes, sending appointment reminders, and organizing treatment follow-ups.", "link": "/industries/osteopath" }
+    ]
+  }
+}

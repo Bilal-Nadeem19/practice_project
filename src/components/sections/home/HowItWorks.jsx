@@ -43,14 +43,14 @@ export default function HowItWorks() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <motion.div
-          className="text-center mb-10 sm:mb-14"
+          className="text-center mb-10 sm:mb-14 w-full min-w-0"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.5 }}
           variants={headingVariants}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-primary inline-block relative">
+          <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-primary inline-block relative break-words max-w-full">
             {title}
             <span className="block w-10 sm:w-12 h-1 bg-primary mx-auto mt-2 rounded-full" />
           </h2>
@@ -72,7 +72,7 @@ export default function HowItWorks() {
             return (
               <motion.div
                 key={step.id}
-                className="flex flex-col items-center text-center"
+                className="flex flex-col items-center text-center min-w-0 w-full"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.3 }}
@@ -88,12 +88,12 @@ export default function HowItWorks() {
                 <motion.div
                   whileHover={{ y: -6, boxShadow: "0 12px 24px rgba(14,165,233,0.18)" }}
                   transition={{ duration: 0.25, ease: "easeOut" }}
-                  className="relative w-full bg-white rounded-lg border-t-4 border-sky-500 shadow-sm px-5 pt-6 pb-8 sm:px-6 sm:pt-7 sm:pb-9"
+                  className="relative w-full min-w-0 bg-white rounded-lg border-t-4 border-sky-500 shadow-sm px-5 pt-6 pb-8 sm:px-6 sm:pt-7 sm:pb-9"
                 >
-                  <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-2">
+                  <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-2 break-words">
                     {step.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-gray-500 leading-snug">
+                  <p className="text-xs sm:text-sm text-gray-500 leading-snug break-words">
                     {step.description}
                   </p>
 

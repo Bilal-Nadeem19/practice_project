@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Concreting Services",
+    "title": "AI for Concreters",
+    "description": "Your AI virtual assistant helps concreting businesses manage calls, book site inspections, capture job details, follow up on quotes, and keep projects moving — without interrupting work on-site.",
+    "image": "/images/industries/concreter/concreter_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "35%", "label": "Fewer missed job enquiries with 24/7 call answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "92%", "label": "Less time spent on admin and scheduling." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "30%", "label": "Higher quote-to-job conversion with faster follow ups." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Concreters",
+    "blocks": [
+      { "heading": "Modern Solutions for Modern Concreting Businesses", "description": "At VirtualAssistant.com.au, we know every call to your concreting business could be a new driveway, slab, or commercial job. Our AI Virtual Receptionist ensures every enquiry is answered professionally and captured accurately." },
+      { "heading": "Focus on Pouring, Not Phone Calls", "description": "While you're on-site, managing crews or finishing jobs, your AI Receptionist handles incoming calls and enquiries. It answers questions like 'Do you do driveways or slabs?' or 'Can I book a site inspection?' with confidence and clarity." },
+      { "heading": "Never Miss a Concrete Job Opportunity", "description": "Whether you're busy, unavailable, or after hours, your AI Receptionist ensures no lead is lost. It explains your services — from residential concreting to commercial and decorative concrete — and books site visits automatically." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Capture more jobs, reduce admin, and deliver a professional customer experience with AI-powered automation.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional Call Handling", "description": "Every caller receives a clear, reliable, and professional response.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Automated Site Visit Booking", "description": "Book inspections, quotes, and follow-ups instantly.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Customised for Your Concreting Business", "description": "Train your AI to match your services, areas, and workflow.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Never miss a job enquiry, even after hours or weekends.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Secure & Reliable", "description": "Client details, addresses, and job info are handled securely.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Customer Experience", "description": "Build trust and confidence before work begins.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "Reduce admin workload for you and your crew.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Client Conversion", "description": "Fast responses and consistent follow-ups win more jobs.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Job History", "description": "Access past quotes, job history, and notes easily.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Concreters Choose VirtualAssistant.com.au",
+    "description": "Concreters across Australia trust our AI Virtual Receptionist to manage calls, book site inspections, and capture accurate job details. It integrates with your scheduling tools and CRM, acting as a dependable extension of your business.",
+    "image": "/images/industries/concreter/concreter_reception.webp",
+    "card": {
+      "heading": "Streamline Quotes and Job Follow-Ups",
+      "description": "After each enquiry or site visit, you can record quick voice notes that are automatically transcribed and summarised. The AI follows up on quotes, approvals, and start dates — helping you secure more jobs faster."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "Residential Concreting", "description": "Handle driveways, patios, slabs, and pathways." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Commercial & Industrial Projects", "description": "Manage larger scale concreting enquiries efficiently." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Decorative & Exposed Concrete", "description": "Support polished, coloured, and exposed aggregate work." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "Client & Job Tracking", "description": "Log site details, quotes, approvals, and schedules." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Answer customer enquiries via AI voice or chat instantly." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI follows up on quotes and site inspections automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce delays with reminders for approvals and start dates." },
+      { "icon": "file-plus", "title": "Centralized Records", "description": "Access job history and notes without paperwork." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Site Inspection & Quote Management", "description": "A homeowner calls for a new driveway quote. The AI books a site inspection, captures job details, and sends confirmation automatically." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends inspection confirmation and reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Job Notes", "description": "Records site measurements and client requirements.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Quote Follow-Ups", "description": "Reminds clients about pending quotes.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Project Updates", "description": "Keeps clients informed before work begins.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Concreters",
+    "subtitle": "Join thousands of concreters who are transforming client communication and project management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

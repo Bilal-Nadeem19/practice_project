@@ -20,7 +20,7 @@
       {
         "id": "industries",
         "label": "Industries",
-        "path": "/#industries",
+        "path": "/industries",
         "hasDropdown": true
       },
       {

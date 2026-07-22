@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Trade Care",
+    "title": "AI for Tradies",
+    "description": "Your virtual assistant helps tradies manage job bookings, answer calls, capture leads, schedule site visits, and send reminders — so you can stay on the tools, not the phone.",
+    "image": "/images/industries/tradie/tradie_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "40%", "label": "Fewer missed job enquiries with 24/7 call answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "90%", "label": "Less time spent on admin, scheduling, and call-backs." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "30%", "label": "More booked jobs by capturing every lead automatically." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Tradies",
+    "blocks": [
+      { "heading": "Built for Busy Tradies on the Move", "description": "At VirtualAssistant.com.au, we know tradies are often on-site, driving between jobs, or working hands-on—not answering phones. Our AI Virtual Receptionist ensures every call, enquiry, and booking is handled professionally, so you never miss a job opportunity. Whether you're a solo tradie or running a growing trade business, our AI adapts to your workflow." },
+      { "heading": "Spend More Time on the Tools, Not Admin", "description": "Your AI Receptionist answers calls, books jobs, handles reschedules, and responds to common questions like 'Do you service my area?', 'How much does it cost?', or 'When can you come out?' all in your brand's tone. It keeps your schedule organised while you focus on delivering quality work." },
+      { "heading": "Never Miss a Job Enquiry Again", "description": "Missed calls often mean missed income. Your AI Receptionist works 24/7 to capture job requests, emergency call-outs, and quote enquiries even after hours or on weekends. Every lead is logged, followed up, and ready for you when you're free." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Power your trade business with smart automation that saves time, wins more jobs, and keeps customers informed.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Never Miss a Call", "description": "Ensures every customer call and enquiry is answered professionally, even when you're on-site.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Job Booking & Scheduling", "description": "Automates job bookings, reschedules, and reminders to keep your day running smoothly.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Customised for Your Trade", "description": "Train your AI Receptionist for plumbing, electrical, HVAC, carpentry, landscaping, or any trade service.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Captures leads, emergency call-outs, and enquiries outside business hours.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Scales with Your Business", "description": "Ideal for solo tradies, small teams, or growing trade companies.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Better Customer Experience", "description": "Customers receive clear updates, confirmations, and follow-ups automatically.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI handles repetitive admin so you can focus on completing jobs.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Increased Revenue", "description": "Capture more enquiries and turn missed calls into booked jobs.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Job History", "description": "Access past quotes, job history, notes, and customer details easily.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Tradies Choose VirtualAssistant.com.au",
+    "description": "Tradies across Australia trust VirtualAssistant.com.au to handle their calls, bookings, and enquiries reliably. Our AI Virtual Receptionist integrates seamlessly with your calendar and workflow, ensuring every customer interaction is professional and consistent. You can customise your AI to match your trade, service areas, pricing structure, and availability so it works exactly like a real receptionist, without the overheads. Let AI handle the admin while you focus on quality workmanship and growing your business.",
+    "image": "/images/industries/tradie/tradie_reception.webp",
+    "card": {
+      "heading": "Simple Job Notes & Follow-Ups",
+      "description": "After each job, you can leave a quick voice note that's automatically transcribed and saved. Upload job details, customer notes, or follow-up actions so nothing gets forgotten and every customer receives professional follow-up."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "General Trade Services", "description": "Manage job bookings, call-outs, scheduling, and customer enquiries." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialised Trade Work", "description": "Support plumbing, electrical, carpentry, HVAC, landscaping, and maintenance services." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "Routine Maintenance", "description": "Automate recurring service reminders and maintenance bookings." },
+      { "icon": "trophy", "iconBg": "#9333EA", "title": "Job Tracking", "description": "Track job status, customer details, and follow-up actions." },
+      { "icon": "bot", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Answer customer questions and capture leads automatically." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-ups", "description": "Automatically follow up with customers for quotes and confirmations." },
+      { "icon": "bell", "title": "Smart Scheduling", "description": "Reduce gaps and missed appointments with AI-powered scheduling." },
+      { "icon": "file-plus", "title": "Centralised Job Records", "description": "Access job history, notes, and customer details instantly." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Job Booking & Customer Updates", "description": "A customer calls to book a job and receives confirmations, reminders, and updates automatically via your AI receptionist." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Customers receive immediate booking confirmations and updates.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Job Notes", "description": "Records job details, site notes, and customer requests.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Automated Follow-ups", "description": "Follows up on quotes and incomplete enquiries.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Sends reminders for upcoming jobs and maintenance visits.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Tradies",
+    "subtitle": "Join thousands of tradies using AI to save time, win more jobs, and deliver better customer service.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

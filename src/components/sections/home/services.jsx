@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import IndustryCard from "../../IndustryCard";
+import ServiceCard from "../../ServiceCard";
 import homeData from "../../../data/pages/home_page.json";
 
-export default function Industries() {
-  const { title, subtitle, items, viewAll } = homeData.industries;
+export default function Services() {
+  const { title, subtitle, items, viewAll } = homeData.services;
 
   return (
     <section id="industries" className="py-10 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-2 max-w-6xl mx-auto">
@@ -22,7 +22,7 @@ export default function Industries() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {items.map((industry, index) => (
-          <IndustryCard key={industry.id} industry={industry} index={index} />
+          <ServiceCard key={industry.id} industry={industry} index={index} />
         ))}
       </div>
 

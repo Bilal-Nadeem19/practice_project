@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "badge": "Physio Therapy",
+    "title": "AI for Physiotherapist",
+    "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.",
+    "image": "/images/industries/physiotherapist/physiotherapist_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+  { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Reduction in admin time for therapy professionals." },
+  { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Patient satisfaction with AI-assisted therapy." },
+  { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Boost in patient retention." }
+],
+"intro": {
+  "title": "AI Virtual Receptionist for Physiotherapists",
+  "blocks": [
+    {
+      "heading": "Transform the Way Your Physiotherapy Practice Operates",
+      "description": "At VirtualAssistant.com.au, our AI Virtual Receptionist is designed specifically for physiotherapists and allied health professionals. It answers calls instantly, manages appointments, provides service information, and ensures your patients always receive prompt, professional communication — even after hours."
+    },
+    {
+      "heading": "Stay Focused on Patients, Not Paperwork",
+      "description": "Our AI Receptionist takes care of repetitive admin so you can stay focused on hands-on treatment. It can book, reschedule, and cancel appointments, send reminders, and answer common patient questions — all through natural conversation. You'll never need to worry about missed calls or double bookings again."
+    },
+    {
+      "heading": "Never Miss a Call or Booking Again",
+      "description": "Whether you're with a patient or your reception desk is busy, the AI steps in instantly to handle incoming calls and online messages. It provides details about services, pricing, and availability, then confirms appointments in real time. Your clients get the attention they deserve, even when you're unavailable."
+    }
+  ]
+},"keyBenefits": {
+  "title": "Key Benefits",
+  "subtitle": "Streamline your practice with intelligent automation and patient care tools",
+  "cards": [
+    { "icon": "calendar-check", "title": "Increased Efficiency", "description": "Automated appointment bookings, reminders, and follow-ups to keep your schedule organized.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+    { "icon": "file-plus", "title": "Secure Patient Records", "description": "Secure storage of patient progress notes, treatment history, and exercise routines.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+    { "icon": "user-cog", "title": "Personalized Care", "description": "Personalized scheduling for rehab plans and recurring therapy sessions.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+    { "icon": "trending-up", "title": "Better Adherence", "description": "Fewer no-shows and better treatment adherence tracking for improved outcomes.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+    { "icon": "messages-square", "title": "Smooth Communication", "description": "Seamless communication with patients about home exercises and care instructions.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+    { "icon": "wand", "title": "Enhanced Patient Experience", "description": "No hold times or unanswered calls — your patients always get a professional, friendly response.", "bgFrom": "#FCE7F3", "bgTo": "#FDF2F8", "iconBg": "#DB2777" },
+    { "icon": "layout-grid", "title": "Customizable to Your Practice", "description": "We tailor the assistant's tone, responses, and knowledge to sound exactly like your clinic.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+    { "icon": "settings", "title": "Cost-Effective and Reliable", "description": "Save thousands on reception staff while having a 24/7 assistant that never misses a call.", "bgFrom": "#CCFBF1", "bgTo": "#F0FDFA", "iconBg": "#0D9488" },
+    { "icon": "shield-check", "title": "Boosts Online Reputation", "description": "Better communication leads to happier patients, more 5-star reviews, and stronger SEO visibility.", "bgFrom": "#D9F99D", "bgTo": "#F7FEE7", "iconBg": "#65A30D" }
+  ]
+},
+"whyChooseUs": {
+  "title": "Why Physiotherapists Choose VirtualAssistant.com.au",
+  "description": "Our AI Virtual Receptionist is built to meet the specific needs of Australian physiotherapists. It integrates with your existing systems, handles calls professionally, and keeps your business running smoothly around the clock. Let our AI take care of admin — so you can take care of your patients.",
+  "image": "/images/industries/physiotherapist/physiotherapist_reception.webp",
+  "card": {
+    "heading": "Streamlined Follow-Up and Client Management",
+    "description": "After each appointment, physiotherapists can add notes, record voice memos that are transcribed and summarized, and upload documents or photos directly to the client's record. Everything is stored securely in one place, providing a complete client history for seamless follow-ups and continuity of care."
+  }
+},
+"primaryUses": {
+  "title": "Primary Uses",
+  "items": [
+    { "icon": "bell", "iconBg": "#3B82F6", "title": "Automated Reminders", "description": "Send automated reminders for upcoming physio sessions and appointments." },
+    { "icon": "footprints", "iconBg": "#F59E0B", "title": "Exercise Routines", "description": "Provide patients with personalized exercise routines and reminders." },
+    { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Calendar Sync", "description": "Sync with calendars to avoid overlapping bookings and conflicts." },
+    { "icon": "trophy", "iconBg": "#10B981", "title": "Patient Progress Tracking", "description": "Track rehabilitation milestones and log patient progress digitally." },
+    { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common patient inquiries via AI chat or voice assistant." }
+  ],
+  "cta": {
+    "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+  }
+},
+"productivityGains": {
+  "title": "Productivity Gains",
+  "items": [
+    { "icon": "clock", "title": "Time Savings", "description": "Save hours weekly on scheduling and admin tasks" },
+    { "icon": "user-check", "title": "Reduced Drop-offs", "description": "Reduce patient drop-off with smart reminders" },
+    { "icon": "heart", "title": "Better Care", "description": "Improve consistency in patient care with accurate records" },
+    { "icon": "handshake", "title": "More Face Time", "description": "Get more face-to-face time with patients" }
+  ]
+},
+"useCase": {
+  "title": "Example Use Case",
+  "summary": {
+    "title": "Sports Injury Recovery Patient",
+    "description": "A patient recovering from a sports injury books recurring sessions through your AI assistant."
+  },
+  "steps": [
+    { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Confirms their appointments instantly with available time slots.", "bgColor": "bg-[#3B82F6]/10" },
+    { "number": "2", "numberColor": "#10B981", "title": "Smart Reminders", "description": "Sends reminders with prep instructions like wear flexible clothing.","bgColor": "bg-[#10B981]/10" },
+    { "number": "3", "numberColor": "#F59E0B", "title": "Progress Logging", "description": "Logs treatment updates after each session automatically.", "bgColor": "bg-[#F5B80B]/10" },
+    { "number": "4", "numberColor": "#9333EA", "title": "Exercise Reminders", "description": "Reminds the patient daily about prescribed home exercises.", "bgColor": "bg-[#D9B4FF]/10" }
+  ]
+},
+"contactCta": {
+  "title": "Get Your AI Assistant for Healthcare",
+  "subtitle": "Join thousands of industries who are transforming patient care with our AI solutions.",
+  "buttons": {
+    "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+    "secondary": { "text": "Book a Demo", "link": "/demo" }
+  }
+},
+"exploreOther": {
+  "title": "Explore Other Industries",
+  "subtitle": "Discover how our AI solutions are transforming various industries.",
+  "cards": [
+    {
+      "icon": "dumbbell",
+      "title": "Myotherapist",
+      "description": "Your virtual assistant for stress-free therapy management.",
+      "link": "/industries/myotherapist"
+    },
+    {
+      "icon": "dumbbell",
+      "title": "Personal Trainer",
+      "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.",
+      "link": "/industries/personal-trainer"
+    },
+    {
+      "icon": "hand",
+      "title": "Massage Therapist",
+      "description": "Your virtual assistant handles bookings, reminders, and notes, so you can focus on delivering care, not admin.",
+      "link": "/industries/massage-therapist"
+    }
+  ]
+}
+}

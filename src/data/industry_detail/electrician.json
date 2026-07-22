@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Electrical Services",
+    "title": "AI for Electricians",
+    "description": "Your virtual assistant modernizes electrical operations by managing appointments, diagnosing, sending safety reminders, and scheduling followups, so you can focus on powering homes.",
+    "image": "/images/industries/electrician/electrician_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed service appointments with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduction in hours spent on scheduling and documentation." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher client satisfaction with consistent safety tracking and follow-up maintenance." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Electricians",
+    "blocks": [
+      { "heading": "A Smarter Way to Manage Your Electrical Business", "description": "At VirtualAssistant.com.au, we understand that electricians are constantly on the go, from emergency power outages to large-scale installations. Whether you're a one-man operation working from your van, part of a small electrical team, or running a large company, our AI Virtual Receptionist adapts to your business perfectly. It handles your calls, bookings, and urgent job inquiries automatically, so you never miss a client, a quote request, or a new job." },
+      { "heading": "Focus on the Job, Not the Phone", "description": "Your AI Receptionist answers every call while you're on-site or up a ladder. It can respond instantly to questions like 'Can you come out today?', 'Do you install ceiling fans?', or 'Is this a 24-hour service?' with clear, professional answers. It also books jobs, reschedules appointments, and sends reminders, keeping your day organized and your clients informed." },
+      { "heading": "Never Miss an Emergency or New Client Again", "description": "Even after hours or during busy periods, your AI Receptionist ensures every inquiry is handled. It provides information about your services — from residential wiring and safety inspections to switchboard upgrades and industrial maintenance — and books jobs directly into your calendar. Whether you work alone or manage a large electrical team, it helps you stay efficient and responsive 24/7." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your electrical business with intelligent automation that reduces admin time, increases response speed, and ensures safety compliance.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Capture Every Call", "description": "Never miss a lead, emergency, or service inquiry — even while you're on another job.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "clock", "title": "Streamlined Job Scheduling", "description": "Automates bookings, reschedules, and reminders to keep your workload organized and efficient.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Business", "description": "Your AI Receptionist can be trained specifically to your workflow, tone, and services — from urgent callouts to major installations.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "file-text", "title": "Works for All Business Sizes", "description": "Perfect for solo electricians, small teams, and large companies — scaling easily as your business grows.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Affordable 24/7 Support", "description": "Operates like a full-time receptionist at a fraction of the cost.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Customer Experience", "description": "Provides fast, friendly, and accurate responses that keep your clients coming back.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI handles appointment confirmations, estimates, invoicing notes, and post-job communications, giving you more time for on-site work.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Boosted Client Retention", "description": "Automated maintenance alerts keep customers engaged and ensure timely electrical servicing.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" },
+      { "icon": "database", "title": "Centralized Job Records", "description": "Easily access past installations, and inspection reports all organized per property for a seamless workflow.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Electricians Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by electricians across Australia — from home-based tradies to large-scale electrical companies. It integrates seamlessly with your scheduling and job management tools, ensuring clear communication and efficient service delivery. Best of all, your AI Receptionist can be trained specifically to your electrical business — matching your tone, services, and workflow. Let our AI handle the admin so you can focus on what you do best — keeping the lights on and your clients safe.",
+    "image": "/images/industries/electrician/electrician_reception.webp",
+    "card": {
+      "heading": "Simplify Job Notes and Follow-Ups",
+      "description": "After each job, record a quick voice memo that's automatically transcribed and summarized — perfect for tracking what was done, materials used, or follow-up work needed. Upload quotes, invoices, or compliance certificates directly into your dashboard, keeping your admin streamlined and secure."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "zap", "iconBg": "#3B82F6", "title": "General Electrical Services", "description": "Manage wiring, lighting installations, power outlet repairs, and electrical upgrades." },
+      { "icon": "alert-triangle", "iconBg": "#10B981", "title": "Emergency Repairs", "description": "Rapid scheduling for power outages, short circuits, and urgent electrical faults." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Installations", "description": "Support for solar systems, smart home setups, EV chargers, and security systems." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common inquiries via chat, voice, or SMS, and assist with troubleshooting and dispatching." },
+      { "icon": "calendar-check", "iconBg": "#0D9488", "title": "Routine Maintenance", "description": "Encourage annual electrical safety inspections and preventative maintenance checks." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI schedules routine maintenance and inspection reminders automatically." },
+      { "icon": "bell", "title": "Smart Notifications", "description": "Reduce missed jobs with intelligent reminders for upcoming or delayed appointments." },
+      { "icon": "file-plus", "title": "Accurate Job Records", "description": "Access service history, inspection results, and repair details in one organized system." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Lighting Installation & Safety Check", "description": "A homeowner requests an LED lighting upgrade. The AI assistant:" },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Collects customer details and service requirements.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Repair Notes", "description": "Suggests the best time slot based on technician availability.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Services", "description": "Confirms the appointment and sends pre-visit safety reminders.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Schedules a follow-up maintenance reminder and warranty check.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Electrical Services",
+    "subtitle": "Join thousands of electricians using AI to enhance customer communication, safety compliance, and business efficiency.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "utensils", "title": "Restaurant", "description": "Your virtual assistant modernizes restaurant operations by managing reservations, recording guest preferences, and scheduling follow-ups, so you can focus on great food and service.", "link": "/industries/restaurant" },
+      { "icon": "bed", "title": "Hotels & Accommodation", "description": "Your virtual assistant modernizes hotel operations by managing bookings, tracking guest preferences, automating reminders, and streamlining communication.", "link": "/industries/hotels-accommodation" },
+      { "icon": "help-circle", "title": "For Others", "description": "Your virtual assistant brings intelligent automation to any industry. AI for Others is built to adapt to your business needs, no matter your field.", "link": "/industries/others" }
+    ]
+  }
+}

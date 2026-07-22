@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Food & Beverage",
+    "title": "AI for Restaurants and Takeaway Businesses",
+    "description": "Your virtual assistant modernizes restaurant operations by managing reservations, recording guest preferences, and scheduling follow-ups, so you can focus on great food and service.",
+    "image": "/images/industries/restaurant/restaurant_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed reservations with automated reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduction in time spent on manual scheduling and note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher repeat visits through personalized guest engagement and loyalty automation." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Restaurants and Takeaway Businesses",
+    "blocks": [
+      { "heading": "A Smarter Way to Run Your Food Business", "description": "At VirtualAssistant.com.au, we understand how fast-paced the food and hospitality industry can be. Whether you're a family-run café, a busy pizza shop, a Thai restaurant, or a large dining venue, our AI Virtual Receptionist ensures every customer is served promptly — even when your staff are flat out in the kitchen or on the floor. It manages reservations, takes takeaway and delivery orders, and provides instant answers to customer questions — all with your business's tone and style." },
+      { "heading": "Focus on Food and Service, Not the Phone", "description": "Your AI Receptionist answers every call while your team focuses on preparing great meals. It can take orders for pickup or delivery, confirm menu items, and answer questions like 'Do you have vegan options?', 'What time do you close?', or 'Can I book a table for six?' — instantly and accurately. It can also process new reservations, manage cancellations, confirm delivery addresses, and send order updates automatically." },
+      { "heading": "Never Miss an Order or Booking Again", "description": "Even during peak meal times or after hours, your AI Receptionist ensures every order, booking, and inquiry is captured. It provides details about your menu, daily specials, delivery areas, and catering services — while logging every interaction for your team to review. Whether you're running a small café, a sushi bar, a burger shop, or a multi-location restaurant, you'll never lose a customer because of a missed call again." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your restaurant operations with AI-driven automation that simplifies reservations, personalizes service, and boosts customer retention.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Take Orders Instantly", "description": "Handles phone orders for pickup or delivery with full order details and confirmation messages.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Manage Reservations Effortlessly", "description": "Books, confirms, and updates dine-in reservations while syncing with your schedule.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Cuisine", "description": "Your AI Receptionist can be trained to understand your menu, specials, and dietary requirements — whether you serve Italian, Indian, Thai, Japanese, Greek, or modern Australian cuisine.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "file-text", "title": "Works for All Business Sizes", "description": "Perfect for cafés, takeaways, and large restaurants — scaling effortlessly as you grow.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Affordable 24/7 Coverage", "description": "Acts as a full-time receptionist that never sleeps — handling calls, orders, and bookings day or night.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Customer Experience", "description": "Delivers quick, friendly, and accurate responses that keep customers coming back for more.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Automated Reservations", "description": "Automatically handle table bookings, confirmations, cancellations, and waitlists without manual intervention.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "clock", "title": "Time-Saving Automation", "description": "Let AI handle confirmations, feedback collection, and promotional follow-ups so your staff can focus on service and hospitality.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" },
+      { "icon": "star", "title": "Boosted Customer Loyalty", "description": "Send tailored offers, birthday greetings, and special-event reminders to keep customers coming back.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Food Businesses Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by food and hospitality businesses across Australia — from small takeaway stores to high-end dining venues. It integrates seamlessly with your POS and reservation systems, such as OpenTable, ResDiary, and Uber Eats, ensuring every order or booking is handled smoothly. Best of all, your AI Receptionist can be trained to your exact workflow, cuisine, and brand voice — giving customers a consistent and friendly experience every time. Let our AI handle the phones while you focus on what you do best — cooking, serving, and delighting customers.",
+    "image": "/images/industries/restaurant/restaurant_reception.webp",
+    "card": {
+      "heading": "Simplify Orders, Notes, and Follow-Ups",
+      "description": "After each shift, your team can record quick voice memos that are automatically transcribed and summarized — great for noting large orders, special requests, or delivery updates. You can also upload menus, pricing updates, or customer feedback directly into your dashboard, keeping everything organized in one place."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "calendar-check", "iconBg": "#3B82F6", "title": "Table Reservations", "description": "Manage real-time bookings, waitlists, and walk-ins efficiently." },
+      { "icon": "clipboard-list", "iconBg": "#10B981", "title": "Order Management", "description": "Track dine-in, takeaway, and online orders seamlessly." },
+      { "icon": "gift", "iconBg": "#F59E0B", "title": "Customer Engagement", "description": "Send personalized offers, newsletters, and loyalty reward." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer customer queries, take orders, and confirm reservations via chat or voice." },
+      { "icon": "star", "iconBg": "#0D9488", "title": "Feedback Collection", "description": "Gather post-dining feedback automatically to improve quality." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Confirmations", "description": "Reduce no-shows with instant SMS or email confirmations." },
+      { "icon": "bell", "title": "Smart Promotions", "description": "Use AI to identify repeat customers and send personalized offers." },
+      { "icon": "file-plus", "title": "Quick Access to Guest Profiles", "description": "Review preferences, feedback, and order history instantly for better service." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Dinner Reservation & Special Request", "description": "A couple books a table for an anniversary dinner. The AI assistant:" },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Confirms reservation and notes it's a special occasion.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Complimentary food", "description": "Alerts the staff to prepare a complimentary dessert.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Services", "description": "Sends a thank-you message with a loyalty offer the next day.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Sends an automated reminder before the dinner.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Restaurants and Takeaway Businesses",
+    "subtitle": "Join thousands of food and hospitality businesses who are transforming customer service with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      {"icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist"},
+{"icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer"}
+    ]
+  }
+}

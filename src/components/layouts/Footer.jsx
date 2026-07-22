@@ -24,7 +24,7 @@ const fadeUp = (delay = 0) => ({
 });
 
 export default function Footer() {
-  console.log(Object.keys(homeData));
+  // console.log(Object.keys(homeData));
   const { logo, description, socials, pages, industries, bottomBar } =
     homeData.footer;
 
@@ -37,12 +37,12 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="w-full bg-white border-t border-gray-100 font-sans antialiased">
+    <footer className="w-full bg-white border-t border-gray-100 font-sans antialiased overflow-hidden">
       <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[240px_140px_1fr] gap-10 lg:gap-14 items-start">
 
           {/* Col 1 — Logo + description + socials */}
-          <motion.div {...fadeUp(0)} className="flex flex-col items-start text-left">
+          <motion.div {...fadeUp(0)} className="flex flex-col items-start text-left min-w-0">
             <Link to="/">
               <img
                 src={logoImg}
@@ -50,10 +50,10 @@ export default function Footer() {
                 className="h-16 w-auto object-contain mb-5"
               />
             </Link>
-            <p className="text-[14px] text-textcolor leading-relaxed max-w-[200px] mb-5">
+            <p className="text-[14px] text-textcolor leading-relaxed max-w-[200px] mb-5 break-words">
               {description}
             </p>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 flex-wrap">
               {socials.map((s) => {
                 const Icon = socialIconMap[s.icon];
                 if (!Icon) return null;
@@ -80,10 +80,10 @@ export default function Footer() {
             </h4>
             <ul className="space-y-1.5">
               {pages.links.map((link) => (
-                <li key={link.label}>
+                <li key={link.label} className="min-w-0">
                   <Link
                     to={link.href}
-                    className="text-[15px] text-textcolor hover:text-primary transition-colors duration-200 block"
+                    className="text-[15px] text-textcolor hover:text-primary transition-colors duration-200 block break-words"
                   >
                     {link.label}
                   </Link>
@@ -93,18 +93,18 @@ export default function Footer() {
           </motion.div>
 
           {/* Col 3 — Industries */}
-          <motion.div {...fadeUp(0.3)} className="text-left w-full">
+          <motion.div {...fadeUp(0.3)} className="text-left w-full min-w-0">
             <h4 className="text-[16px] font-bold text-gray-900 mb-5 tracking-wide">
               {industries.title}
             </h4>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-3.5 w-full">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-3.5 w-full break-words">
               {industryCols.map((col, ci) => (
                 <motion.ul {...fadeUp(0.3 + ci * 0.1)} key={ci} className="space-y-3.5 min-w-0">
                   {col.map((link) => (
-                    <li key={link.label}>
+                    <li key={link.label} className="min-w-0">
                       <Link
                         to={link.href}
-                        className="text-[15px] text-gray-600 hover:text-sky-500 transition-colors duration-200 block leading-tight py-0.5"
+                        className="text-[15px] text-gray-600 hover:text-sky-500 transition-colors duration-200 block leading-tight py-0.5 break-words"
                       >
                         {link.label}
                       </Link>
@@ -126,7 +126,7 @@ export default function Footer() {
             <p>{bottomBar.copyright}</p>
             <p>{bottomBar.rights}</p>
           </div>
-          <div className="flex items-center gap-3 text-[14px] text-gray-500 z-10">
+          <div className="flex items-center gap-3 text-[14px] text-gray-500 z-10 flex-wrap justify-center">
             {bottomBar.links.map((link, i) => (
               <React.Fragment key={link.label}>
                 <Link

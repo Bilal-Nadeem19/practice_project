@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Legal Care",
+    "title": "AI for Lawyer",
+    "description": "Your virtual assistant modernizes legal practice by managing appointments, recording case notes, tracking deadlines, sending client reminders, and scheduling follow-ups.",
+    "image": "/images/industries/lawyer/lawyer_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "30%", "label": "Fewer missed deadlines with automated legal reminders." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "98%", "label": "Reduced hours spent on scheduling and case note-taking." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "25%", "label": "Higher client retention with consistent deadline tracking and tailored client care." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Lawyers",
+    "blocks": [
+      { "heading": "Professional. Confidential. Always Available.", "description": "At VirtualAssistant.com.au, we understand that first impressions and client confidentiality are critical in the legal profession. Whether you're a remote lawyer, part of a small boutique firm, or managing a large practice, our AI Virtual Receptionist provides professional call handling, appointment management, and client communication — all with the highest standard of discretion and accuracy." },
+      { "heading": "Focus on Legal Work, Not Phone Calls", "description": "Your AI Receptionist takes care of incoming calls and client scheduling while your team focuses on casework. It can answer questions such as 'How can I book a consultation?', 'Do you handle family law?', or 'Can I speak to my solicitor about my matter?', all while maintaining professionalism and compliance with your firm's standards. It can also send reminders, manage, and ensure clients receive clear communication about next steps." },
+      { "heading": "Never Miss a New Client or Urgent Matter", "description": "Even during court appearances, client meetings, or outside business hours, your AI Receptionist ensures every inquiry is handled promptly and confidentially. It can provide information about your practice areas — from conveyancing and family law to criminal defense, wills, and corporate advisory — and book initial consultations directly into your calendar. Your practice remains accessible, responsive, and professional 24/7." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Enhance your law practice with intelligent automation that reduces admin work, personalizes client service, and increases efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional and Confidential", "description": "Delivers clear, courteous communication while maintaining the privacy expected in legal matters.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Streamlined Appointment Management", "description": "Automates bookings, reschedules, and reminders to improve efficiency and client satisfaction.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Practice", "description": "Your AI Receptionist can be trained specifically to your business requirements — matching your tone, workflow, and client process.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "Adaptable for All Firm Sizes", "description": "Ideal for remote lawyers, small boutique practices, and larger legal teams — scaling to fit your operation seamlessly.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "24/7 Availability", "description": "Ensures no call or client inquiry goes unanswered, even outside regular office hours.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "calendar-check", "title": "Automated Scheduling", "description": "Automatically manage court dates, client appointments, and tasks without manual intervention.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "heart", "title": "Improved Client Care", "description": "Case status, reminders, and communications remain consistent and personalized.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "AI manages routine follow-ups, legal reminders, and recurring legal obligations reliably.", "bgFrom": "#FEF9C3", "bgTo": "#FEFCE8", "iconBg": "#CA8A04" },
+      { "icon": "star", "title": "Boosted Client Retention", "description": "Regular check-ins, proactive reminders, and personalized schedules keep clients engaged.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Lawyers and Law Firms Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by lawyers across Australia — from independent practitioners and mobile solicitors to full-service law firms. It integrates seamlessly with your scheduling and case management systems, providing reliable communication and professional client care. Best of all, your AI Receptionist can be trained specifically to your workflow and tone — ensuring every interaction reflects your practice's integrity, brand, and client expectations. Whether you work remotely or lead a busy team, let our AI handle the admin so you can focus on delivering expert legal services and achieving the best outcomes for your clients.",
+    "image": "/images/industries/lawyer/lawyer_reception.webp",
+    "card": {
+      "heading": "Simplified Client Records and Follow-Ups",
+      "description": "After each client interaction or meeting, you or your team can record quick voice memos that are automatically transcribed and summarized for efficient record keeping. You can upload case notes, documents, and follow-up actions securely within the dashboard — ensuring continuity, accuracy, and compliance across your practice."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "scale", "iconBg": "#3B82F6", "title": "General Legal Practice", "description": "Manage consultations, case tracking, legal research, and document management." },
+      { "icon": "trophy", "iconBg": "#10B981", "title": "Client Progress Tracking", "description": "Log case status, court dates, client communications, and follow-up deadlines." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Specialized Services", "description": "Support civil, criminal, family, corporate law, and legal consultancy." },
+      { "icon": "bot", "iconBg": "#9333EA", "title": "AI Assistant", "description": "Answer common client queries via AI chat or virtual assistant." },
+      { "icon": "refresh-cw", "iconBg": "#0D9488", "title": "Routine Maintenance", "description": "Automate recurring case reviews, compliance checks, and regular updates." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Deadline Reminders", "description": "Save time with AI scheduling and recurring legal reminders." },
+      { "icon": "bell", "title": "Smart Record Keeping", "description": "Reduce missed details with AI-powered record management." },
+      { "icon": "file-plus", "title": "Centralized Client History", "description": "Quickly review case file, communications, and legal history without manual searches." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Client Consultation & Case Updates", "description": "A client schedules a legal consultation and receives timely updates and reminders via your virtual assistant." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "Save time with automatic appointment confirmations and legal reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Case Notes", "description": "Records case details, briefs, and documents for each client.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Follow-ups", "description": "Automates scheduling of periodic case reviews, compliance checks, and court date reminders.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Service Reminders", "description": "Sends reminders for document deadlines, court dates, and consultation renewals.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Legal Practice",
+    "subtitle": "Join thousands of law professionals transforming client service and practice management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "calculator", "title": "Accountant", "description": "Your virtual assistant modernizes accounting by managing appointments, recording financial notes, tracking deadlines, sending tax reminders, and scheduling client follow-ups.", "link": "/industries/accountant" },
+      {"icon": "calculator", "title": "Accountant", "description": "Your virtual assistant modernizes accounting by managing appointments, recording financial notes, tracking deadlines, sending tax reminders, and scheduling client follow-ups.", "link": "/industries/accountant"},
+      {"icon": "briefcase", "title": "Consultant", "description": "Your virtual assistant modernizes consulting by managing appointments, recording meeting notes, tracking project deadlines, sending follow-up reminders, and streamlining client communication.", "link": "/industries/consultant"}
+    ]
+  }
+}

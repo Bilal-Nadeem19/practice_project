@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "Landscaping Services",
+    "title": "AI for Landscapers",
+    "description": "Your AI virtual assistant helps landscaping businesses manage calls, book site inspections, capture project details, follow up on quotes, and keep jobs moving while you focus on creating outdoor spaces.",
+    "image": "/images/industries/landscaper/landscaper_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "35%", "label": "Fewer missed job enquiries with 24/7 call answering." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "90%", "label": "Less time spent on admin and scheduling." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "30%", "label": "Higher quote acceptance with faster follow-ups." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Landscapers",
+    "blocks": [
+      { "heading": "Modern Solutions for Modern Landscaping Businesses", "description": "At VirtualAssistant.com.au, we understand that every call to your landscaping business could be a new garden, outdoor renovation, or maintenance job. Our AI Virtual Receptionist ensures every enquiry is answered professionally and captured accurately." },
+      { "heading": "Focus on Landscaping, Not Phone Calls", "description": "While you're on-site designing, building, or maintaining landscapes, your AI Receptionist handles incoming calls and questions. It answers enquiries like 'Do you do garden design?' or 'Can I book a site visit?' with a friendly and professional tone." },
+      { "heading": "Never Miss a Landscaping Opportunity", "description": "Whether you're busy, after hours, or on another job, your AI Receptionist makes sure no lead is missed. It explains your services — from garden design and turfing to paving and ongoing maintenance — and books inspections automatically." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Capture more landscaping jobs, reduce admin, and deliver a professional customer experience with AI-powered automation.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Professional First Impression", "description": "Every caller receives a friendly, polished response.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Automated Site Visit Booking", "description": "Book consultations, quotes, and follow-ups instantly.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Customised for Your Landscaping Business", "description": "Train your AI to match your services, areas, and workflows.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "24/7 Availability", "description": "Never miss an enquiry, even evenings and weekends.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Secure & Reliable", "description": "Client details, addresses, and project info are handled safely.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Client Experience", "description": "Clear communication builds trust from first contact.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Automation", "description": "Reduce admin workload for you and your team.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Job Conversion", "description": "Fast responses and consistent follow-ups win more work.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralised Job History", "description": "Access past quotes, site notes, and project details easily.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Landscapers Choose VirtualAssistant.com.au",
+    "description": "Landscapers across Australia trust our AI Virtual Receptionist to manage calls, book site inspections, and capture accurate project details. It integrates with your scheduling tools and CRM, acting as a reliable extension of your business.",
+    "image": "/images/industries/landscaper/landscaper_reception.webp",
+    "card": {
+      "heading": "Streamline Quotes and Client Follow-Ups",
+      "description": "After each enquiry or site visit, you can record quick voice notes that are transcribed and summarised automatically. The AI follows up on quotes, approvals, and start dates — helping you secure more landscaping projects faster."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "Garden Design & Landscaping", "description": "Handle new garden and outdoor renovation enquiries." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Hardscaping & Paving", "description": "Support paving, retaining walls, and structural landscaping." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "Lawn & Garden Maintenance", "description": "Manage ongoing lawn care, pruning, and garden maintenance bookings." },
+      { "icon": "trophy", "iconBg": "#9333EA", "title": "Client & Project Tracking", "description": "Log site details, designs, quotes, and schedules." },
+      { "icon": "bot", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Answer customer enquiries via AI voice or chat instantly." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "AI follows up on quotes and consultations automatically." },
+      { "icon": "bell", "title": "Smart Reminders", "description": "Reduce delays with reminders for approvals and start dates." },
+      { "icon": "file-plus", "title": "Centralized Records", "description": "Access job history and notes without paperwork." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Site Consultation & Quote Management", "description": "A homeowner calls for a backyard landscaping quote. The AI books a site visit, captures project details, and sends confirmation automatically." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends consultation confirmation and reminders.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Project Notes", "description": "Records design preferences and site requirements.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Quote Follow-Ups", "description": "Reminds clients about pending quotes.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Project Updates", "description": "Keeps clients informed before work begins.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Landscapers",
+    "subtitle": "Join thousands of landscapers who are transforming client communication and project management with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

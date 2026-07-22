@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "badge": "General Services",
+    "title": "AI for Any Service-Based Business",
+    "description": "Your virtual assistant brings intelligent automation to any industry. AI for Others is built to adapt to your business needs, no matter your field.",
+    "image": "/images/industries/other/other_hero.webp",
+    "buttons": {
+      "primary": { "text": "Start your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "stats": [
+    { "icon": "clock", "iconStyle": "circle", "value": "40%", "label": "Reduction in manual workload with automation." },
+    { "icon": "clipboard-plus", "iconStyle": "flat", "value": "95%", "label": "Accuracy in scheduling, reminders, and communication tasks." },
+    { "icon": "trending-up", "iconStyle": "flat", "value": "50%", "label": "Improvement in overall operational efficiency." }
+  ],
+  "intro": {
+    "title": "AI Virtual Receptionist for Any Service-Based Business",
+    "blocks": [
+      { "heading": "A Smarter Way to Manage Your Day-to-Day Operations", "description": "At VirtualAssistant.com.au, we know that running a service-based business means balancing customer care, admin, and hands-on work. Our AI Virtual Receptionist is designed to take the pressure off answering calls, managing bookings, and responding to inquiries automatically so you can focus on doing what you do best. Whether you're a solo operator, small business owner, or part of a large company, your AI Receptionist is built to adapt to your workflow and tone of voice." },
+      { "heading": "Works for Any Industry, Any Size", "description": "No matter your business type, our AI Receptionist can be tailored to fit your exact needs. It's trusted by businesses across industries such as plumbing, electrical, beauty, personal training, health, legal, accounting, real estate, hospitality, marketing, and more. Whether you're a one-person operation, small team, or large company with multiple staff, your AI Receptionist scales seamlessly with you." },
+      { "heading": "Focus on Your Clients, Not the Phone", "description": "Your AI Receptionist answers every call while you're with a client, on-site, or after hours. It can take bookings, handle cancellations, send reminders, and provide key information about your services instantly. It can also collect client details, log messages, or escalate important calls ensuring your business stays responsive 24/7." }
+    ]
+  },
+  "keyBenefits": {
+    "title": "Key Benefits",
+    "subtitle": "Empower your organization with intelligent automation that simplifies operations, enhances communication, and drives efficiency.",
+    "cards": [
+      { "icon": "calendar-check", "title": "Never Miss a Call or Lead", "description": "Your AI answers every call instantly, capturing opportunities even outside of business hours.", "bgFrom": "#F3E8FF", "bgTo": "#FAF5FF", "iconBg": "#9333EA" },
+      { "icon": "check-circle", "title": "Smart Scheduling and Reminders", "description": "Books, confirms, and reschedules appointments automatically to keep your calendar organized.", "bgFrom": "#CFFAFE", "bgTo": "#ECFEFF", "iconBg": "#0891B2" },
+      { "icon": "layout-grid", "title": "Fully Customizable to Your Business", "description": "Your AI Receptionist can be trained to match your services, tone, and workflow—whether professional, casual, or industry-specific.", "bgFrom": "#FEF3C7", "bgTo": "#FFFBEB", "iconBg": "#D97706" },
+      { "icon": "sun", "title": "Affordable 24/7 Coverage", "description": "Provides full-time support without the cost of hiring staff, improving customer response times.", "bgFrom": "#D1FAE5", "bgTo": "#ECFDF5", "iconBg": "#059669" },
+      { "icon": "shield-check", "title": "Scales with Your Growth", "description": "Perfect for solo operators through to large teams, adapting seamlessly to your business size.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "heart", "title": "Improved Client Experience", "description": "Delivers fast, accurate, and friendly responses that leave a lasting impression on customers.", "bgFrom": "#ECFCCB", "bgTo": "#F7FEE7", "iconBg": "#65A30D" },
+      { "icon": "bot", "title": "Time-Saving Processes", "description": "Automate recurring tasks like reports, updates, and notifications.", "bgFrom": "#FEE2E2", "bgTo": "#FEF2F2", "iconBg": "#DC2626" },
+      { "icon": "star", "title": "Higher Retention Rates", "description": "Maintain client relationships through consistent, personalized engagement.", "bgFrom": "#DBEAFE", "bgTo": "#EFF6FF", "iconBg": "#2563EB" },
+      { "icon": "database", "title": "Centralized Data Management", "description": "Access all client and project details in one secure, organized place.", "bgFrom": "#EDE9FE", "bgTo": "#F5F3FF", "iconBg": "#7C3AED" }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Businesses Choose VirtualAssistant.com.au",
+    "description": "Our AI Virtual Receptionist is trusted by service-based businesses all across Australia - from trades and clinics to salons, studios, and agencies. It integrates seamlessly into your existing workflow, handling calls, bookings, and customer communication around the clock. Best of all, your AI Receptionist can be trained specifically for your industry and business personality, whether friendly and local or professional and corporate. Let our AI take care of the admin so you can focus on what matters most—delivering great service and growing your business.",
+    "image": "/images/industries/other/other_reception.webp",
+    "card": {
+      "heading": "Simplify Notes and Follow-Ups",
+      "description": "Record a quick voice memo after each client interaction—your AI automatically transcribes and summarizes it, keeping your notes organized and searchable. Upload invoices, client forms, or service notes directly into your dashboard, keeping everything in one place for easy access and follow-up."
+    }
+  },
+  "primaryUses": {
+    "title": "Primary Uses",
+    "items": [
+      { "icon": "hard-hat", "iconBg": "#3B82F6", "title": "Task & Workflow Management", "description": "Automate and track project progress." },
+      { "icon": "settings", "iconBg": "#F59E0B", "title": "Performance Tracking", "description": "Record key metrics, results, and milestones." },
+      { "icon": "calendar-check", "iconBg": "#10B981", "title": "Routine Services & Maintenance", "description": "Manage seasonal servicing, recurring check-ins, or regular maintenance visits." },
+      { "icon": "trophy", "iconBg": "#9333EA", "title": "Client Interaction", "description": "Send follow-ups, reminders, and responses." },
+      { "icon": "bot", "iconBg": "#0D9488", "title": "AI Assistant", "description": "Provide instant answers to client inquiries via chat or voice." }
+    ],
+    "cta": {
+      "note": "Get your AI Virtual Receptionist set up in under 5 minutes.",
+      "arrowImage": "/images/industries/physiotherapist/arrow.webp",
+      "button": { "text": "Start 14 Day Free Trial", "link": "/get-started" }
+    }
+  },
+  "productivityGains": {
+    "title": "Productivity Gains",
+    "items": [
+      { "icon": "calendar-check", "title": "Automated Follow-Ups", "description": "Save hours each week by letting AI manage reminders and updates." },
+      { "icon": "bell", "title": "Smart Notifications", "description": "Stay on top of priorities with AI-generated alerts." },
+      { "icon": "file-plus", "title": "Quick Access", "description": "Retrieve essential data in seconds without manual searching." }
+    ]
+  },
+  "useCase": {
+    "title": "Example Use Case",
+    "summary": { "title": "Client Project Management", "description": "A client requests a new service through your virtual assistant. The AI sends a confirmation, logs details, and schedules the project." },
+    "steps": [
+      { "number": "1", "numberColor": "#3B82F6", "title": "Instant Confirmation", "description": "AI sends a confirmation and schedules the project.", "bgColor": "bg-[#3B82F6]/10" },
+      { "number": "2", "numberColor": "#10B981", "title": "Task Notes", "description": "Logs project details and client preferences.", "bgColor": "bg-[#10B981]/10" },
+      { "number": "3", "numberColor": "#F59E0B", "title": "Recurring Tasks", "description": "Creates automated follow-up actions.", "bgColor": "bg-[#F5B80B]/10" },
+      { "number": "4", "numberColor": "#9333EA", "title": "Progress Updates", "description": "Sends automatic updates to both client and team.", "bgColor": "bg-[#D9B4FF]/10" }
+    ]
+  },
+  "contactCta": {
+    "title": "Get Your AI Assistant for Your Business",
+    "subtitle": "Join thousands of businesses who are transforming operational efficiency with our AI solutions.",
+    "buttons": {
+      "primary": { "text": "Start Your 14 Day Free Trial", "link": "/get-started" },
+      "secondary": { "text": "Book a Demo", "link": "/demo" }
+    }
+  },
+  "exploreOther": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover how our AI solutions are transforming various industries.",
+    "cards": [
+      { "icon": "stethoscope", "title": "Physiotherapist", "description": "A virtual assistant that books, reminds, and records, while you focus on your patients.", "link": "/industries/physiotherapist" },
+      { "icon": "activity", "title": "Myotherapist", "description": "Your virtual assistant for stress-free therapy management.", "link": "/industries/myotherapist" },
+      { "icon": "dumbbell", "title": "Personal Trainer", "description": "Power up your training business by automating client scheduling, payment reminders, and progress updates.", "link": "/industries/personal-trainer" }
+    ]
+  }
+}

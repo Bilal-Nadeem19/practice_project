@@ -12,6 +12,27 @@ const fadeInUp = {
   },
 };
 
+// Stagger container for the form fields
+const formContainer = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0,
+    },
+  },
+};
+
+// Individual field entrance animation
+const fieldVariant = {
+  hidden: { opacity: 0, scale: 0.9, y: 50 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    y: 0,
+    transition: { duration: 1.2, ease: [0.25, 0.1, 0.25, 1] },
+  },
+};
+
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     fullName: "",
@@ -43,7 +64,7 @@ const ContactUs = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
-        <h1 className="text-4xl md:text-5xl font-bold text-primary mb-2">
+        <h1 className="text-4xl md:text-5xl tracking-[0.01em] font-bold text-primary mb-2">
           {contactData.title}
         </h1>
         <p className="max-w-xl mx-auto text-textcolor text-base opacity-90 leading-7">
@@ -54,7 +75,7 @@ const ContactUs = () => {
       {/* Form Card */}
       <motion.div
         className="max-w-2xl mx-auto bg-white rounded-lg shadow-sm p-4 md:p-8"
-        variants={fadeInUp}
+        variants={formContainer}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.1 }}
@@ -62,7 +83,7 @@ const ContactUs = () => {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Full Name */}
-            <div>
+            <motion.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.fullName.label}
                 <span className="text-red-500">*</span>
@@ -74,19 +95,19 @@ const ContactUs = () => {
                 onChange={handleChange}
                 placeholder={fields.fullName.placeholder}
                 required
-                className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
               />
-            </div>
+            </motion.div>
 
             {/* Phone Number */}
-            <div>
+            <motion.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.phone.label}
                 <span className="text-red-500">*</span>
               </label>
               <div className="flex">
                 <select
-                  className="border border-slate-300 rounded-l-lg px-2 text-sm bg-white
+                  className="border border-slate-300 rounded-l-lg px-2 text-sm bg-white 
                focus:outline-none focus:ring-2 focus:ring-primary focus:z-10"
                 >
                   <option>{fields.phone.countryCode}</option>
@@ -99,15 +120,13 @@ const ContactUs = () => {
                   onChange={handleChange}
                   placeholder={fields.phone.placeholder}
                   required
-                  className="w-full border border-slate-300 -ml-px rounded-r-lg
-               px-4 py-2.5 text-sm
-               focus:outline-none focus:ring-2 focus:ring-primary focus:z-10"
+                  className="w-full border border-slate-300 -ml-px rounded-r-lg px-4 py-2.5 text-sm placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:z-10"
                 />
               </div>
-            </div>
+            </motion.div>
 
             {/* Email */}
-            <div>
+            <motion.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.email.label}
                 <span className="text-red-500">*</span>
@@ -119,12 +138,12 @@ const ContactUs = () => {
                 onChange={handleChange}
                 placeholder={fields.email.placeholder}
                 required
-                className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
               />
-            </div>
+            </motion.div>
 
             {/* Industry */}
-            <div>
+            <motion.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.industry.label}
                 <span className="text-red-500">*</span>
@@ -145,11 +164,11 @@ const ContactUs = () => {
                   </option>
                 ))}
               </select>
-            </div>
+            </motion.div>
           </div>
 
           {/* Message */}
-          <div>
+          <motion.div variants={fieldVariant}>
             <label className="block text-sm font-semibold text-heading mb-2">
               {fields.message.label}
             </label>
@@ -159,19 +178,19 @@ const ContactUs = () => {
               onChange={handleChange}
               placeholder={fields.message.placeholder}
               rows={5}
-              className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm resize-y focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm resize-y placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
             />
-          </div>
+          </motion.div>
 
           {/* Submit */}
-          <div className="text-center pt-2">
+          <motion.div variants={fieldVariant} className="text-center pt-2">
             <button
               type="submit"
-              className="bg-primary text-white px-8 py-2.5 rounded-lg font-semibold transition duration-300 transform hover:scale-105 active:scale-95"
+              className="bg-primary text-white px-6 py-3.5 rounded-lg font-semibold shadow-[var(--shadow-glow)] transition-all duration-300 ease-in-out hover:bg-[#0090C0] hover:scale-105 hover:shadow-[var(--shadow-glow)] active:scale-95"
             >
               {submitText}
             </button>
-          </div>
+          </motion.div>
         </form>
       </motion.div>
 
@@ -183,18 +202,18 @@ const ContactUs = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
-        <h4 className="font-bold text-heading mb-3">
+        <h4 className="font-bold tracking-[0.01em] text-heading mb-3">
           {contactData.directContact.heading}
         </h4>
-        <p className="text-textcolor text-sm flex items-center justify-center gap-2 mb-1">
+        <p className="text-textcolor text-md flex items-center justify-center gap-2 mb-0">
           <Mail className="w-4 h-4 text-primary" />
           Email us at: {contactData.directContact.email}
         </p>
-        <p className="text-textcolor text-sm flex items-center justify-center gap-2">
+        <p className="text-textcolor text-md flex items-center justify-center gap-2">
           <Phone className="w-4 h-4 text-pink-500" />
           Call Us Now: {contactData.directContact.phone}
         </p>
-        <p className="text-textcolor text-sm italic mt-4">
+        <p className="text-textcolor text-base italic mt-4">
           {contactData.directContact.note}
         </p>
         <p className="text-heading text-sm font-medium mt-4">
