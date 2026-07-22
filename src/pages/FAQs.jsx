@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import faqData from "../data/pages/faqs.json";
+import faqData from "../data/pages/Faqs.json";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
