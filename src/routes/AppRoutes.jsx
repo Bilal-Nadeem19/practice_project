@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import ScrollToHash from "../components/common/ScrollToHash";
 import Home from "../pages/Home";
-import Industries from "../pages/Industries";
+import Industries from "../pages/industries";
 import About from "../pages/About";
 import ContactUs from "../pages/ContactUs";
 import Blogs from "../pages/Blogs";
