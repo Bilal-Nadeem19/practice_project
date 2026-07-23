@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Internal routing ke liye Link import kiya
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import {
   FaTiktok,
   FaLinkedinIn,
@@ -38,11 +38,11 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-white border-t border-gray-100 font-sans antialiased overflow-hidden">
-      <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[240px_140px_1fr] gap-10 lg:gap-14 items-start">
+      <div className="max-w-325 mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-[240px_140px_1fr] gap-10 lg:gap-14 items-start">
 
           {/* Col 1 — Logo + description + socials */}
-          <motion.div {...fadeUp(0)} className="flex flex-col items-start text-left min-w-0">
+          <m.div {...fadeUp(0)} className="flex flex-col items-start text-left min-w-0">
             <Link to="/">
               <img
                 src={logoImg}
@@ -50,7 +50,7 @@ export default function Footer() {
                 className="h-16 w-auto object-contain mb-5"
               />
             </Link>
-            <p className="text-[14px] text-textcolor leading-relaxed max-w-[200px] mb-5 break-words">
+            <p className="text-[14px] text-textcolor leading-relaxed max-w-50 mb-5 wrap-break-word">
               {description}
             </p>
             <div className="flex items-center gap-5 flex-wrap">
@@ -71,10 +71,10 @@ export default function Footer() {
                 );
               })}
             </div>
-          </motion.div>
+          </m.div>
 
           {/* Col 2 — Pages */}
-          <motion.div {...fadeUp(0.15)} className="text-left">
+          <m.div {...fadeUp(0.15)} className="text-left">
             <h4 className="text-[16px] font-bold text-heading mb-5 tracking-wide">
               {pages.title}
             </h4>
@@ -83,45 +83,45 @@ export default function Footer() {
                 <li key={link.label} className="min-w-0">
                   <Link
                     to={link.href}
-                    className="text-[15px] text-textcolor hover:text-primary transition-colors duration-200 block break-words"
+                    className="text-[15px] text-textcolor hover:text-primary transition-colors duration-200 block wrap-break-word"
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-          </motion.div>
+          </m.div>
 
           {/* Col 3 — Industries */}
-          <motion.div {...fadeUp(0.3)} className="text-left w-full min-w-0">
+          <m.div {...fadeUp(0.3)} className="text-left w-full min-w-0">
             <h4 className="text-[16px] font-bold text-gray-900 mb-5 tracking-wide">
               {industries.title}
             </h4>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-3.5 w-full break-words">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-8 w-full wrap-break-word">
               {industryCols.map((col, ci) => (
-                <motion.ul {...fadeUp(0.3 + ci * 0.1)} key={ci} className="space-y-3.5 min-w-0">
+                <m.ul {...fadeUp(0.3 + ci * 0.1)} key={ci} className="space-y-3.5 min-w-0">
                   {col.map((link) => (
                     <li key={link.label} className="min-w-0">
                       <Link
                         to={link.href}
-                        className="text-[15px] text-gray-600 hover:text-sky-500 transition-colors duration-200 block leading-tight py-0.5 break-words"
+                        className="text-[15px] text-gray-600 hover:text-sky-500 transition-colors duration-200 block leading-tight py-0.5 wrap-break-word"
                       >
                         {link.label}
                       </Link>
                     </li>
                   ))}
-                </motion.ul>
+                </m.ul>
               ))}
             </div>
-          </motion.div>
+          </m.div>
 
         </div>
       </div>
 
       {/* Bottom bar */}
-      <motion.div {...fadeUp(0.5)} className="border-t border-gray-100 py-6">
-        <div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between relative gap-4">
-          <div className="hidden md:block w-[200px]"></div>
+      <m.div {...fadeUp(0.5)} className="border-t border-gray-100 py-6">
+        <div className="max-w-325 mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between relative gap-4">
+          <div className="hidden md:block w-50"></div>
           <div className="text-center md:absolute md:left-1/2 md:-translate-x-1/2 text-[14px] text-gray-500 leading-normal">
             <p>{bottomBar.copyright}</p>
             <p>{bottomBar.rights}</p>
@@ -142,7 +142,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-      </motion.div>
+      </m.div>
     </footer>
   );
 }

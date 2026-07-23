@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import {
   Play,
   Phone,
@@ -113,14 +113,14 @@ const About = () => {
       <section className="bg-[linear-gradient(to_right,#FEFFFF_0%,#EDF6FD_50%,#DFF2FE_100%)] py-16 md:py-24 px-6 md:px-12 overflow-x-hidden flex items-center min-h-[80vh]">
         <div className="max-w-8xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-12 md:gap-16 w-full">
           {/* Left Side - Text Content */}
-          <motion.div
+          <m.div
             className="flex-1 w-full text-left lg:-translate-y-20"
             variants={zoomInText}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
           >
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold text-heading mb-6">
+            <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-[48px] font-bold text-heading mb-6">
               {data.title}{" "}
               <span className="text-primary inline-block">
                 {data.titleHighlight}
@@ -147,10 +147,10 @@ const About = () => {
                 {data.buttons.secondary.text}
               </a>
             </div>
-          </motion.div>
+          </m.div>
 
           {/* Right Side - App Mockup/Image */}
-          <motion.div
+          <m.div
             className="flex-1 w-full flex justify-center md:justify-end lg:-translate-y-18"
             variants={zoomInImage}
             initial="hidden"
@@ -168,7 +168,7 @@ const About = () => {
                 style={{ willChange: "filter" }}
               />
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </section>
 
@@ -182,7 +182,7 @@ const About = () => {
             {homeData.subheading}
           </p>
 
-          <motion.div
+          <m.div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
             variants={containerVariants}
             initial="hidden"
@@ -192,7 +192,7 @@ const About = () => {
             {homeData.cards.map((card) => {
               const Icon = iconMap[card.icon];
               return (
-                <motion.div
+                <m.div
                   key={card.title}
                   className="bg-white border-x border-b border-slate-100 shadow-sm rounded-xl p-6 text-left transition-transform duration-300 hover:scale-105 hover:shadow-lg"
                   variants={cardVariants}
@@ -209,10 +209,10 @@ const About = () => {
                   <p className="text-textcolor text-sm leading-relaxed opacity-90">
                     {card.desc}
                   </p>
-                </motion.div>
+                </m.div>
               );
             })}
-          </motion.div>
+          </m.div>
         </div>
       </section>
 
@@ -232,7 +232,7 @@ const About = () => {
 
         <div className="max-w-6xl mx-auto mt-14 md:mt-16 flex flex-col md:flex-row items-center gap-12 md:gap-16">
           {/* Left - Browser mockup image */}
-          <motion.div
+          <m.div
             className="flex-1 w-full flex justify-center md:justify-start"
             variants={zoomInImageLeft}
             initial="hidden"
@@ -247,10 +247,10 @@ const About = () => {
                 className="w-full max-w-125 h-auto object-contain block"
               />
             </div>
-          </motion.div>
+          </m.div>
 
           {/* Right - Numbered steps */}
-          <motion.div
+          <m.div
             className="flex-1 w-full md:w-[45%] lg:w-[42%] flex flex-col gap-8"
             variants={stepsContainerVariants}
             initial="hidden"
@@ -258,7 +258,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.2 }}
           >
             {homeData.howItWorks.steps.map((step) => (
-              <motion.div
+              <m.div
                 key={step.number}
                 className="flex items-start gap-4"
                 variants={stepItemVariants}
@@ -274,9 +274,9 @@ const About = () => {
                     {step.desc}
                   </p>
                 </div>
-              </motion.div>
+              </m.div>
             ))}
-          </motion.div>
+          </m.div>
         </div>
       </section>
       {/* Section 4: Why Our Technology Matters */}
@@ -292,7 +292,7 @@ const About = () => {
             {homeData.whyItMatters.description}
           </p>
 
-          <motion.div
+          <m.div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
             variants={containerVariants}
             initial="hidden"
@@ -302,7 +302,7 @@ const About = () => {
             {homeData.whyItMatters.cards.map((card) => {
               const Icon = iconMap[card.icon];
               return (
-                <motion.div
+                <m.div
                   key={card.title}
                   className="bg-white border-x border-b border-slate-100 shadow-sm rounded-xl p-6 text-left transition-transform duration-300 hover:scale-105 hover:shadow-lg"
                   variants={scaleFadeVariants}
@@ -319,10 +319,10 @@ const About = () => {
                   <p className="text-textcolor text-sm md:text-base leading-relaxed opacity-90">
                     {card.desc}
                   </p>
-                </motion.div>
+                </m.div>
               );
             })}
-          </motion.div>
+          </m.div>
         </div>
       </section>
       {/* Section 5: CTA */}

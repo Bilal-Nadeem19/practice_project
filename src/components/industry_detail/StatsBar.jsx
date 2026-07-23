@@ -1,5 +1,5 @@
 import iconMap from "../../utils/iconMap";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const StatsBar = ({ stats }) => {
 
@@ -14,7 +14,7 @@ const StatsBar = ({ stats }) => {
 
   return (
     <section className="w-full px-6 md:px-12 py-14 md:py-16">
-  <motion.div 
+  <m.div 
   className="flex flex-wrap justify-around items-center gap-8 border border-[#E5E7EB] rounded-lg p-8 md:p-10 bg-[#FFFFFF] shadow-[0_10px_15px_0px_#0000001A,0_4px_6px_0px_#0000001A] max-w-6xl w-full mx-auto"
   variants={fadeInDim}
   initial="hidden"
@@ -41,7 +41,7 @@ const StatsBar = ({ stats }) => {
   );
 })}
         </div>
-      </motion.div>
+      </m.div>
     </section>
   );
 };

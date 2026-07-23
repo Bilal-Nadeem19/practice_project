@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X } from "lucide-react";
 // Import the full JSON data structure
 import navData from "../../data/layouts/navbar.json";
@@ -77,7 +77,7 @@ export default function Navbar() {
             </div>
 
             {/* 2. Desktop Nav Links */}
-            <div className="hidden md:flex items-center gap-x-8">
+            <div className="hidden lg:flex items-center gap-x-8">
               {navbar.menu.map((item) => {
                 // Handle drop-down menus dynamically
                 if (item.hasDropdown) {
@@ -103,19 +103,19 @@ export default function Navbar() {
                       >
                         <span>{item.label}</span>
 
-                        <motion.div
+                        <m.div
                           animate={{
                             rotate: activeDropdown === item.id ? 180 : 0,
                           }}
                           transition={{ duration: 0.2 }}
                         >
                           <ChevronDown className="w-4 h-4 text-gray-500" />
-                        </motion.div>
+                        </m.div>
                       </Link>
 
                       <AnimatePresence>
                         {activeDropdown === item.id && (
-                          <motion.div
+                          <m.div
                             variants={dropdownVariants}
                             initial="hidden"
                             animate="visible"
@@ -147,7 +147,7 @@ export default function Navbar() {
                                 </Link>
                               ))}
                             </div>
-                          </motion.div>
+                          </m.div>
                         )}
                       </AnimatePresence>
                     </div>
@@ -181,7 +181,7 @@ export default function Navbar() {
             </div>
 
             {/* 3. Desktop CTA Buttons */}
-            <div className="hidden md:flex items-center gap-x-3">
+            <div className="hidden lg:flex items-center gap-x-3">
               {navbar.buttons.map((btn) => (
                 <Link
                   key={btn.id}
@@ -198,7 +198,7 @@ export default function Navbar() {
             </div>
 
             {/* 4. Mobile Hamburger Button */}
-            <div className="md:hidden flex items-center">
+            <div className="lg:hidden flex items-center">
               <button
                 onClick={() => setMobileMenuOpen((prev) => !prev)}
                 className="p-2 rounded-lg text-text-main hover:bg-bg-light transition-colors"
@@ -206,7 +206,7 @@ export default function Navbar() {
               >
                 <AnimatePresence mode="wait" initial={false}>
                   {mobileMenuOpen ? (
-                    <motion.div
+                    <m.div
                       key="close"
                       initial={{ rotate: -90, opacity: 0 }}
                       animate={{ rotate: 0, opacity: 1 }}
@@ -214,9 +214,9 @@ export default function Navbar() {
                       transition={{ duration: 0.15 }}
                     >
                       <X className="w-6 h-6" />
-                    </motion.div>
+                    </m.div>
                   ) : (
-                    <motion.div
+                    <m.div
                       key="menu"
                       initial={{ rotate: 90, opacity: 0 }}
                       animate={{ rotate: 0, opacity: 1 }}
@@ -224,7 +224,7 @@ export default function Navbar() {
                       transition={{ duration: 0.15 }}
                     >
                       <Menu className="w-6 h-6" />
-                    </motion.div>
+                    </m.div>
                   )}
                 </AnimatePresence>
               </button>
@@ -237,23 +237,23 @@ export default function Navbar() {
       <AnimatePresence>
         {mobileMenuOpen && (
           <>
-            <motion.div
+            <m.div
               key="overlay"
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.4 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
-              className="fixed inset-0 top-20 z-40 bg-black md:hidden"
+              className="fixed inset-0 top-20 z-40 bg-black lg:hidden"
               onClick={() => setMobileMenuOpen(false)}
             />
 
-            <motion.div
+            <m.div
               key="drawer"
               variants={mobileMenuVariants}
               initial="hidden"
               animate="visible"
               exit="exit"
-              className="fixed top-20 left-0 bottom-0 z-50 w-4/5 max-w-xs bg-white shadow-2xl overflow-y-auto md:hidden"
+              className="fixed top-20 left-0 bottom-0 z-50 w-4/5 max-w-xs bg-white shadow-2xl overflow-y-auto lg:hidden"
             >
               <div className="px-4 py-4 flex flex-col gap-y-1">
                 {navbar.menu.map((item) => {
@@ -268,19 +268,19 @@ export default function Navbar() {
                           className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg text-base font-semibold text-text-main hover:bg-bg-light transition-colors"
                         >
                           <span>{item.label}</span>
-                          <motion.div
+                          <m.div
                             animate={{
                               rotate: mobileAccordion === item.id ? 180 : 0,
                             }}
                             transition={{ duration: 0.2 }}
                           >
                             <ChevronDown className="w-4 h-4 text-gray-500" />
-                          </motion.div>
+                          </m.div>
                         </button>
 
                         <AnimatePresence>
                           {mobileAccordion === item.id && (
-                            <motion.div
+                            <m.div
                               variants={accordionVariants}
                               initial="hidden"
                               animate="visible"
@@ -305,7 +305,7 @@ export default function Navbar() {
                                   {subItem.title}
                                 </Link>
                               ))}
-                            </motion.div>
+                            </m.div>
                           )}
                         </AnimatePresence>
                       </div>
@@ -342,7 +342,7 @@ export default function Navbar() {
                   ))}
                 </div>
               </div>
-            </motion.div>
+            </m.div>
           </>
         )}
       </AnimatePresence>

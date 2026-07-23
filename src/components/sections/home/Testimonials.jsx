@@ -1,14 +1,36 @@
 import React, { useState, useEffect, useCallback } from "react";
 import TestimonialCard from "../../TestimonialCard";
 import homeData from "../../../data/pages/home_page.json";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 
-const CARDS_PER_SLIDE = 3;
+// Breakpoint ke hisab se ek slide mein kitne cards dikhane hain
+function getCardsPerSlide() {
+  if (typeof window === "undefined") return 3;
+  const w = window.innerWidth;
+  if (w < 640) return 1;   // mobile
+  if (w < 1024) return 2;  // tablet (sm-lg)
+  return 3;                // desktop
+}
 
 export default function Testimonials() {
   const { title, subtitle, autoPlayInterval, reviews } = homeData.testimonials;
-  const totalSlides = Math.ceil(reviews.length / CARDS_PER_SLIDE);
+
+  const [cardsPerSlide, setCardsPerSlide] = useState(getCardsPerSlide());
   const [current, setCurrent] = useState(0);
+
+  // Resize par cardsPerSlide update karo
+  useEffect(() => {
+    const handleResize = () => setCardsPerSlide(getCardsPerSlide());
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const totalSlides = Math.ceil(reviews.length / cardsPerSlide);
+
+  // Agar totalSlides kam ho jaye (resize ki wajah se) to current ko range mein rakho
+  useEffect(() => {
+    setCurrent((prev) => (prev >= totalSlides ? 0 : prev));
+  }, [totalSlides]);
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % totalSlides);
@@ -22,22 +44,22 @@ export default function Testimonials() {
   const goTo = (index) => setCurrent(index);
 
   const currentReviews = reviews.slice(
-    current * CARDS_PER_SLIDE,
-    current * CARDS_PER_SLIDE + CARDS_PER_SLIDE,
+    current * cardsPerSlide,
+    current * cardsPerSlide + cardsPerSlide,
   );
 
   return (
     <section id="testimonials" className="w-full py-10 sm:py-12 lg:py-16 bg-gradient-to-b from-sky-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <motion.div
+        <m.div
           className="text-center mb-10 sm:mb-14"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-primary inline-block relative">
+          <h2 className="text-4xl font-bold text-primary inline-block relative">
             {title}
             <span className="block w-10 sm:w-12 h-1 bg-primary mx-auto mt-2 rounded-full" />
           </h2>
@@ -46,24 +68,23 @@ export default function Testimonials() {
               {subtitle}
             </p>
           )}
-        </motion.div>
+        </m.div>
 
-        {/* Carousel with fast slide */}
         {/* Carousel */}
         <div className="overflow-hidden relative w-full">
           <AnimatePresence mode="popLayout" initial={false}>
-            <motion.div
+            <m.div
               key={current}
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ duration: 0.6, ease: "easeInOut" }}
-              className="grid grid-cols-1 sm:grid-cols-3 gap-6"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
             >
               {currentReviews.map((review) => (
                 <TestimonialCard key={review.id} review={review} />
               ))}
-            </motion.div>
+            </m.div>
           </AnimatePresence>
         </div>
 

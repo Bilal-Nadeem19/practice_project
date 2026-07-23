@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Mail, Phone } from "lucide-react";
 import contactData from "../data/pages/contact.json";
 
@@ -57,7 +57,7 @@ const ContactUs = () => {
 
   return (
     <section className="w-full bg-[#EDF6FD] pt-10 md:pt-12 pb-16 md:pb-20 px-6 md:px-12">
-      <motion.div
+      <m.div
         className="max-w-2xl mx-auto text-center mb-10"
         variants={fadeInUp}
         initial="hidden"
@@ -70,10 +70,10 @@ const ContactUs = () => {
         <p className="max-w-xl mx-auto text-textcolor text-base opacity-90 leading-7">
           {contactData.description}
         </p>
-      </motion.div>
+      </m.div>
 
       {/* Form Card */}
-      <motion.div
+      <m.div
         className="max-w-2xl mx-auto bg-white rounded-lg shadow-sm p-4 md:p-8"
         variants={formContainer}
         initial="hidden"
@@ -83,7 +83,7 @@ const ContactUs = () => {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Full Name */}
-            <motion.div variants={fieldVariant}>
+            <m.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.fullName.label}
                 <span className="text-red-500">*</span>
@@ -97,10 +97,10 @@ const ContactUs = () => {
                 required
                 className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
               />
-            </motion.div>
+            </m.div>
 
             {/* Phone Number */}
-            <motion.div variants={fieldVariant}>
+            <m.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.phone.label}
                 <span className="text-red-500">*</span>
@@ -123,10 +123,10 @@ const ContactUs = () => {
                   className="w-full border border-slate-300 -ml-px rounded-r-lg px-4 py-2.5 text-sm placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:z-10"
                 />
               </div>
-            </motion.div>
+            </m.div>
 
             {/* Email */}
-            <motion.div variants={fieldVariant}>
+            <m.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.email.label}
                 <span className="text-red-500">*</span>
@@ -140,10 +140,10 @@ const ContactUs = () => {
                 required
                 className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
               />
-            </motion.div>
+            </m.div>
 
             {/* Industry */}
-            <motion.div variants={fieldVariant}>
+            <m.div variants={fieldVariant}>
               <label className="block text-sm font-semibold text-heading mb-2">
                 {fields.industry.label}
                 <span className="text-red-500">*</span>
@@ -164,11 +164,11 @@ const ContactUs = () => {
                   </option>
                 ))}
               </select>
-            </motion.div>
+            </m.div>
           </div>
 
           {/* Message */}
-          <motion.div variants={fieldVariant}>
+          <m.div variants={fieldVariant}>
             <label className="block text-sm font-semibold text-heading mb-2">
               {fields.message.label}
             </label>
@@ -180,22 +180,22 @@ const ContactUs = () => {
               rows={5}
               className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm resize-y placeholder:text-base placeholder:text-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
             />
-          </motion.div>
+          </m.div>
 
           {/* Submit */}
-          <motion.div variants={fieldVariant} className="text-center pt-2">
+          <m.div variants={fieldVariant} className="text-center pt-2">
             <button
               type="submit"
               className="bg-primary text-white px-6 py-3.5 rounded-lg font-semibold shadow-[var(--shadow-glow)] transition-all duration-300 ease-in-out hover:bg-[#0090C0] hover:scale-105 hover:shadow-[var(--shadow-glow)] active:scale-95"
             >
               {submitText}
             </button>
-          </motion.div>
+          </m.div>
         </form>
-      </motion.div>
+      </m.div>
 
       {/* Direct Contact */}
-      <motion.div
+      <m.div
         className="max-w-2xl mx-auto text-center mt-10"
         variants={fadeInUp}
         initial="hidden"
@@ -219,7 +219,7 @@ const ContactUs = () => {
         <p className="text-heading text-sm font-medium mt-4">
           {contactData.directContact.footerNote}
         </p>
-      </motion.div>
+      </m.div>
     </section>
   );
 };

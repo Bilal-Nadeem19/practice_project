@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import IndustryCard from "../IndustryCard";
 
 const fadeInDim = {
@@ -12,7 +12,7 @@ const fadeInDim = {
 
 const ExploreOtherIndustries = ({ exploreData }) => {
   return (
-    <motion.section
+    <m.section
       className="w-full px-6 md:px-12 py-16 md:py-20 bg-gray-50"
       variants={fadeInDim}
       initial="hidden"
@@ -41,7 +41,7 @@ const ExploreOtherIndustries = ({ exploreData }) => {
           ))}
         </div>
       </div>
-    </motion.section>
+    </m.section>
   );
 };
 

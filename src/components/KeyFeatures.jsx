@@ -1,7 +1,7 @@
 import React from "react";
 import FeautureCard from "./FeautureCard";
 import homeData from "../data/pages/home_page.json";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 export default function KeyFeatures() {
   const { title, items } = homeData.keyFeatures;
@@ -14,7 +14,7 @@ export default function KeyFeatures() {
       <div className="max-w-6xl mx-auto">
         
         {/* Heading Animation */}
-        <motion.div 
+        <m.div 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
@@ -25,7 +25,7 @@ export default function KeyFeatures() {
             {title}
             <span className="block w-10 sm:w-12 h-[2px] bg-primary mx-auto mt-2 rounded-full" />
           </h2>
-        </motion.div>
+        </m.div>
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 items-stretch">

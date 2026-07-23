@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Check } from "lucide-react";
 import homeData from "../../../data/pages/home_page.json";
 
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
     <section className="bg-[#EAF3FF] py-20 px-4">
       <div className="max-w-3xl mx-auto text-center">
         {/* Subtitle */}
-        <motion.div
+        <m.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3 }}
@@ -29,10 +29,10 @@ const WhyChooseUs = () => {
             {data.subtitle}
             <span className="block w-18 h-1 bg-primary mx-auto mt-2 rounded-full"></span>
           </h3>
-        </motion.div>
+        </m.div>
 
         {/* Title */}
-        <motion.h2
+        <m.h2
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3 }}
@@ -41,10 +41,10 @@ const WhyChooseUs = () => {
           className="text-3xl md:text-4xl font-bold text-heading mb-4 leading-snug"
         >
           {data.title}
-        </motion.h2>
+        </m.h2>
 
         {/* Description */}
-        <motion.p
+        <m.p
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3 }}
@@ -53,12 +53,12 @@ const WhyChooseUs = () => {
           className="text-gray-500 max-w-xl mx-auto mb-12"
         >
           {data.description}
-        </motion.p>
+        </m.p>
 
         {/* Features List */}
         <div className="text-left max-w-xl mx-auto space-y-6 mb-10">
           {data.features.map((feature, i) => (
-            <motion.div
+            <m.div
               key={feature.id}
               initial="hidden"
               whileInView="visible"
@@ -78,12 +78,12 @@ const WhyChooseUs = () => {
                   {feature.description}
                 </p>
               </div>
-            </motion.div>
+            </m.div>
           ))}
         </div>
 
         {/* Buttons */}
-        <motion.div
+        <m.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3 }}
@@ -104,7 +104,7 @@ const WhyChooseUs = () => {
           >
             {data.buttons.secondary.text}
           </a>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );
