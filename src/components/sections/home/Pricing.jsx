@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Check } from "lucide-react";
 import homeData from "../../../data/pages/home_page.json";
 
@@ -39,7 +39,7 @@ export default function Pricing() {
     <section id="pricing" className="w-full py-10 sm:py-12 lg:py-16 px-2 sm:px-3 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
-        <motion.div
+        <m.div
           className="text-center mb-10 sm:mb-12"
           initial="hidden"
           whileInView="visible"
@@ -47,7 +47,7 @@ export default function Pricing() {
           variants={headingVariants}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary inline-block relative">
+          <h2 className="text-5xl font-bold text-primary inline-block relative">
             {title}
             <span className="block w-14 sm:w-16 h-1 bg-primary mx-auto mt-6 rounded-full" />
           </h2>
@@ -98,16 +98,16 @@ export default function Pricing() {
               </span>
             </span>
           </div>
-        </motion.div>
+        </m.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-5 items-center mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-5 items-center mt-12">
           {plans.map((plan, index) => {
             const variants = getCardVariants(index);
             const price = getPrice(plan.monthlyPrice);
             const weekly = getWeeklyPrice(plan.monthlyPrice);
 
             return (
-              <motion.div
+              <m.div
                 key={plan.id}
                 initial="hidden"
                 whileInView="visible"
@@ -170,7 +170,7 @@ export default function Pricing() {
 
                   {/* CTA */}
 
-                  <motion.a
+                  <m.a
                     href={plan.ctaHref}
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2, ease: "easeOut" }}
@@ -181,9 +181,9 @@ export default function Pricing() {
                     }`}
                   >
                     {plan.ctaText}
-                  </motion.a>
+                  </m.a>
                 </div>
-              </motion.div>
+              </m.div>
             );
           })}
         </div>

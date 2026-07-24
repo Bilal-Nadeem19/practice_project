@@ -20,11 +20,11 @@ const { cta } = content;
   return (
     <>
       <section
-        className="relative overflow-hidden bg-cover bg-center bg-[#1a9fd8]"
-        style={{ backgroundImage: `url(${backgroundImage.src})` }}
+        className="relative overflow-hidden bg-cover bg-center bg-[#1a9fd8] min-h-175 sm:min-h-0 bg-no-repeat"
+        style={{ backgroundImage: `url(${backgroundImage.src})`, backgroundPosition: "left center",backgroundSize: "cover", }}
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-14 lg:py-18 flex justify-end">
-          <div className="w-full max-w-lg rounded-3xl p-4 md:p-10 mr-10 lg:mr-16 backdrop-blur-sm bg-[#1E8BB0]">
+        <div className="max-w-7xl mx-auto px-5 md:px-12 py-16 lg:py-18 flex justify-center lg:justify-end items-center min-h-175 lg:min-h-0">
+          <div className="w-full max-w-md lg:max-w-lg rounded-3xl p-4 md:p-10 mx-auto lg:mr-16 lg:ml-0 backdrop-blur-sm bg-[#1E8BB0]">
             <span className="inline-block bg-span-bg text-span-text px-4 py-1 rounded-full text-xs font-medium mb-4 font-poppins">
               {badge}
             </span>
@@ -36,11 +36,11 @@ const { cta } = content;
               ))}
             </h1>
 
-            <p className="text-white/90 leading-relaxed mb-6 font-poppins text-sm sm:text-base max-w-110">
+            <p className="text-white/90 leading-relaxed mb-6 font-poppins text-sm sm:text-base max-w-full lg:max-w-110">
               {description}
             </p>
 
-            <Reveal className="flex flex-wrap gap-4">
+            <Reveal className="flex flex-wrap justify-center lg:justify-start gap-4">
               {buttons.map((btn, i) => (
                 <RevealItem key={btn.label} delay={i * 0.2}>
                   <a

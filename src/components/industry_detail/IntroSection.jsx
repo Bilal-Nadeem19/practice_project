@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const fadeInDim = {
   hidden: { opacity: 0, y: 15 },
@@ -11,7 +11,7 @@ const fadeInDim = {
 
 const IntroSection = ({ introData }) => {
   return (
-    <motion.section
+    <m.section
       className="w-full px-6 sm:px-8 md:px-12 py-10 sm:py-14 md:py-20"
       style={{
         background: "linear-gradient(rgb(229, 242, 255), rgb(244, 248, 253), rgb(249, 250, 251))",
@@ -39,7 +39,7 @@ const IntroSection = ({ introData }) => {
           ))}
         </div>
       </div>
-    </motion.section>
+    </m.section>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import {
   Stethoscope,
   Dumbbell,
@@ -34,7 +34,7 @@ export default function ServiceCard({ industry, index }) {
   const delay = (index % 3) * 0.18;
 
   return (
-    <motion.div
+    <m.div
       variants={cardVariants}
       initial="hidden"
       whileInView="visible"
@@ -67,6 +67,6 @@ export default function ServiceCard({ industry, index }) {
       >
         {industry.link.text}
       </a>
-    </motion.div>
+    </m.div>
   );
 }

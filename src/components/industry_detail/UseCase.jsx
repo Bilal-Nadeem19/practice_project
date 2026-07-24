@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const fadeInDim = {
   hidden: { opacity: 0, y: 15 },
@@ -18,7 +18,7 @@ const UseCase = ({ useCase }) => {
       }}
     >
       <div className="max-w-200 mx-auto">
-        <motion.h2
+        <m.h2
           className="max-w-5xl md:text-4xl font-bold text-primary text-center mb-10 md:mb-14"
           variants={fadeInDim}
           initial="hidden"
@@ -26,7 +26,7 @@ const UseCase = ({ useCase }) => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {useCase.title}
-        </motion.h2>
+        </m.h2>
 
         {/* Summary card */}
         <div className="bg-white/80 rounded-2xl shadow-md p-6 md:p-8 mb-6 transition-transform duration-300 hover:scale-[1.02]">

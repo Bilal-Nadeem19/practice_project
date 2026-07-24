@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const fadeInDim = {
   hidden: { opacity: 0, y: 15 },
@@ -14,7 +14,7 @@ const Hero = ({ heroData }) => {
     <div>
       {/* Section 1: Hero */}
       <section className="w-full bg-[#EDF6FD] min-h-120 flex items-center justify-center pt-12 sm:pt-14 md:pt-20 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 md:px-12 text-center">
-        <motion.div
+        <m.div
           className="max-w-5xl mx-auto"
           variants={fadeInDim}
           initial="hidden"
@@ -45,7 +45,7 @@ const Hero = ({ heroData }) => {
               {heroData.buttons.secondary.text}
             </a>
           </div>
-        </motion.div>
+        </m.div>
       </section>
     </div>
   );

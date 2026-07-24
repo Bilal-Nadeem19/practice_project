@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Phone, Calendar, FileText } from "lucide-react";
 import homeData from "../../../data/pages/home_page.json";
 
@@ -42,7 +42,7 @@ export default function HowItWorks() {
     <section className="w-full py-10 sm:py-12 lg:py-16 bg-gradient-to-b from-sky-50 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <motion.div
+        <m.div
           className="text-center mb-10 sm:mb-14 w-full min-w-0"
           initial="hidden"
           whileInView="visible"
@@ -59,7 +59,7 @@ export default function HowItWorks() {
               {subtitle}
             </p>
           )}
-        </motion.div>
+        </m.div>
 
         {/* Steps */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-8">
@@ -70,7 +70,7 @@ export default function HowItWorks() {
             const variants = getStepVariants(position);
 
             return (
-              <motion.div
+              <m.div
                 key={step.id}
                 className="flex flex-col items-center text-center min-w-0 w-full"
                 initial="hidden"
@@ -85,7 +85,7 @@ export default function HowItWorks() {
                 </div>
 
                 {/* Card with number attached at bottom border */}
-                <motion.div
+                <m.div
                   whileHover={{ y: -6, boxShadow: "0 12px 24px rgba(14,165,233,0.18)" }}
                   transition={{ duration: 0.25, ease: "easeOut" }}
                   className="relative w-full min-w-0 bg-white rounded-lg border-t-4 border-sky-500 shadow-sm px-5 pt-6 pb-8 sm:px-6 sm:pt-7 sm:pb-9"
@@ -101,8 +101,8 @@ export default function HowItWorks() {
                   <div className="absolute left-1/2 -bottom-4 -translate-x-1/2 w-8 h-8 rounded-full border border-sky-400 bg-white text-sky-500 text-sm font-semibold flex items-center justify-center">
                     {step.id}
                   </div>
-                </motion.div>
-              </motion.div>
+                </m.div>
+              </m.div>
             );
           })}
         </div>

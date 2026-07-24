@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import iconMap from "../../utils/iconMap";
 
 const rowVariants = {
@@ -28,7 +28,7 @@ const KeyBenefits = ({ keyBenefits }) => {
 
         <div className="flex flex-col gap-6">
           {rows.map((row, rowIndex) => (
-            <motion.div
+            <m.div
               key={rowIndex}
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7"
               variants={rowVariants}
@@ -61,7 +61,7 @@ const KeyBenefits = ({ keyBenefits }) => {
                   </div>
                 );
               })}
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

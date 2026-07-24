@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const fadeInDim = {
   hidden: { opacity: 0, y: 15 },
@@ -11,20 +11,20 @@ const fadeInDim = {
 
 export function RevealItem({ children, delay = 0, className = "", style }) {
   return (
-    <motion.div
+    <m.div
       variants={fadeInDim}
       transition={{ delay }}
       className={className}
       style={style}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
 export default function Reveal({ children, delay = 0, className = "", style }) {
   return (
-    <motion.div
+    <m.div
       variants={fadeInDim}
       initial="hidden"
       whileInView="visible"
@@ -34,6 +34,6 @@ export default function Reveal({ children, delay = 0, className = "", style }) {
       style={style}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }

@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import iconMap from "../../utils/iconMap";
 
 const fadeInDim = {
@@ -12,7 +12,7 @@ const fadeInDim = {
 
 const ProductivityGains = ({ productivityGains }) => {
   return (
-    <motion.section
+    <m.section
     className="w-full flex flex-col items-center justify-center bg-linear-to-r from-[#00A7DE] to-[#0578AC] px-4 sm:px-6 md:px-16 lg:px-24 py-16 text-white"
       variants={fadeInDim}
       initial="hidden"
@@ -46,7 +46,7 @@ const ProductivityGains = ({ productivityGains }) => {
   })}
 </div>
       </div>
-    </motion.section>
+    </m.section>
   );
 };
 

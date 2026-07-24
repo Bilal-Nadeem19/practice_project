@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import iconMap from "../../utils/iconMap";
 
 const fadeInDim = {
@@ -16,7 +16,7 @@ const PrimaryUses = ({ primaryUses }) => {
 
   return (
     <section className="w-full px-6 md:px-12 lg:px-20 pt-8 md:pt-10 pb-16 md:pb-20 bg-white">
-      <motion.div
+      <m.div
         className="max-w-208 mx-auto"
         variants={fadeInDim}
         initial="hidden"
@@ -98,7 +98,7 @@ const PrimaryUses = ({ primaryUses }) => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </m.div>
     </section>
   );
 };

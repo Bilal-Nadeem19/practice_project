@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import blogData from "../data/pages/blog.json";
 import featuredImage from "../assets/images/homepage/blogs/whats-new-illustration.webp";
 // import { Calendar } from "lucide-react";
@@ -104,21 +104,21 @@ const Blogs = () => {
       <Hero heroData={heroData} />
       
       {/* Section 2: Intro + Category Filter Tabs */}
-      <section className="w-full bg-white py-10 sm:py-12 md:py-16 px-4 sm:px-6 md:px-12 text-center">
-        <motion.div
+      <section className="w-full bg-white py-16 px-4 sm:px-6 md:px-12 text-center">
+        <m.div
           variants={fadeInDim}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* Divider line */}
-          <div className="w-16 sm:w-24 md:w-60 h-1 bg-primary rounded-full mx-auto mb-8 sm:mb-10 md:mb-14"></div>
+          <div className="w-60 h-1 bg-primary rounded-full mx-auto mb-8 sm:mb-10 md:mb-14"></div>
 
           {/* Description */}
           <p className="text-textcolor text-base sm:text-lg md:text-xl leading-[1.6] max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-14">
             {renderDescription(introData.description)}
           </p>
-        </motion.div>
+        </m.div>
 
         {/* Category Filter Tabs */}
         <div className="inline-flex flex-wrap justify-center gap-2 bg-[#E8F6FF] rounded-full p-2 sm:p-3 overflow-visible">
@@ -142,7 +142,7 @@ const Blogs = () => {
       </section>
 
       {/* Section 3: Featured Post (dynamic - slot 0) */}
-      <section className="w-full bg-[#F8FBFF] py-6 sm:py-8 md:py-12 px-4 sm:px-6 md:px-12">
+      <section className="w-full bg-[#F8FBFF] py-10 sm:py-10 md:py-12 px-4 sm:px-6 md:px-12">
         <div className="max-w-6xl mx-auto bg-[#FBFAFD] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-10 flex flex-col md:flex-row items-center gap-6 sm:gap-10 md:gap-16">
           {/* Left - Illustration */}
           <div className="flex-1 w-full flex justify-center">
@@ -158,10 +158,10 @@ const Blogs = () => {
             <span className="inline-block bg-sky-100 text-primary text-xs sm:text-sm md:text-md font-bold tracking-wide px-3 py-1 sm:px-4 sm:py-1 rounded-full mb-3 sm:mb-4">
               {slots[0].tag}
             </span>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[38px] font-bold text-heading mb-3 sm:mb-4 leading-tight">
+            <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-[38px] font-bold text-heading mb-3 sm:mb-4 leading-tight">
               {slots[0].title}
             </h2>
-            <p className="text-textcolor text-sm sm:text-base md:text-lg leading-normal mb-3 sm:mb-4 opacity-90">
+            <p className="text-textcolor text-md sm:text-base md:text-lg leading-normal mb-3 sm:mb-4 opacity-90">
               {slots[0].description}
             </p>
             <a
@@ -178,7 +178,7 @@ const Blogs = () => {
       <section className="w-full bg-white pt-12 sm:pt-16 md:pt-20 lg:pt-28 pb-10 sm:pb-12 md:pb-16 px-4 sm:px-6 md:px-12">
         <div className="max-w-272 mx-auto flex flex-col gap-4 sm:gap-5">
           {/* Row 1: Cards 1, 2, 3 */}
-          <motion.div
+          <m.div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 items-stretch"
             variants={rowVariants}
             initial="hidden"
@@ -203,11 +203,11 @@ const Blogs = () => {
                       {card.tag}
                     </span>
 
-                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-heading mb-2 sm:mb-3 leading-tight line-clamp-3">
+                    <h3 className="text-lg sm:text-lg md:text-xl font-bold text-heading mb-2 sm:mb-3 leading-tight line-clamp-3">
                       {card.title}
                     </h3>
 
-                    <p className="text-textcolor text-sm sm:text-base leading-normal opacity-90 mb-3 sm:mb-4 flex-1 line-clamp-4">
+                    <p className="text-textcolor text-base leading-normal opacity-90 mb-3 sm:mb-4 flex-1 line-clamp-4">
                       {card.description}
                     </p>
 
@@ -221,10 +221,10 @@ const Blogs = () => {
                 </div>
               );
             })}
-          </motion.div>
+          </m.div>
 
           {/* Row 2: Cards 4, 5, 6 */}
-          <motion.div
+          <m.div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 items-stretch"
             variants={rowVariants}
             initial="hidden"
@@ -267,7 +267,7 @@ const Blogs = () => {
                 </div>
               );
             })}
-          </motion.div>
+          </m.div>
         </div>
       </section>
 

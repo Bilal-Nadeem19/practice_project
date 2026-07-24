@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Phone, Calendar, FileText, Mic, BarChart, Tag } from "lucide-react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const iconMap = {
   phone: Phone,
@@ -29,7 +29,7 @@ export default function FeautureCard({ feature }) {
   const imgSrc = getImage(feature.image);
 
   return (
-    <motion.div
+    <m.div
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false, amount: 0.15 }}
@@ -84,6 +84,6 @@ export default function FeautureCard({ feature }) {
           </button>
         )}
       </div>
-    </motion.div>
+    </m.div>
   );
 }

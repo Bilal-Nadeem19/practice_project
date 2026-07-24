@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import IndustryCard from "./IndustryCard";
 
 const fadeInDim = {
@@ -14,7 +14,7 @@ const IndustrySection = ({ title, industries }) => {
   return (
     <section className="w-full px-6 sm:px-10 md:px-20 py-8 sm:py-10 md:py-12">
       <div className="max-w-268 mx-auto">
-        <motion.div
+        <m.div
           variants={fadeInDim}
           initial="hidden"
           whileInView="visible"
@@ -24,7 +24,7 @@ const IndustrySection = ({ title, industries }) => {
             {title}
           </h2>
           <div className="w-26 h-1 bg-primary rounded-full mx-auto mb-8 sm:mb-10"></div>
-        </motion.div>
+        </m.div>
 
         <div
           className="grid gap-6 sm:gap-8"
