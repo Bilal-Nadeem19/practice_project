@@ -123,7 +123,7 @@ export default function Navbar() {
                             className={`absolute top-full bg-white rounded-xl shadow-xl border border-gray-100 mt-1 p-4 ${
                               isFeatures
                                 ? "left-0 w-64"
-                                : "left-1/2 -translate-x-1/3 w-[680px]"
+                                : "left-1/2 -translate-x-1/3 w-170"
                             }`}
                           >
                             <div
@@ -188,8 +188,8 @@ export default function Navbar() {
                   to={btn.path}
                   className={
                     btn.variant === "primary"
-                      ? "hover:shadow-[var(--shadow-glow)] hover:scale-105 px-4 py-1.5 rounded-full text-[15px] font-semibold text-white bg-primary shadow-sm transform transition-all duration-200 ease-in-out text-center"
-                      : "hover:shadow-[var(--shadow-glow)] hover:scale-105 px-4 py-1.5 rounded-full text-[15px] font-semibold text-text-main border-2 border-[#00a8e8] transform transition-all duration-200 ease-in-out text-center"
+                      ? "hover:shadow-(--shadow-glow) hover:scale-105 px-4 py-1.5 rounded-full text-[15px] font-semibold text-white bg-primary shadow-sm transform transition-all duration-200 ease-in-out text-center"
+                      : "hover:shadow-(--shadow-glow) hover:scale-105 px-4 py-1.5 rounded-full text-[15px] font-semibold text-text-main border-2 border-[#00a8e8] transform transition-all duration-200 ease-in-out text-center"
                   }
                 >
                   {btn.label}
@@ -263,20 +263,29 @@ export default function Navbar() {
 
                     return (
                       <div key={item.id}>
-                        <button
-                          onClick={() => toggleMobileAccordion(item.id)}
-                          className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg text-base font-semibold text-text-main hover:bg-bg-light transition-colors"
-                        >
-                          <span>{item.label}</span>
-                          <m.div
-                            animate={{
-                              rotate: mobileAccordion === item.id ? 180 : 0,
-                            }}
-                            transition={{ duration: 0.2 }}
+                        <div className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-bg-light transition-colors">
+                          <Link
+                            to={item.path}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="text-base font-semibold text-text-main"
                           >
-                            <ChevronDown className="w-4 h-4 text-gray-500" />
-                          </m.div>
-                        </button>
+                            {item.label}
+                          </Link>
+
+                          <button
+                            onClick={() => toggleMobileAccordion(item.id)}
+                            className="p-1"
+                          >
+                            <m.div
+                              animate={{
+                                rotate: mobileAccordion === item.id ? 180 : 0,
+                              }}
+                              transition={{ duration: 0.2 }}
+                            >
+                              <ChevronDown className="w-4 h-4 text-gray-500" />
+                            </m.div>
+                          </button>
+                        </div>
 
                         <AnimatePresence>
                           {mobileAccordion === item.id && (
