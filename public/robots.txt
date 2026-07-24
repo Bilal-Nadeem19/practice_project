@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://virtual-assistant-pearl.vercel.app/sitemap.xml
